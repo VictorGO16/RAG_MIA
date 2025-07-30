@@ -7,7 +7,9 @@ Es necesario cargar el archivo de configuración .env con las variables de entor
 Lo mínimo requerido es:
 
 export DJANGO_SUPERUSER_PASSWORD=admin
+
 export OPENAI_API_KEY=""
+
 export OPENAI_ORG=""
 
 --
