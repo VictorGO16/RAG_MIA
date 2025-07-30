@@ -1,0 +1,848 @@
+<!-- Main -->
+ <!DOCTYPE html>
+<html lang="zxx">
+  {% load static %}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luminous Oceans - Iluminando los océanos de información&amp; Soluciones Digitales de Aprendizaje Personalizado ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Luminous Oceans">
+
+    <!-- fav icon -->
+    <link rel="icon" href="{% static 'assets/images/hero/Logo-Dark.png' %}">
+
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="{% static 'css/vendors/bootstrap.min.css' %}">
+
+    <!-- animate.css file -->
+    <link rel="stylesheet" href="{% static 'css/vendors/animate.css' %}">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="{% static 'css/vendors/swiper-bundle.min.css' %}">
+
+    <!-- flaticon -->
+    <link rel="stylesheet" href="{% static 'css/vendors/flaticon/flaticon.css' %}">
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="{% static 'css/vendors/all.min.css' %}">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="{% static 'css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css' %}">
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="{% static 'css/vendors/jquery.fancybox.min.css' %}">
+
+    <!-- fonts site preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- fonts site preconnect -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Font Family -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap">
+
+    <!-- main-LTR -->
+    <link rel="stylesheet" href="{% static 'css/main-LTR.css' %}">
+
+   <!-- custom css -->
+   <style>
+    :root {
+    /* Variables CSS para temas */
+    --chat-bg-light: #ffffff;
+    --chat-bg-dark: #1a1a1a;
+    --chat-border-light: #e0e0e0;
+    --chat-border-dark: #333333;
+
+    --user-bubble-light: #e3f2fd;
+    --user-bubble-dark: #1e3a8a;
+    --user-text-light: #1976d2;
+    --user-text-dark: #ffffff;
+    --user-border-light: #1976d2;
+    --user-border-dark: #3b82f6;
+
+    --assistant-bubble-light: #f8fafc;
+    --assistant-bubble-dark: #0f172a;
+    --assistant-text-light: #475569;
+    --assistant-text-dark: #e2e8f0;
+    --assistant-border-light: #64748b;
+    --assistant-border-dark: #475569;
+
+    --input-bg-light: #ffffff;
+    --input-bg-dark: #374151;
+    --input-border-light: #d1d5db;
+    --input-border-dark: #4b5563;
+    --input-text-light: #374151;
+    --input-text-dark: #f9fafb;
+
+    --button-bg-primary: #1976d2;
+    --button-bg-primary-hover: #1565c0;
+    --button-text: #ffffff;
+    }
+
+    header#header {
+    padding-bottom: 0 !important;
+    }
+
+    .headerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .headerTitle > * {
+    margin: 0;
+    }
+
+    #main section {
+    max-width: 80%;
+    margin: 0 auto;
+    }
+
+    .logos {
+    padding: 2em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .info {
+    padding: 1em;
+    padding-bottom: 0;
+    text-align: center;
+    }
+
+    .chat {
+    padding: 1em;
+    text-align: center;
+    }
+
+    .chat-container {
+    display: grid;
+    row-gap: 1em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px auto;
+    }
+
+    .chat-container > * {
+    border-radius: 1em;
+    overflow: hidden;
+    }
+
+    /* Chat box con tema dinámico */
+    .chat-box {
+    padding: 1.5em;
+    overflow-y: auto;
+    line-height: 1.6;
+    background-color: var(--chat-bg-light);
+    border: 1px solid var(--chat-border-light);
+    }
+
+    body.dark-theme .chat-box {
+    background-color: var(--chat-bg-dark);
+    border-color: var(--chat-border-dark);
+    }
+
+    .question-box {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    gap: 0.75em;
+    background-color: var(--input-bg-light);
+    border: 1px solid var(--input-border-light);
+    }
+
+    body.dark-theme .question-box {
+    background-color: var(--input-bg-dark);
+    border-color: var(--input-border-dark);
+    }
+
+    .btn-ask {
+    padding: 0.75em 1.5em;
+    background: linear-gradient(135deg, var(--button-bg-primary) 0%, var(--button-bg-primary-hover) 100%);
+    color: var(--button-text);
+    border: none !important;
+    border-radius: 0.75em;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.3);
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    }
+
+    .btn-ask:hover {
+    background: linear-gradient(135deg, var(--button-bg-primary-hover) 0%, #0d47a1 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.4);
+    }
+
+    /* Burbujas de mensaje mejoradas */
+    .input, .output {
+    margin-bottom: 1.5em;
+    padding: 1.2em;
+    border-radius: 1.2em;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    }
+
+    /* Burbuja del usuario */
+    .input {
+    background: linear-gradient(135deg, var(--user-bubble-light) 0%, #bbdefb 100%);
+    margin-left: 2em;
+    margin-right: 0.5em;
+    border-left: 4px solid var(--user-border-light);
+    }
+
+    body.dark-theme .input {
+    background: linear-gradient(135deg, var(--user-bubble-dark) 0%, #1e40af 100%);
+    border-left-color: var(--user-border-dark);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Burbuja del asistente */
+    .output {
+    background: linear-gradient(135deg, var(--assistant-bubble-light) 0%, #f1f5f9 100%);
+    margin-right: 2em;
+    margin-left: 0.5em;
+    border-left: 4px solid var(--assistant-border-light);
+    }
+
+    body.dark-theme .output {
+    background: linear-gradient(135deg, var(--assistant-bubble-dark) 0%, #1e293b 100%);
+    border-left-color: var(--assistant-border-dark);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .input > p, .output > p {
+    margin-bottom: 0;
+    line-height: 1.6;
+    }
+
+    .message-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--user-text-light);
+    }
+
+    body.dark-theme .message-content {
+    color: var(--user-text-dark);
+    }
+
+    .user-message {
+    font-weight: 600;
+    color: var(--user-text-light);
+    margin-bottom: 0.5em;
+    font-size: 13px;
+    }
+
+    body.dark-theme .user-message {
+    color: var(--user-text-dark);
+    }
+
+    .assistant-message {
+    font-weight: 600;
+    color: var(--assistant-border-light);
+    margin-bottom: 0.5em;
+    font-size: 13px;
+    }
+
+    body.dark-theme .assistant-message {
+    color: var(--assistant-border-dark);
+    }
+
+    /* Texto formateado con tema */
+    .formatted-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--assistant-text-light);
+    }
+
+    body.dark-theme .formatted-text {
+    color: var(--assistant-text-dark);
+    }
+
+    .formatted-text strong {
+    font-weight: 600;
+    color: var(--assistant-border-light);
+    }
+
+    body.dark-theme .formatted-text strong {
+    color: var(--assistant-border-dark);
+    }
+
+    .formatted-text p {
+    margin-bottom: 1em;
+    }
+
+    #input-question {
+    flex: 1;
+    padding: 1em;
+    border: 1px solid var(--input-border-light);
+    border-radius: 0.75em;
+    font-size: 14px;
+    background-color: var(--input-bg-light);
+    color: var(--input-text-light);
+    transition: all 0.3s ease;
+    }
+
+    body.dark-theme #input-question {
+    background-color: var(--input-bg-dark);
+    border-color: var(--input-border-dark);
+    color: var(--input-text-dark);
+    }
+
+    #input-question:focus {
+    outline: none;
+    border-color: var(--button-bg-primary);
+    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.2);
+    }
+
+    #input-question::placeholder {
+    color: #9ca3af;
+    }
+
+    body.dark-theme #input-question::placeholder {
+    color: #1976d2;
+    }
+
+    /* Scrollbar mejorada con tema */
+    .chat-box::-webkit-scrollbar {
+    width: 8px;
+    }
+
+    .chat-box::-webkit-scrollbar-track {
+    background: var(--input-bg-light);
+    border-radius: 4px;
+    }
+
+    body.dark-theme .chat-box::-webkit-scrollbar-track {
+    background: var(--input-bg-dark);
+    }
+
+    .chat-box::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+    }
+
+    body.dark-theme .chat-box::-webkit-scrollbar-thumb {
+    background: #475569;
+    }
+
+    .chat-box::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+    }
+
+    body.dark-theme .chat-box::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+    }
+
+    /********/
+
+    .lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 1em auto;
+    }
+    .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #1976d2;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    }
+    .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+    }
+    .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+    }
+    .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+    }
+    @keyframes lds-facebook {
+    0% {
+    top: 8px;
+    height: 64px;
+    }
+    50%, 100% {
+    top: 24px;
+    height: 32px;
+    }
+    }
+    </style>
+    <!-- end custom css -->
+    <title> LuminousOceans   |   Plataforma </title>
+  </head>
+  <body class=" dark-theme  landing-page-demo">
+    <!--Start Page Header-->
+    <header class=" header-basic" id="page-header">
+      <div class="header-search-box">
+        <div class="close-search"></div>
+        <form class="nav-search search-form" role="search" method="get" action="#">
+          <div class="search-wrapper">
+            <label class="search-lbl">Search for:</label>
+            <input class="search-input" type="search" placeholder="Search..." name="searchInput" autofocus="autofocus"/>
+            <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <!--Start navbar-->
+        <nav class="menu-navbar" id="main-nav">
+          <div class="header-logo"><a class="logo-link" href="#">
+			  <img class="logo-img light-logo" loading="lazy" src="{% static 'assets/images/hero/Logo-Dark.png' %}" alt="logo"/>
+			  <img class="logo-img  dark-logo" loading="lazy" src="{% static 'assets/images/hero/Logo-Dark.png' %}" alt="logo"/></a></div>
+          <div class="links menu-wrapper ">
+            <ul class="list-js links-list">
+              <li class="nav-item menu-item has-sub-menu"><a class="nav-link menu-link   active" href="#page-hero"> Inicio <i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="nav-item menu-item sub-menu-item"><a class="nav-link menu-link sub-menu-link  " href="index.html">Inicio</a></li>
+                  <li class="nav-item menu-item sub-menu-item"><a class="nav-link menu-link sub-menu-link  " href="home-2.html">Sitio Antiguo</a></li>
+<!--
+                  <li class="nav-item menu-item sub-menu-item"><a class="nav-link menu-link sub-menu-link  " href="capital_semilla_chat.html">Chat Capital Semilla </a></li>
+-->
+                </ul>
+              </li>
+              <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#services">Servicios&nbsp; </a></li>
+              <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#about">LuminousOceans </a></li>
+
+<!--          <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#portfolio">Artículos&nbsp; </a></li>
+			  <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#pricing">plataformas&nbsp; </a></li>
+              <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#testimonials">Testimonios&nbsp; </a></li>
+-->
+              <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#faq">FAQ </a></li>
+ <!--             <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#contact-us">contáctanos&nbsp; </a></li>
+-->
+            </ul>
+          </div>
+          <div class="controls-box">
+            <!--Menu Toggler button-->
+            <div class="control  menu-toggler"><span></span><span></span><span></span></div>
+            <!--search Icon button-->
+            <!--<div class="control header-search-btn"><i class="bi bi-search icon"></i></div>-->
+            <!--Dark/Light mode button-->
+            <div class="mode-switcher ">
+              <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+              <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+            </div>
+            <!--mini shoping cart-->
+          </div>
+        </nav>
+      </div>
+      <!--End navbar-->
+    </header>
+    <!--End Page Header-->
+    <!-- Start  Page hero-->
+    <section class="page-hero  d-flex align-items-center" id="page-hero">
+      <div class="overlay-photo-image-bg" data-bg-img="{% static 'assets/images/sections-bg-images/pattern-bg-1.jpg' %}" data-bg-opacity=".2"></div>
+      <div class="particles-js  dots" id="particles-js"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-12 ">
+            <div id="main">
+                <section class="info">
+                    <h1> LuminousOceans - Demo </h1>
+                    <p>Bienvenido a nuestro primer demo abierta a inversores. Esta instancia busca presentarles a nuestro asistente virtual, quién se encargará de comentarles sobre nuestro startup, nuestra trayectoría, misión, visión, y plan de mercado. La idea es que pueda guiarles en esta expedición que hemos emprendido, y así puedan mantenerse al tanto de las distintas tareas en las que estamos trabajando. </p>
+                </section>
+           </div>
+            </div>
+
+
+            <div class="chat">
+                <h2>¿Tienes alguna duda acerca del proceso de postulación del año 2023?</h2>
+                <h2>¡Ingresa a nuestro chat y nuestro asistente te ayudará a resolverlas!</h2>
+                <h3>👇</h3>
+            </div>
+
+            <div class="main">
+                <div class="chat-container">
+                    <div class="chat-box"></div>
+                    <div class="question-box">
+                        <input id="input-question" type="text" class="question" placeholder="Escribe tu pregunta">
+                        <button type="button" id="submit-question" class="btn-ask">Ingresar</button>
+                        <input type='hidden' name='csrfmiddlewaretoken' value='{% csrf_token %}' />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        </div>
+
+    <!-- Start  page-footer Section-->
+    <footer class="page-footer dark-color-footer" id="page-footer">
+        <div class="overlay-photo-image-bg" data-bg-img="{% static 'assets/images/sections-bg-images/footer-bg-1.jpg' %}" data-bg-opacity=".25"></div>
+        <div class="container">
+          <div class="row footer-cols">
+            <div class="col-8 col-md-6 col-lg-3  footer-col "><img class="img-fluid" loading="lazy" src="{% static 'assets/images/hero/Logo-Dark.png' %}" alt="logo"/>
+  <!--
+          <div class="footer-col-content-wrapper">
+                <p class="footer-text-about-us ">
+                ¿Te gustaría recibir novedades sobre nuestras promociones, servicios,
+                y publicaciones acerca de los últimos avances y noticias
+                en el campo? &nbsp; </p>
+              </div>
+              <div class="form-area ">
+                <div class="mailchimp-form ">
+                  <form class="one-field-form" method="post" action="#0">
+                    <div class="field-group ">
+                      <label class="email-label" for="email-input"> Suscribete a nuestro Newsletter </label>
+                      <input class="email-input " type="email" value="" name="EMAIL" id="email-input" placeholder="Dirección de correo" autocomplete="off"/>
+                      <div class="cta-area">
+                        <input class="btn-solid subscribe-btn" type="submit" value="Subscribirse" name="subscribe"/>
+                      </div>
+                    </div><span class="email-notice">*No compartiremos tu información personal</span>
+                  </form>
+                </div>
+              </div>
+  -->
+            </div>
+
+            <div class="col-6 col-lg-2  footer-col ">
+              <h2 class=" footer-col-title    ">links útiles</h2>
+              <div class="footer-col-content-wrapper">
+                  <ul class="footer-menu ">
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://techcrunch.com/">TechCrunch</a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://medium.com/tag/artificial-intelligence"> Medium </a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.edsurge.com/">EdSurge</a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://venturebeat.com/">VentureBeat</a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.cbinsights.com/">CB Insights</a>
+                      </li>					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://en.wikipedia.org/wiki/Artificial_intelligence">Wikipedia AI</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-6 col-lg-3 footer-col ">
+              <h2 class=" footer-col-title    ">Recursos</h2>
+              <div class="footer-col-content-wrapper">
+                  <ul class="footer-menu">
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://stackoverflow.com/questions/tagged/python">Python Support</a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://azure.microsoft.com/en-us/solutions/ai/">Azure AI</a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.tensorflow.org/">Tensorflow (AI & ML Framework)</a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://towardsdatascience.com/">Towards Data Science</a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://scikit-learn.org/stable/">Scikit-Learn (ML Library)</a>
+                      </li>
+                      <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://openai.com/">OpenAI</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-10     col-lg-3 footer-col ">
+              <h2 class=" footer-col-title    ">información de contacto</h2>
+              <div class="footer-col-content-wrapper">
+                <div class="contact-info-card"><i class="bi bi-envelope icon"></i>
+                    <a class="text-success  info" href="mailto:info@luminousoceans.com">info@luminousoceans.com</a>
+                  </div>
+
+                <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i>
+                    <span class="text-capitalize  info">Santiago, Chile. <br>
+                                                       Alemania, Berlín.</span>
+                  </div>
+
+                <div class="contact-info-card"><i class="bi bi-phone icon"></i>
+
+                    <a class="info" href="tel:+56 9 6365 4814">+56 9 6365 4814</a>
+
+                  </div>
+
+                <div class="contact-info-card">
+                  <div class="social-icons">
+                    <div class="sc-wrapper dir-row sc-size-32">
+  <!--
+                      <ul class="sc-list">
+                        <li class="sc-item " title="Facebook"><a class="sc-link" href="https://www.facebook.com/LuminousOceans" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                        <li class="sc-item " title="youtube"><a class="sc-link" href="https://www.youtube.com/LuminousOceans" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                        <li class="sc-item " title="instagram"><a class="sc-link" href="https://www.instagram.com/Luminous.Oceans" title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
+                        <li class="sc-item " title="twitter"><a class="sc-link" href="https://www.twitter.com/LuminousOceans" title="social media icon"><i class="fab fa-twitter sc-icon"></i></a></li>
+                      </ul>
+  -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights ">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 d-flex justify-content-start">
+                <p class="creadits">
+
+
+                  &copy; 2023
+                  Creado por:
+
+                  <a class="link" href="#0">LuminousOceans</a>
+                </p>
+              </div>
+  <!--
+              <div class="col-12 col-md-6 d-flex justify-content-end">
+                <div class="terms-links"><a href="#0">Términos de uso </a>
+                  | <a href="#0">Política de privacidad</a>
+                </div>
+              </div>
+  -->
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- End  page-footer Section-->
+      <!-- Start back-to-top Component-->
+      <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i>
+      </div>
+      <!-- End back-to-top Component-->
+
+        <!-- Scripts -->
+           <!--     JQuery     -->
+           <script src="{% static 'js/vendors/jquery-3.6.1.min.js' %}"></script>
+
+           <!--     appear     -->
+           <script src="{% static 'js/vendors/appear.min.js' %}"></script>
+
+           <!--     bootstrap     -->
+           <script src="{% static 'js/vendors/bootstrap.bundle.min.js' %}"></script>
+
+           <!--     countTo     -->
+           <script src="{% static 'js/vendors/jquery.countTo.js' %}"></script>
+
+           <!--     wow     -->
+           <script src="{% static 'js/vendors/wow.min.js' %}"></script>
+
+           <!--     swiper     -->
+           <script src="{% static 'js/vendors/swiper-bundle.min.js' %}"></script>
+
+           <!--     particles     -->
+           <script src="{% static 'js/vendors/particles.min.js' %}"></script>
+
+           <!--     Vanilla-tilt     -->
+           <script src="{% static 'js/vendors/vanilla-tilt.min.js' %}"></script>
+
+           <!--     isotope     -->
+           <script src="{% static 'js/vendors/isotope-min.js' %}"></script>
+
+           <!--     fancybox     -->
+           <script src="{% static 'js/vendors/jquery.fancybox.min.js' %}"></script>
+
+           <!--     main     -->
+           <script src="{% static 'js/main.js' %}"></script>
+
+         <!-- Custom Script, mover a arhcivo js eventualmente -->
+         <script>
+            // Set csrf token for ajax
+            csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
+
+            const spinner = `
+                <div class="lds-facebook"><div></div><div></div><div></div></div>
+            `;
+            const questions = [];
+            const answers = [];
+
+            // Obtener el nombre del usuario del template o hacer una petición inicial
+            let userName = "Usuario"; // Valor por defecto
+
+            // Función para obtener el nombre del usuario
+            function getUserName() {
+                const parsedLocation = new URL(window.location.href);
+                $.ajax({
+                    url: `http://${parsedLocation.host}/capital-semilla-chat/`,
+                    type: "POST",
+                    data: {
+                        query: "init", // Petición especial para obtener el nombre
+                        csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
+                    },
+                    success: function(data) {
+                        if (data.user_name) {
+                            userName = data.user_name;
+                        }
+                    },
+                    error: function() {
+                        console.log("No se pudo obtener el nombre del usuario");
+                    }
+                });
+            }
+
+            // Función para formatear texto con saltos de línea
+            function formatText(text) {
+                if (!text) return text;
+
+                // Reemplazar múltiples saltos de línea por párrafos
+                text = text.replace(/\n\n+/g, '</p><p>');
+
+                // Envolver en párrafos si no están ya envueltos
+                if (!text.startsWith('<p>')) {
+                    text = '<p>' + text + '</p>';
+                }
+
+                // Reemplazar saltos de línea simples por <br>
+                text = text.replace(/\n/g, '<br>');
+
+                // Formatear texto en negrita con **texto**
+                text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+                return text;
+            }
+
+            // Function to submit question
+            function submitQuestion() {
+                const value = $("#input-question").val().trim();
+
+                if (value) {
+                    if (questions.length > 20) {
+                        alert("No puedes hacer más de 21 preguntas, vuelva a cargar el sitio");
+                        return;
+                    }
+
+                    questions.push(value);
+                    $(".chat-box").append(`
+                        <div class="input">
+                            <div class="user-message">🙋‍♂️ ${userName}:</div>
+                            <div class="message-content">${value}</div>
+                        </div>
+                    `);
+
+                    $("#input-question").val("");
+                    $(".chat-box").append(`
+                        <div class="output">
+                            <div class="assistant-message">🤖 Asistente:</div>
+                            ${spinner}
+                        </div>
+                    `);
+
+                    // Scroll al final
+                    $(".chat-box").scrollTop($(".chat-box")[0].scrollHeight);
+
+                    queryChatGpt(value);
+                }
+            }
+
+              // Function to query chat gpt using jquery ajax
+              $.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        xhr.setRequestHeader("X-CSRFToken", getCookie("csrftoken"));
+    }
+});
+
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        let cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            let cookie = cookies[i].trim();
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+function queryChatGpt(query) {
+    const parsedLocation = new URL(window.location.href);
+    $.ajax({
+        url: `http://${parsedLocation.host}/capital-semilla-chat/`,
+        type: "POST",
+        data: {
+            query: query,
+            historic_questions: questions,
+            historic_answers: answers,
+            csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
+        },
+        success: function(data) {
+            // Si es una petición de inicialización, solo actualizar el nombre
+            if (data.init) {
+                if (data.user_name) {
+                    userName = data.user_name;
+                }
+                return;
+            }
+
+            answers.push(data.response);
+
+            // Actualizar el nombre del usuario si viene en la respuesta
+            if (data.user_name && data.user_name !== userName) {
+                userName = data.user_name;
+            }
+
+            // Remover el spinner
+            $(".chat-box .output:last .lds-facebook").remove();
+
+            // Formatear y agregar la respuesta
+            const formattedResponse = formatText(data.response);
+            $(".chat-box .output:last").append(`
+                <div class="message-content formatted-text">${formattedResponse}</div>
+            `);
+
+            // Scroll al final
+            $(".chat-box").scrollTop($(".chat-box")[0].scrollHeight);
+        },
+        error: function(xhr, status, error) {
+            $(".chat-box .output:last .lds-facebook").remove();
+            $(".chat-box .output:last").append(`
+                <div class="message-content" style="color: #d32f2f;">
+                    Lo siento, ocurrió un error al procesar tu pregunta. Por favor, intenta nuevamente.
+                </div>
+            `);
+            console.error("Error:", error);
+        }
+    });
+}
+
+
+            $(function() {
+                // Obtener el nombre del usuario al cargar la página
+                getUserName();
+
+                // Manejar Enter en el input
+                $("#input-question").on("keypress", function(e) {
+                    if (e.which == 13) {
+                        e.preventDefault();
+                        submitQuestion();
+                    }
+                });
+
+                // Manejar click del botón
+                $("#submit-question").on("click", function() {
+                    submitQuestion();
+                });
+
+                // Mensaje de bienvenida (con un pequeño delay para obtener el nombre)
+                setTimeout(function() {
+                    $(".chat-box").append(`
+                        <div class="output">
+                            <div class="assistant-message">🤖 Asistente:</div>
+                            <div class="message-content formatted-text">
+                                <p>¡Hola! Soy tu asistente virtual de LuminousOceans. Estoy aquí para ayudarte con información sobre:</p>
+                                <p><strong>• Cursos del catálogo MIA UC</strong><br>
+                                <strong>• Créditos y descripciones</strong><br>
+                                <strong>• Contenidos y evaluaciones</strong><br>
+                                <strong>• Bibliografía y requisitos</strong></p>
+                                <p>¿En qué puedo ayudarte hoy?</p>
+                            </div>
+                        </div>
+                    `);
+                }, 500);
+            });
+        </script>
+    </body>
+</html>

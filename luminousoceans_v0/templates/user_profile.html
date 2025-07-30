@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  {% load static %}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luminous Oceans - Iluminando los océanos de información&amp; Soluciones Digitales de Aprendizaje Personalizado ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Luminous Oceans">  
+        
+    <!-- fav icon -->
+    <link rel="icon" href="{% static 'assets/images/fav-icon/Logo-LO-01.svg' %}">
+        
+    <!-- bootstarp -->    
+    <link rel="stylesheet" href="{% static 'css/vendors/bootstrap.min.css' %}">
+        
+    <!-- animate.css file --> 
+    <link rel="stylesheet" href="{% static 'css/vendors/animate.css' %}">
+        
+    <!-- Swiper -->
+    <link rel="stylesheet" href="{% static 'css/vendors/swiper-bundle.min.css' %}">
+        
+    <!-- flaticon -->
+    <link rel="stylesheet" href="{% static 'css/vendors/flaticon/flaticon.css' %}">
+        
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="{% static 'css/vendors/all.min.css' %}">
+        
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="{% static 'css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css' %}">
+        
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="{% static 'css/vendors/jquery.fancybox.min.css' %}">
+        
+    <!-- fonts site preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+    <!-- fonts site preconnect -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+    <!-- Font Family -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap">
+        
+    <!-- main-LTR -->
+    <link rel="stylesheet" href="{% static 'css/main-LTR.css' %}">
+    <title> LuminousOceans | Registro de usuario </title>
+
+    <style>
+        body, html {
+            min-height: 100%;
+        }
+
+        body {
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+
+        .loginForm {
+            margin: 0 auto;
+            width: 50%;
+            padding: 2em;
+            border-radius: 1em;
+            border: 1px solid whitesmoke;
+        }
+
+        .loginForm img {
+            width: 30%;
+            max-width: 320px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .form-group {
+            margin-bottom: 1em;
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+  </head>
+  <body class=" dark-theme  landing-page-demo">
+
+        {% block content %}
+        <form class="loginForm" method="post">
+        {% csrf_token %}
+            <img class="logo-img light-logo" loading="lazy" src="{% static 'assets/images/hero/Logo-Dark.png' %}" alt="logo"/>
+            
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input value="{{ name }}" type="text" class="form-control" id="name" name="name" maxlength="50" required>
+              </div>
+            
+              <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input value="{{ phone }}" type="text" class="form-control" id="phone" name="phone" maxlength="20" required>
+              </div>
+            
+              <div class="form-group">
+                <label for="address">Address:</label>
+                <input value="{{ address }}" type="text" class="form-control" id="address" name="address" maxlength="100" required>
+              </div>
+            
+              <div class="form-group">
+                <label for="about">About:</label>
+                <textarea class="form-control" id="about" name="about" rows="3" required>{{ about }}</textarea>
+              </div>
+            
+              <div class="form-group">
+                <label for="experience">Experience:</label>
+                <textarea class="form-control" id="experience" name="experience" rows="3" required>{{ experience }}</textarea>
+              </div>
+            
+              <div class="form-group">
+                <label for="education">Education:</label>
+                <textarea class="form-control" id="education" name="education" rows="3" required>{{ education }}</textarea>
+              </div>
+            
+              <div class="form-group">
+                <label for="hobbies">Hobbies:</label>
+                <textarea class="form-control" id="hobbies" name="hobbies" rows="3" required>{{ hobbies }}</textarea>
+              </div>
+            
+              <div class="form-group">
+                <label for="languages">Languages:</label>
+                <textarea class="form-control" id="languages" name="languages" rows="3" required>{{ hobbies }}</textarea>
+              </div>
+            
+              <div class="form-group">
+                <label for="linkedin">LinkedIn:</label>
+                <input value="{{ linkedin }}" type="url" class="form-control" id="linkedin" name="linkedin">
+              </div>
+
+            {% if messages %}
+            <div class="alert alert-danger" role="alert">
+                {% for message in messages %}
+                <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+            {% endif %}
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+        {% endblock %}
+        
+        <!--     JQuery     -->
+        <script src="{% static 'js/vendors/jquery-3.6.1.min.js' %}"></script>
+        
+        <!--     appear     -->
+        <script src="{% static 'js/vendors/appear.min.js' %}"></script>
+
+        <!--     bootstrap     -->
+        <script src="{% static 'js/vendors/bootstrap.bundle.min.js' %}"></script>
+
+        <!--     countTo     -->
+        <script src="{% static 'js/vendors/jquery.countTo.js' %}"></script>
+
+        <!--     wow     -->
+        <script src="{% static 'js/vendors/wow.min.js' %}"></script>
+
+        <!--     swiper     -->
+        <script src="{% static 'js/vendors/swiper-bundle.min.js' %}"></script>
+
+        <!--     particles     -->
+        <script src="{% static 'js/vendors/particles.min.js' %}"></script>
+
+        <!--     Vanilla-tilt     -->
+        <script src="{% static 'js/vendors/vanilla-tilt.min.js' %}"></script>
+
+        <!--     isotope     -->
+        <script src="{% static 'js/vendors/isotope-min.js' %}"></script>
+
+        <!--     fancybox     -->
+        <script src="{% static 'js/vendors/jquery.fancybox.min.js' %}"></script>
+
+        <!--     main     -->
+        <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>

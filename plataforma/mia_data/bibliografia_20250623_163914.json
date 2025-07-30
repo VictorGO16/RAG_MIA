@@ -1,0 +1,1862 @@
+{
+  "EPG4001": {
+    "nombre": "APRENDIZAJE SUPERVISADO",
+    "codigo": "EPG4001",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Kelleher, J., Namee, B.M., D'Arcy, A. ?Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies (1st Ed.).?, MIT Press, 2015.",
+          "authors": [
+            "Kelleher",
+            "J.",
+            "Namee",
+            "B.M.",
+            "D'Arcy"
+          ],
+          "title": "Kelleher, J., Namee, B.M., D'Arcy, A. ?Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies (1st Ed.).?, MIT Press, 2015"
+        },
+        {
+          "raw_text": "Murphy, K. ?Machine Learning: A Probabilistic Perspective (1st Ed.).?, MIT Press, 2012.",
+          "authors": [
+            "Murphy",
+            "K. ?Machine Learning: A Probabilistic Perspective (1st Ed.).?",
+            "MIT Press, 2012"
+          ],
+          "title": "Murphy, K. ?Machine Learning: A Probabilistic Perspective (1st Ed.).?, MIT Press, 2012"
+        },
+        {
+          "raw_text": "Flach, P. ?Machine Learning: The Art and Science of Algorithms that Make Sense of Data (1st Ed.).?, Cambridge University Press, 2012.",
+          "authors": [
+            "Flach",
+            "P. ?Machine Learning: The Art and Science of Algorithms that Make Sense of Data (1st Ed.).?",
+            "Cambridge University Press, 2012"
+          ],
+          "title": "Flach, P. ?Machine Learning: The Art and Science of Algorithms that Make Sense of Data (1st Ed.).?, Cambridge University Press, 2012"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Geron, A. ?Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (1st Ed.).?, O?Reilly, 2017.",
+          "authors": [
+            "Geron",
+            "A. ?Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts",
+            "Tools, and Techniques to Build Intelligent Systems (1st Ed.).?",
+            "O?Reilly, 2017"
+          ],
+          "title": "Geron, A. ?Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (1st Ed.).?, O?Reilly, 2017"
+        },
+        {
+          "raw_text": "Bishop, C. ?Pattern Recognition and Machine Learning?, Springer, 2011.",
+          "authors": [
+            "Bishop",
+            "C. ?Pattern Recognition and Machine Learning?",
+            "Springer, 2011"
+          ],
+          "title": "Bishop, C. ?Pattern Recognition and Machine Learning?, Springer, 2011"
+        }
+      ]
+    },
+    "total_entradas": 5
+  },
+  "EPG4002": {
+    "nombre": "APRENDIZAJE NO SUPERVISADO",
+    "codigo": "EPG4002",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "C. Bishop, ?Pattern Recognition and Machine Learning?. Springer, 2007.",
+          "authors": [
+            "C. Bishop, ?Pattern Recognition and Machine Learning?. Springer, 2007"
+          ],
+          "title": "C. Bishop, ?Pattern Recognition and Machine Learning?. Springer, 2007"
+        },
+        {
+          "raw_text": "L. Kaufman, P. J. Rousseeuw. ?Finding Groups in Data: An Introduction to Cluster Analysis?. John Wiley & Sons, 2005.",
+          "authors": [
+            "L. Kaufman",
+            "P. J. Rousseeuw. ?Finding Groups in Data: An Introduction to Cluster Analysis?. John Wiley & Sons, 2005"
+          ],
+          "title": "L. Kaufman, P. J. Rousseeuw. ?Finding Groups in Data: An Introduction to Cluster Analysis?. John Wiley & Sons, 2005"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "M. E. Celebi, K. Aydin. ?Unsupervised Learning Algorithms?. Springer, 2016.",
+          "authors": [
+            "M. E. Celebi",
+            "K. Aydin. ?Unsupervised Learning Algorithms?. Springer, 2016"
+          ],
+          "title": "M. E. Celebi, K. Aydin. ?Unsupervised Learning Algorithms?. Springer, 2016"
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "EPG4003": {
+    "nombre": "METODOS PROBABILISTICOS PARA APRENDIZAJE DE MAQUINA",
+    "codigo": "EPG4003",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Koller, Daphne and Friedman, Nir. \"Probabilistic Graphical Models: Principles and Techniques\", The MIT Press, 2009.",
+          "authors": [
+            "Koller",
+            "Daphne and Friedman",
+            "Nir. \"Probabilistic Graphical Models: Principles and Techniques\"",
+            "The MIT Press, 2009"
+          ],
+          "title": "Koller, Daphne and Friedman, Nir. \"Probabilistic Graphical Models: Principles and Techniques\", The MIT Press, 2009"
+        },
+        {
+          "raw_text": "Bishop, Christopher. \"Pattern Recognition and Machine Learning\", Springer Information Science and Statistics Series, 2006.",
+          "authors": [
+            "Bishop",
+            "Christopher. \"Pattern Recognition and Machine Learning\"",
+            "Springer Information Science and Statistics Series, 2006"
+          ],
+          "title": "Bishop, Christopher. \"Pattern Recognition and Machine Learning\", Springer Information Science and Statistics Series, 2006"
+        },
+        {
+          "raw_text": "Jordan, Michael. \"An Introduction to Probabilistic Graphical Models\", Springer 2007.",
+          "authors": [
+            "Jordan",
+            "Michael. \"An Introduction to Probabilistic Graphical Models\"",
+            "Springer 2007"
+          ],
+          "title": "Jordan, Michael. \"An Introduction to Probabilistic Graphical Models\", Springer 2007"
+        },
+        {
+          "raw_text": "Hastie, Trevor; Tibshirani, Robert; and Friedman, Jerome. \"The Elements of Statistical Learning: Data Mining, Inference and Prediction\", Springer Texts in Statistics, Springer-Verlag, New York, 2001.",
+          "authors": [
+            "Hastie",
+            "Trevor; Tibshirani",
+            "Robert; and Friedman",
+            "Jerome. \"The Elements of Statistical Learning: Data Mining",
+            "Inference and Prediction\""
+          ],
+          "title": "Hastie, Trevor; Tibshirani, Robert; and Friedman, Jerome. \"The Elements of Statistical Learning: Data Mining, Inference and Prediction\", Springer Texts in Statistics, Springer-Verlag, New York, 2001"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Wasserman, Larry. \"All of Statistics: a concise course in Statistical Inference\", Springer Texts in Statistics, Springer-Verlag, New York, 2004.",
+          "authors": [
+            "Wasserman",
+            "Larry. \"All of Statistics: a concise course in Statistical Inference\"",
+            "Springer Texts in Statistics",
+            "Springer-Verlag",
+            "New York, 2004"
+          ],
+          "title": "Wasserman, Larry. \"All of Statistics: a concise course in Statistical Inference\", Springer Texts in Statistics, Springer-Verlag, New York, 2004"
+        },
+        {
+          "raw_text": "Wasserman, Larry. \"All of Nonparametric Statistics\", Springer Texts in Statistics, Springer-",
+          "authors": [
+            "Wasserman",
+            "Larry. \"All of Nonparametric Statistics\"",
+            "Springer Texts in Statistics",
+            "Springer-"
+          ],
+          "title": "Wasserman, Larry. \"All of Nonparametric Statistics\", Springer Texts in Statistics, Springer-"
+        },
+        {
+          "raw_text": "Verlag, New York, 2005.",
+          "authors": [
+            "Verlag",
+            "New York, 2005"
+          ],
+          "title": "Verlag, New York, 2005"
+        },
+        {
+          "raw_text": "Murphy, K. ?Machine Learning, A Probabilistic Perspective?, MIT Press, 2012.",
+          "authors": [
+            "Murphy",
+            "K. ?Machine Learning",
+            "A Probabilistic Perspective?",
+            "MIT Press, 2012"
+          ],
+          "title": "Murphy, K. ?Machine Learning, A Probabilistic Perspective?, MIT Press, 2012"
+        }
+      ]
+    },
+    "total_entradas": 8
+  },
+  "EPG4004": {
+    "nombre": "SERIES DE TIEMPO",
+    "codigo": "EPG4004",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Tsay, R. S. (2010) Analysis of Financial Time Series, Wiley, New York.",
+          "authors": [
+            "Tsay",
+            "R. S"
+          ],
+          "year": 2010
+        },
+        {
+          "raw_text": "Brockwell, P. and Davis, R. (1991) Time Series: Theory and Methods, Springer, New York.",
+          "authors": [
+            "Brockwell",
+            "P. and Davis",
+            "R"
+          ],
+          "year": 1991
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Brockwell, P. and Davis, R. (2002) Introduction to time series and forecasting, Springer, New York.",
+          "authors": [
+            "Brockwell",
+            "P. and Davis",
+            "R"
+          ],
+          "year": 2002
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "EPG4005": {
+    "nombre": "METODOS BAYESIANOS",
+    "codigo": "EPG4005",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin (2013), Bayesian Data Analysis, third edition. London: CRC Press.",
+          "authors": [
+            "Andrew Gelman",
+            "John B. Carlin",
+            "Hal S. Stern",
+            "David B. Dunson",
+            "Aki Vehtari"
+          ],
+          "title": "Donald B. Rubin",
+          "year": 2013
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Box, George y Tiao, George (1992), Bayesian inference in statistical analysis, New York Wiley.",
+          "authors": [
+            "Box",
+            "George",
+            "Tiao",
+            "George"
+          ],
+          "title": "y Tiao, George",
+          "year": 1992
+        },
+        {
+          "raw_text": "Robert, Christian P. (2007), The Bayesian choice: from decision-theoretic foundations to computational implementation 2Ed., New York: Springer.",
+          "authors": [
+            "Robert",
+            "Christian P"
+          ],
+          "year": 2007
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "EPG4006": {
+    "nombre": "MODELOS LINEALES GENERALIZADOS",
+    "codigo": "EPG4006",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "McCullagh, P. Nelder, J.A. (1989). Generalized linear models. 2nd Ed. Chapman and Hall/CRC, New",
+          "authors": [
+            "McCullagh",
+            "P. Nelder",
+            "J.A"
+          ],
+          "year": 1989
+        },
+        {
+          "raw_text": "York, USA.",
+          "authors": [
+            "York",
+            "USA"
+          ],
+          "title": "York, USA"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Agresti, A.(2002) Categorical data analysis. John Wiley and Sons, New York, USA.",
+          "authors": [
+            "Agresti",
+            "A"
+          ],
+          "title": "gresti, A",
+          "year": 2002
+        },
+        {
+          "raw_text": "Christensen, R.(1997). Log-linear models and logistic regression (2nd Edition). Springer, New",
+          "authors": [
+            "Christensen",
+            "R"
+          ],
+          "year": 1997
+        },
+        {
+          "raw_text": "York, USA.",
+          "authors": [
+            "York",
+            "USA"
+          ],
+          "title": "York, USA"
+        }
+      ]
+    },
+    "total_entradas": 5
+  },
+  "EPG4007": {
+    "nombre": "ANALISIS DE TIEMPOS DE FALLA",
+    "codigo": "EPG4007",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Klein, J.P., Moeschberger, M. L. 2005. Survival Analysis. Springer, New York, USA.",
+          "authors": [
+            "Klein",
+            "J.P.",
+            "Moeschberger",
+            "M. L. 2005. Survival Analysis. Springer",
+            "New York"
+          ],
+          "title": "Klein, J.P., Moeschberger, M. L. 2005. Survival Analysis. Springer, New York, USA"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Ibrahim, J., Chen, M-H., Sinha, D. Bayesian Survival Analysis. Springer, New York, USA",
+          "authors": [
+            "Ibrahim",
+            "J.",
+            "Chen",
+            "M-H.",
+            "Sinha"
+          ],
+          "title": "Ibrahim, J., Chen, M-H., Sinha, D. Bayesian Survival Analysis. Springer, New York, USA"
+        },
+        {
+          "raw_text": "Moore, D.F. 2016. Applied Surival Analysis Using R. Springer, New York, USA.",
+          "authors": [
+            "Moore",
+            "D.F. 2016. Applied Surival Analysis Using R. Springer",
+            "New York",
+            "USA"
+          ],
+          "title": "Moore, D.F. 2016. Applied Surival Analysis Using R. Springer, New York, USA"
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "EPG4008": {
+    "nombre": "ANALISIS ESTADISTICO CON DATOS FALTANTES",
+    "codigo": "EPG4008",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Little, R.J.A., Rubin, D.B.(2002). Statistical analysis with missing data. 2nd Ed. John Wiley and Sons, New York, USA.",
+          "authors": [
+            "Little",
+            "R.J.A.",
+            "Rubin",
+            "D.B"
+          ],
+          "year": 2002
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Allison, P.(2002) Missing data. SAGE publications, Inc., London, UK.",
+          "authors": [
+            "Allison",
+            "P"
+          ],
+          "year": 2002
+        },
+        {
+          "raw_text": "Daniels, M.J., Hogan, J.W.(2007). Missing data in longitudinal studies: Strategies for Bayesian modeling and sensitivity analysis. Chapman and Hall/CRC, New York, USA.",
+          "authors": [
+            "Daniels",
+            "M.J.",
+            "Hogan",
+            "J.W"
+          ],
+          "year": 2007
+        },
+        {
+          "raw_text": "Molenberghs, G., Kenward, M.G.(2007). Missing data in clinical studies. John Wiley and Sons, New",
+          "authors": [
+            "Molenberghs",
+            "G.",
+            "Kenward",
+            "M.G"
+          ],
+          "year": 2007
+        }
+      ]
+    },
+    "total_entradas": 4
+  },
+  "EPG4009": {
+    "nombre": "ANALISIS MULTIVARIADO",
+    "codigo": "EPG4009",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Johnson R.A. y Wichern, D.W. , Applied Multivariate Analysis. Second Ed. Englewood Cliffs, N.J.",
+          "authors": [
+            "Johnson R.A.",
+            "Wichern",
+            "D.W.",
+            "Applied Multivariate Analysis. Second Ed. Englewood Cliffs",
+            "N.J"
+          ],
+          "title": "Johnson R.A. y Wichern, D.W. , Applied Multivariate Analysis. Second Ed. Englewood Cliffs, N.J"
+        },
+        {
+          "raw_text": "Prentice Hall, 1994.",
+          "authors": [
+            "Prentice Hall, 1994"
+          ],
+          "title": "Prentice Hall, 1994"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Flury, B., A first course in multivariate statistics. London: Springer, 1997.",
+          "authors": [
+            "Flury",
+            "B.",
+            "A first course in multivariate statistics. London: Springer, 1997"
+          ],
+          "title": "Flury, B., A first course in multivariate statistics. London: Springer, 1997"
+        },
+        {
+          "raw_text": "Kshirsagar A.M., Multivariate Analysis. New York: Marcel Dekker, 1974.",
+          "authors": [
+            "Kshirsagar A.M.",
+            "Multivariate Analysis. New York: Marcel Dekker, 1974"
+          ],
+          "title": "Kshirsagar A.M., Multivariate Analysis. New York: Marcel Dekker, 1974"
+        },
+        {
+          "raw_text": "Mardia, K.V., Multivariate Analysis. New York: Academic Press, 1980.",
+          "authors": [
+            "Mardia",
+            "K.V.",
+            "Multivariate Analysis. New York: Academic Press, 1980"
+          ],
+          "title": "Mardia, K.V., Multivariate Analysis. New York: Academic Press, 1980"
+        }
+      ]
+    },
+    "total_entradas": 5
+  },
+  "EPG4011": {
+    "nombre": "METODOS BAYESIANOS AVANZADOS",
+    "codigo": "EPG4011",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin (2013), Bayesian Data Analysis, third edition. London: CRC Press.",
+          "authors": [
+            "Andrew Gelman",
+            "John B. Carlin",
+            "Hal S. Stern",
+            "David B. Dunson",
+            "Aki Vehtari"
+          ],
+          "title": "Donald B. Rubin",
+          "year": 2013
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Muller, P., Quintana, F., Jara, A., Hanson, T. 2015. Bayesian Nonparametric Data Analysis.",
+          "authors": [
+            "Muller",
+            "P.",
+            "Quintana",
+            "F.",
+            "Jara"
+          ],
+          "title": "Muller, P., Quintana, F., Jara, A., Hanson, T. 2015. Bayesian Nonparametric Data Analysis"
+        },
+        {
+          "raw_text": "Springer Series in Statistics, Springer.",
+          "authors": [
+            "Springer Series in Statistics",
+            "Springer"
+          ],
+          "title": "Springer Series in Statistics, Springer"
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "FIL2000": {
+    "nombre": "ETICA APLICADA A INTELIGENCIA ARTIFICIAL",
+    "codigo": "FIL2000",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Bostrom, N. y Yudkowsky. ?The Ethics of Artificial Intelligence?, en The Cambridge Handbook of Artificial Intelligence, pp. 316-334. Cambridge Univ. Press., 2014.",
+          "authors": [
+            "Bostrom",
+            "N.",
+            "Yudkowsky. ?The Ethics of Artificial Intelligence?, en The Cambridge Handbook of Artificial Intelligence, pp. 316-334. Cambridge Univ. Press., 2014"
+          ],
+          "title": "Bostrom, N. y Yudkowsky. ?The Ethics of Artificial Intelligence?, en The Cambridge Handbook of Artificial Intelligence, pp. 316-334. Cambridge Univ. Press., 2014"
+        },
+        {
+          "raw_text": "Etzioni, A. y Etzioni O. ?Incorporating Ethics into Artificial Intelligence?, en The Journal of",
+          "authors": [
+            "Etzioni",
+            "A.",
+            "Etzioni O. ?Incorporating Ethics into Artificial Intelligence?, en The Journal of"
+          ],
+          "title": "Etzioni, A. y Etzioni O. ?Incorporating Ethics into Artificial Intelligence?, en The Journal of"
+        },
+        {
+          "raw_text": "Ethics, vol 21/4, pp. 403-418.",
+          "authors": [
+            "Ethics, vol 21/4, pp. 403-418"
+          ],
+          "title": "Ethics, vol 21/4, pp. 403-418"
+        },
+        {
+          "raw_text": "Mittelstadt, D. et al. ?The Ethic of Algorithms: Mapping the Debate?, en Big Data & Society, pp.",
+          "authors": [
+            "Mittelstadt",
+            "D. et al. ?The Ethic of Algorithms: Mapping the Debate?, en Big Data & Society, pp"
+          ],
+          "title": "Mittelstadt, D. et al. ?The Ethic of Algorithms: Mapping the Debate?, en Big Data & Society, pp"
+        },
+        {
+          "raw_text": "1-21, 2016.",
+          "authors": [
+            "1-21, 2016"
+          ],
+          "title": "1-21, 2016"
+        },
+        {
+          "raw_text": "Tegmark, M. ?Matter Turns Intelligent?, cap. 2 de Life 3.0. Being Human in the Age of Artificial Intelligence. Vintage Books, New York, 2017.",
+          "authors": [
+            "Tegmark",
+            "M. ?Matter Turns Intelligent?, cap. 2 de Life 3.0. Being Human in the Age of Artificial Intelligence. Vintage Books",
+            "New York, 2017"
+          ],
+          "title": "Tegmark, M. ?Matter Turns Intelligent?, cap. 2 de Life 3.0. Being Human in the Age of Artificial Intelligence. Vintage Books, New York, 2017"
+        },
+        {
+          "raw_text": "?Top 9 Ethical Issues in Artificial Intelligence?, World Economic Forum, 21 oct. 2016.",
+          "authors": [
+            "?Top 9 Ethical Issues in Artificial Intelligence?",
+            "World Economic Forum, 21 oct. 2016"
+          ],
+          "title": "?Top 9 Ethical Issues in Artificial Intelligence?, World Economic Forum, 21 oct. 2016"
+        },
+        {
+          "raw_text": "Van de Poel, I. y Kroes, P. ?Can Technology Embody Values??, en The Moral Status of Technical Artefacts. Kroes, P. y Verbeek, P. (eds.). Springer pp. 103-124, 2016.",
+          "authors": [
+            "Van de Poel",
+            "I.",
+            "Kroes",
+            "P. ?Can Technology Embody Values??, en The Moral Status of Technical Artefacts. Kroes",
+            "P."
+          ],
+          "title": "Van de Poel, I. y Kroes, P. ?Can Technology Embody Values??, en The Moral Status of Technical Artefacts. Kroes, P. y Verbeek, P. (eds.). Springer pp. 103-124, 2016"
+        },
+        {
+          "raw_text": "Wallach, W. y Colin, A. Moral Machines: Teaching Robots Right from Wrong, caps. 1-3. Oxford University Press, 2010.",
+          "authors": [
+            "Wallach",
+            "W.",
+            "Colin",
+            "A. Moral Machines: Teaching Robots Right from Wrong, caps. 1-3. Oxford University Press, 2010"
+          ],
+          "title": "Wallach, W. y Colin, A. Moral Machines: Teaching Robots Right from Wrong, caps. 1-3. Oxford University Press, 2010"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Bucher, T. If...Then: Algorithmic Power and Politics, caps. 1-3. Oxford University Press, 2018.",
+          "authors": [
+            "Bucher",
+            "T. If...Then: Algorithmic Power and Politics, caps. 1-3. Oxford University Press, 2018"
+          ],
+          "title": "Bucher, T. If...Then: Algorithmic Power and Politics, caps. 1-3. Oxford University Press, 2018"
+        }
+      ]
+    },
+    "total_entradas": 10
+  },
+  "IMT3850": {
+    "nombre": "FUNDAMENTOS MATEMATICOS PARA INTELIGENCIA ARTIFICIAL",
+    "codigo": "IMT3850",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Boyd, S.,Vanderberghe, L.?Introduction to Applied Linear Algebra: Vectors, Matrices and Least Squares?,Cambridge University Press,2018",
+          "authors": [
+            "Boyd",
+            "S.",
+            "Vanderberghe",
+            "L.?Introduction to Applied Linear Algebra: Vectors",
+            "Matrices and Least Squares?"
+          ],
+          "title": "Boyd, S.,Vanderberghe, L.?Introduction to Applied Linear Algebra: Vectors, Matrices and Least Squares?,Cambridge University Press,2018"
+        },
+        {
+          "raw_text": "Mitzenmacher, M.,Upfal, E.?Probability and Computing. Randomization and Probabilistic Techniques in Algorithms and Data Analysis?,Cambridge University Press, 2017",
+          "authors": [
+            "Mitzenmacher",
+            "M.",
+            "Upfal",
+            "E.?Probability and Computing. Randomization and Probabilistic Techniques in Algorithms and Data Analysis?",
+            "Cambridge University Press, 2017"
+          ],
+          "title": "Mitzenmacher, M.,Upfal, E.?Probability and Computing. Randomization and Probabilistic Techniques in Algorithms and Data Analysis?,Cambridge University Press, 2017"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Boyd, S., Vanderberghe, L. ?Convex Optimization?, Cambridge University Press, 2004",
+          "authors": [
+            "Boyd",
+            "S.",
+            "Vanderberghe",
+            "L. ?Convex Optimization?",
+            "Cambridge University Press, 2004"
+          ],
+          "title": "Boyd, S., Vanderberghe, L. ?Convex Optimization?, Cambridge University Press, 2004"
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "IMT3860": {
+    "nombre": "INTRODUCCION A DATA SCIENCE",
+    "codigo": "IMT3860",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Cathy O?Neil and Rachel Schutt. ?Doing Data Science, Straight Talk from the Frontline?. O'Reilly",
+          "authors": [
+            "Cathy O?Neil and Rachel Schutt. ?Doing Data Science",
+            "Straight Talk from the Frontline?. O'Reilly"
+          ],
+          "title": "Cathy O?Neil and Rachel Schutt. ?Doing Data Science, Straight Talk from the Frontline?. O'Reilly"
+        },
+        {
+          "raw_text": "Media, 2013.",
+          "authors": [
+            "Media, 2013"
+          ],
+          "title": "Media, 2013"
+        },
+        {
+          "raw_text": "Foster Provost and Tom Fawcett. ?Data Science for Business: What you need to know about data mining and data-analytic thinking?. O'Reilly Media, 2013.",
+          "authors": [
+            "Foster Provost and Tom Fawcett. ?Data Science for Business: What you need to know about data mining and data-analytic thinking?. O'Reilly Media, 2013"
+          ],
+          "title": "Foster Provost and Tom Fawcett. ?Data Science for Business: What you need to know about data mining and data-analytic thinking?. O'Reilly Media, 2013"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "--- PÁGINA {} --- Wes McKinney. ?Python for data analysis: Data wrangling with Pandas, NumPy, and IPython?.",
+          "authors": [
+            "--- PÁGINA {} --- Wes McKinney. ?Python for data analysis: Data wrangling with Pandas",
+            "NumPy, and IPython?"
+          ],
+          "title": "--- PÁGINA {} --- Wes McKinney. ?Python for data analysis: Data wrangling with Pandas, NumPy, and IPython?"
+        },
+        {
+          "raw_text": "O'Reilly Media, 2017.",
+          "authors": [
+            "O'Reilly Media, 2017"
+          ],
+          "title": "O'Reilly Media, 2017"
+        }
+      ]
+    },
+    "total_entradas": 5
+  },
+  "IMT3870": {
+    "nombre": "COMPUTACION DE ALTO RENDIMIENTO",
+    "codigo": "IMT3870",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Matloff, N. Programming on Parallel Machines; GPU, Multicore, Clusters and more. Disponible gratuitamente en: http://heather.cs.ucdavis.edu/parprocbook. Creative Commons License.",
+          "authors": [
+            "Matloff",
+            "N. Programming on Parallel Machines; GPU",
+            "Multicore",
+            "Clusters and more. Disponible gratuitamente en: http://heather.cs.ucdavis.edu/parprocbook. Creative Commons License"
+          ],
+          "title": "Matloff, N. Programming on Parallel Machines; GPU, Multicore, Clusters and more. Disponible gratuitamente en: http://heather.cs.ucdavis.edu/parprocbook. Creative Commons License",
+          "url": "http://heather.cs.ucdavis.edu/parprocbook."
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Grama, A., Gupta, A., Karypis, G., Kumar, V. Introduction to Parallel Computing. Pearson, 2003.",
+          "authors": [
+            "Grama",
+            "A.",
+            "Gupta",
+            "A.",
+            "Karypis"
+          ],
+          "title": "Grama, A., Gupta, A., Karypis, G., Kumar, V. Introduction to Parallel Computing. Pearson, 2003"
+        },
+        {
+          "raw_text": "http://www-users.cs.umn.edu/~karypis/parbook/ --- PÁGINA {} --- McCool, M., Robinson, A., Reinders, J., Kauffman, M. Structured Parallel Programming: Patterns for Efficiente Computation. Elsevier, 2012",
+          "authors": [
+            "http://www-users.cs.umn.edu/~karypis/parbook/ --- PÁGINA {} --- McCool",
+            "M.",
+            "Robinson",
+            "A.",
+            "Reinders"
+          ],
+          "title": "http://www-users.cs.umn.edu/~karypis/parbook/ --- PÁGINA {} --- McCool, M., Robinson, A., Reinders, J., Kauffman, M. Structured Parallel Programming: Patterns for Efficiente Computation. Elsevier, 2012",
+          "url": "http://www-users.cs.umn.edu/~karypis/parbook/"
+        },
+        {
+          "raw_text": "Matloff, N. Parallel Computing for Data Science: With Examples in R, C++ and CUDA. Chapman and",
+          "authors": [
+            "Matloff",
+            "N. Parallel Computing for Data Science: With Examples in R",
+            "C++ and CUDA. Chapman and"
+          ],
+          "title": "Matloff, N. Parallel Computing for Data Science: With Examples in R, C++ and CUDA. Chapman and"
+        },
+        {
+          "raw_text": "Hall, 2015.",
+          "authors": [
+            "Hall, 2015"
+          ],
+          "title": "Hall, 2015"
+        },
+        {
+          "raw_text": "Eijkhout, V. Introduction to High-Performance Scientific Computing. lulu.com, 2011.",
+          "authors": [
+            "Eijkhout",
+            "V. Introduction to High-Performance Scientific Computing. lulu.com, 2011"
+          ],
+          "title": "Eijkhout, V. Introduction to High-Performance Scientific Computing. lulu.com, 2011"
+        },
+        {
+          "raw_text": "https://bitbucket.org/VictorEijkhout/hpc-book-and-course",
+          "authors": [
+            "https://bitbucket.org/VictorEijkhout/hpc-book-and-course"
+          ],
+          "title": "https://bitbucket.org/VictorEijkhout/hpc-book-and-course",
+          "url": "https://bitbucket.org/VictorEijkhout/hpc-book-and-course"
+        }
+      ]
+    },
+    "total_entradas": 7
+  },
+  "INF3250": {
+    "nombre": "SEGURIDAD COMPUTACIONAL",
+    "codigo": "INF3250",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Silowash, et al. \"Common sense guide to mitigating insider threats\", Cuarta Edicion, CMU-SEI, 2012.",
+          "authors": [
+            "Silowash, et al. \"Common sense guide to mitigating insider threats\"",
+            "Cuarta Edicion",
+            "CMU-SEI, 2012"
+          ],
+          "title": "Silowash, et al. \"Common sense guide to mitigating insider threats\", Cuarta Edicion, CMU-SEI, 2012"
+        },
+        {
+          "raw_text": "\"Cisco 2014 Annual Security Report\", CISCO, 2014.",
+          "authors": [
+            "\"Cisco 2014 Annual Security Report\"",
+            "CISCO, 2014"
+          ],
+          "title": "\"Cisco 2014 Annual Security Report\", CISCO, 2014"
+        },
+        {
+          "raw_text": "\"Global State of Information Security Survey 2015\", PwC, 2014.",
+          "authors": [
+            "\"Global State of Information Security Survey 2015\"",
+            "PwC, 2014"
+          ],
+          "title": "\"Global State of Information Security Survey 2015\", PwC, 2014"
+        },
+        {
+          "raw_text": "?2014 Data Breach Investigations Report?, Verizon, 2014.",
+          "authors": [
+            "?2014 Data Breach Investigations Report?",
+            "Verizon, 2014"
+          ],
+          "title": "?2014 Data Breach Investigations Report?, Verizon, 2014"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "?The Critical Security Controls for Effective Cyber Defense? version 5.0, Counsil on",
+          "authors": [
+            "?The Critical Security Controls for Effective Cyber Defense? version 5.0",
+            "Counsil on"
+          ],
+          "title": "?The Critical Security Controls for Effective Cyber Defense? version 5.0, Counsil on"
+        },
+        {
+          "raw_text": "Cybersecurity, 2014.",
+          "authors": [
+            "Cybersecurity, 2014"
+          ],
+          "title": "Cybersecurity, 2014"
+        },
+        {
+          "raw_text": "?The Anatomy of an Anonymous Attack?, Imperva, 2012.",
+          "authors": [
+            "?The Anatomy of an Anonymous Attack?",
+            "Imperva, 2012"
+          ],
+          "title": "?The Anatomy of an Anonymous Attack?, Imperva, 2012"
+        },
+        {
+          "raw_text": "Shostack, ?Threat Modeling: Designing for Security?, Wiley, 2014.",
+          "authors": [
+            "Shostack, ?Threat Modeling: Designing for Security?",
+            "Wiley, 2014"
+          ],
+          "title": "Shostack, ?Threat Modeling: Designing for Security?, Wiley, 2014"
+        },
+        {
+          "raw_text": "?OWASP Top 10?, OWASP, 2013.",
+          "authors": [
+            "?OWASP Top 10?",
+            "OWASP, 2013"
+          ],
+          "title": "?OWASP Top 10?, OWASP, 2013"
+        }
+      ]
+    },
+    "total_entradas": 9
+  },
+  "INF3262": {
+    "nombre": "GESTION DE PROCESOS DE NEGOCIO",
+    "codigo": "INF3262",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Dumas M., La Rosa M., Mendling J., Reijers H.A., ?Fundamentals of Business Process Management?.",
+          "authors": [
+            "Dumas M.",
+            "La Rosa M.",
+            "Mendling J.",
+            "Reijers H.A., ?Fundamentals of Business Process Management?"
+          ],
+          "title": "Dumas M., La Rosa M., Mendling J., Reijers H.A., ?Fundamentals of Business Process Management?"
+        },
+        {
+          "raw_text": "2nd edition, Springer, 2018.",
+          "authors": [
+            "2nd edition",
+            "Springer, 2018"
+          ],
+          "title": "2nd edition, Springer, 2018"
+        },
+        {
+          "raw_text": "Hitpass, B., Freund J., Rucker B., ?BPMN: Manual de Referencia y Guia Practica?, 5ta edicion, BPM Center, 2017.",
+          "authors": [
+            "Hitpass",
+            "B.",
+            "Freund J.",
+            "Rucker B., ?BPMN: Manual de Referencia",
+            "Guia Practica?, 5ta edicion"
+          ],
+          "title": "Hitpass, B., Freund J., Rucker B., ?BPMN: Manual de Referencia y Guia Practica?, 5ta edicion, BPM Center, 2017"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Hitpass, B., ?Business Process Management (BPM) Fundamentos y Conceptos de Implementacion?, 4ta edicion, BPM Center, 2017.",
+          "authors": [
+            "Hitpass",
+            "B., ?Business Process Management (BPM) Fundamentos",
+            "Conceptos de Implementacion?, 4ta edicion",
+            "BPM Center, 2017"
+          ],
+          "title": "Hitpass, B., ?Business Process Management (BPM) Fundamentos y Conceptos de Implementacion?, 4ta edicion, BPM Center, 2017"
+        }
+      ]
+    },
+    "total_entradas": 4
+  },
+  "INF3571": {
+    "nombre": "ASPECTOS LEGALES DE CIBERSEGURIDAD Y PROTECCION DE DATOS",
+    "codigo": "INF3571",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Compliance. Como gestionar los riesgos normativos en la empresa, Sainz. A., Thomson Reuters, 2016.",
+          "authors": [
+            "Compliance. Como gestionar los riesgos normativos en la empresa",
+            "Sainz. A.",
+            "Thomson Reuters, 2016"
+          ],
+          "title": "Compliance. Como gestionar los riesgos normativos en la empresa, Sainz. A., Thomson Reuters, 2016"
+        },
+        {
+          "raw_text": "--- PÁGINA {} --- Compliance. Cumplimiento, normativa y seguridad en la empresa, Ecija. A., Thomson Reuters, 2010.",
+          "authors": [
+            "--- PÁGINA {} --- Compliance. Cumplimiento, normativa",
+            "seguridad en la empresa",
+            "Ecija. A.",
+            "Thomson Reuters, 2010"
+          ],
+          "title": "--- PÁGINA {} --- Compliance. Cumplimiento, normativa y seguridad en la empresa, Ecija. A., Thomson Reuters, 2010"
+        },
+        {
+          "raw_text": "Criptoactivos retos y desafios normativos, Barrios, M., Wolter Kluwer, 2021.",
+          "authors": [
+            "Criptoactivos retos",
+            "desafios normativos",
+            "Barrios",
+            "M.",
+            "Wolter Kluwer, 2021"
+          ],
+          "title": "Criptoactivos retos y desafios normativos, Barrios, M., Wolter Kluwer, 2021"
+        },
+        {
+          "raw_text": "El Derecho del Trabajo en las nuevas tecnologias, Lizama L., Lizama D., Ediciones DER, 2020.",
+          "authors": [
+            "El Derecho del Trabajo en las nuevas tecnologias",
+            "Lizama L.",
+            "Lizama D.",
+            "Ediciones DER, 2020"
+          ],
+          "title": "El Derecho del Trabajo en las nuevas tecnologias, Lizama L., Lizama D., Ediciones DER, 2020"
+        },
+        {
+          "raw_text": "Ley 19.628 del a?o 1999 sobre Proteccion de la Vida Privada.",
+          "authors": [
+            "Ley 19.628 del a?o 1999 sobre Proteccion de la Vida Privada"
+          ],
+          "title": "Ley 19.628 del a?o 1999 sobre Proteccion de la Vida Privada"
+        },
+        {
+          "raw_text": "Ley 19.223 del a?o 1993 sobre delitos Informaticos.",
+          "authors": [
+            "Ley 19.223 del a?o 1993 sobre delitos Informaticos"
+          ],
+          "title": "Ley 19.223 del a?o 1993 sobre delitos Informaticos"
+        },
+        {
+          "raw_text": "Politica Nacional de Ciberseguridad del a?o 2017.",
+          "authors": [
+            "Politica Nacional de Ciberseguridad del a?o 2017"
+          ],
+          "title": "Politica Nacional de Ciberseguridad del a?o 2017"
+        },
+        {
+          "raw_text": "Politica Nacional de Inteligencia Artificial del a?o 2021.",
+          "authors": [
+            "Politica Nacional de Inteligencia Artificial del a?o 2021"
+          ],
+          "title": "Politica Nacional de Inteligencia Artificial del a?o 2021"
+        },
+        {
+          "raw_text": "Reglamento de Comercio Electronico del a?o 2021.",
+          "authors": [
+            "Reglamento de Comercio Electronico del a?o 2021"
+          ],
+          "title": "Reglamento de Comercio Electronico del a?o 2021"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Big Data, Cloud computing y otros retos juridicos planteados por las tecnologias emergentes, Martinez A., Thomson Reuters, 2019.",
+          "authors": [
+            "Big Data",
+            "Cloud computing",
+            "otros retos juridicos planteados por las tecnologias emergentes",
+            "Martinez A.",
+            "Thomson Reuters, 2019"
+          ],
+          "title": "Big Data, Cloud computing y otros retos juridicos planteados por las tecnologias emergentes, Martinez A., Thomson Reuters, 2019"
+        },
+        {
+          "raw_text": "Nuevos retos de la ciberseguridad en un contexto cambiante, Mallada C., Thomson Reuters, 2019.",
+          "authors": [
+            "Nuevos retos de la ciberseguridad en un contexto cambiante",
+            "Mallada C.",
+            "Thomson Reuters, 2019"
+          ],
+          "title": "Nuevos retos de la ciberseguridad en un contexto cambiante, Mallada C., Thomson Reuters, 2019"
+        },
+        {
+          "raw_text": "Fintech, Regtech y Legaltech, fundamentos y desafios regulatorios, Gurrea A., Remolina N., Tiran lo Blanch, 2020.",
+          "authors": [
+            "Fintech",
+            "Regtech",
+            "Legaltech, fundamentos",
+            "desafios regulatorios",
+            "Gurrea A."
+          ],
+          "title": "Fintech, Regtech y Legaltech, fundamentos y desafios regulatorios, Gurrea A., Remolina N., Tiran lo Blanch, 2020"
+        },
+        {
+          "raw_text": "Ciberseguridad, Memento, Francis Lefebvre, 2021.",
+          "authors": [
+            "Ciberseguridad",
+            "Memento",
+            "Francis Lefebvre, 2021"
+          ],
+          "title": "Ciberseguridad, Memento, Francis Lefebvre, 2021"
+        },
+        {
+          "raw_text": "Cloud Computing. Regimen Juridico para empresarios. Rosello F., Thomson Reuters, 2018.",
+          "authors": [
+            "Cloud Computing. Regimen Juridico para empresarios. Rosello F.",
+            "Thomson Reuters, 2018"
+          ],
+          "title": "Cloud Computing. Regimen Juridico para empresarios. Rosello F., Thomson Reuters, 2018"
+        },
+        {
+          "raw_text": "Seguridad y responsabilidad en Internet de las Cosas(IoT), Llaneza,P.,Wolter Kluwer, 2018.",
+          "authors": [
+            "Seguridad",
+            "responsabilidad en Internet de las Cosas(IoT)",
+            "Llaneza",
+            "P.",
+            "Wolter Kluwer, 2018"
+          ],
+          "title": "Seguridad y responsabilidad en Internet de las Cosas(IoT), Llaneza,P.,Wolter Kluwer, 2018"
+        }
+      ]
+    },
+    "total_entradas": 15
+  },
+  "INF3801": {
+    "nombre": "MINERIA DE MEDIOS SOCIALES Y CIENCIA DE REDES",
+    "codigo": "INF3801",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "--- PÁGINA {} ---",
+          "authors": [
+            "--- PÁGINA {} ---"
+          ],
+          "title": "--- PÁGINA {} ---"
+        },
+        {
+          "raw_text": "Zafarani, R., Abbasi, M. A., & Liu, H. (2014). Social media mining: an introduction. Cambridge University Press.",
+          "authors": [
+            "Zafarani",
+            "R.",
+            "Abbasi",
+            "M. A., & Liu",
+            "H"
+          ],
+          "year": 2014
+        },
+        {
+          "raw_text": "Barabasi, A. (2016) Network Science. Cambridge University Press.",
+          "authors": [
+            "Barabasi",
+            "A"
+          ],
+          "year": 2016
+        },
+        {
+          "raw_text": "Easley, D., & Kleinberg, J. (2010). Networks, crowds, and markets. Cambridge Univ Press, 6(1), 1-6.",
+          "authors": [
+            "Easley",
+            "D., & Kleinberg",
+            "J"
+          ],
+          "year": 2010
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Jackson, M. O. (2010). Social and economic networks. Princeton university press.",
+          "authors": [
+            "Jackson",
+            "M. O"
+          ],
+          "year": 2010
+        },
+        {
+          "raw_text": "Kraut, R. E., Resnick, P., Kiesler, S., Burke, M., Chen, Y., Kittur, N., ... & Riedl, J. (2012).",
+          "authors": [
+            "Kraut",
+            "R. E.",
+            "Resnick",
+            "P.",
+            "Kiesler"
+          ],
+          "title": "S., Burke, M., Chen, Y., Kittur, N., ... & Riedl, J",
+          "year": 2012
+        },
+        {
+          "raw_text": "Building successful online communities: Evidence-based social design. Mit Press.",
+          "authors": [
+            "Building successful online communities: Evidence-based social design. Mit Press"
+          ],
+          "title": "Building successful online communities: Evidence-based social design. Mit Press"
+        },
+        {
+          "raw_text": "Liu, H., Salerno, J., & Young, M. J. (Eds.). (2009). Social computing and behavioral modeling.",
+          "authors": [
+            "Liu",
+            "H.",
+            "Salerno",
+            "J., & Young",
+            "M. J. (Eds.)"
+          ],
+          "year": 2009
+        },
+        {
+          "raw_text": "Springer Science & Business Media.",
+          "authors": [
+            "Springer Science & Business Media"
+          ],
+          "title": "Springer Science & Business Media"
+        }
+      ]
+    },
+    "total_entradas": 9
+  },
+  "INF3803": {
+    "nombre": "MINERIA DE PROCESOS",
+    "codigo": "INF3803",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Wil M. P. van der Aalst: Process Mining - Data Science in Action, Second Edition. Springer 2016, ISBN 978-3-662-49850-7, pp. 1-452",
+          "authors": [
+            "Wil M. P. van der Aalst: Process Mining - Data Science in Action",
+            "Second Edition. Springer 2016",
+            "ISBN 978-3-662-49850-7, pp. 1-452"
+          ],
+          "title": "Wil M. P. van der Aalst: Process Mining - Data Science in Action, Second Edition. Springer 2016, ISBN 978-3-662-49850-7, pp. 1-452"
+        },
+        {
+          "raw_text": "Jorge Munoz-Gama: Conformance Checking and Diagnosis in Process Mining - Comparing Observed and Modeled Processes. Springer 2016, ISBN 978-3-319-49450-0, pp. 1-195",
+          "authors": [
+            "Jorge Munoz-Gama: Conformance Checking and Diagnosis in Process Mining - Comparing Observed and Modeled Processes. Springer 2016",
+            "ISBN 978-3-319-49450-0, pp. 1-195"
+          ],
+          "title": "Jorge Munoz-Gama: Conformance Checking and Diagnosis in Process Mining - Comparing Observed and Modeled Processes. Springer 2016, ISBN 978-3-319-49450-0, pp. 1-195"
+        },
+        {
+          "raw_text": "Marlon Dumas, Marcello La Rosa, Jan Mendling, Hajo A. Reijers: Fundamentals of Business Process Management. Springer 2013, ISBN 978-3-642-33142-8, pp. I-XXVII, 1-399",
+          "authors": [
+            "Marlon Dumas",
+            "Marcello La Rosa",
+            "Jan Mendling",
+            "Hajo A. Reijers: Fundamentals of Business Process Management. Springer 2013",
+            "ISBN 978-3-642-33142-8, pp. I-XXVII, 1-399"
+          ],
+          "title": "Marlon Dumas, Marcello La Rosa, Jan Mendling, Hajo A. Reijers: Fundamentals of Business Process Management. Springer 2013, ISBN 978-3-642-33142-8, pp. I-XXVII, 1-399"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Wil M. P. van der Aalst, Christian Stahl: Modeling Business Processes - A Petri Net-Oriented Approach. Cooperative Information Systems series, MIT Press 2011, ISBN 978-0-262-01538-7, pp. I- XII, 1-386",
+          "authors": [
+            "Wil M. P. van der Aalst",
+            "Christian Stahl: Modeling Business Processes - A Petri Net-Oriented Approach. Cooperative Information Systems series",
+            "MIT Press 2011",
+            "ISBN 978-0-262-01538-7, pp. I- XII, 1-386"
+          ],
+          "title": "Wil M. P. van der Aalst, Christian Stahl: Modeling Business Processes - A Petri Net-Oriented Approach. Cooperative Information Systems series, MIT Press 2011, ISBN 978-0-262-01538-7, pp. I- XII, 1-386"
+        },
+        {
+          "raw_text": "Ronny Mans, Wil M. P. van der Aalst, Rob J. B. Vanwersch: Process Mining in Healthcare - Evaluating and Exploiting Operational Healthcare Processes. Springer Briefs in Business Process",
+          "authors": [
+            "Ronny Mans",
+            "Wil M. P. van der Aalst",
+            "Rob J. B. Vanwersch: Process Mining in Healthcare - Evaluating and Exploiting Operational Healthcare Processes. Springer Briefs in Business Process"
+          ],
+          "title": "Ronny Mans, Wil M. P. van der Aalst, Rob J. B. Vanwersch: Process Mining in Healthcare - Evaluating and Exploiting Operational Healthcare Processes. Springer Briefs in Business Process"
+        },
+        {
+          "raw_text": "Management, Springer 2015, ISBN 978-3-319-16070-2, pp. 1-91",
+          "authors": [
+            "Management",
+            "Springer 2015",
+            "ISBN 978-3-319-16070-2, pp. 1-91"
+          ],
+          "title": "Management, Springer 2015, ISBN 978-3-319-16070-2, pp. 1-91"
+        }
+      ]
+    },
+    "total_entradas": 6
+  },
+  "INF3812": {
+    "nombre": "DEEP LEARNING",
+    "codigo": "INF3812",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "I. Goodfellow, Y. Bengio, A. Courville; Deep Learning; MIT Press; 2016.",
+          "authors": [
+            "I. Goodfellow",
+            "Y. Bengio",
+            "A. Courville; Deep Learning; MIT Press; 2016"
+          ],
+          "title": "I. Goodfellow, Y. Bengio, A. Courville; Deep Learning; MIT Press; 2016"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Chollet, F; Deep Learning with Python; Manning Publications; 2017.",
+          "authors": [
+            "Chollet",
+            "F; Deep Learning with Python; Manning Publications; 2017"
+          ],
+          "title": "Chollet, F; Deep Learning with Python; Manning Publications; 2017"
+        }
+      ]
+    },
+    "total_entradas": 2
+  },
+  "INF3813": {
+    "nombre": "DEEP LEARNING AVANZADO",
+    "codigo": "INF3813",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "I. Goodfellow, Y. Bengio, A. Courville; Deep Learning; MIT Press; 2016.",
+          "authors": [
+            "I. Goodfellow",
+            "Y. Bengio",
+            "A. Courville; Deep Learning; MIT Press; 2016"
+          ],
+          "title": "I. Goodfellow, Y. Bengio, A. Courville; Deep Learning; MIT Press; 2016"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "F. Chollet; Deep Learning with Python; Manning Publications; 2017.",
+          "authors": [
+            "F. Chollet; Deep Learning with Python; Manning Publications; 2017"
+          ],
+          "title": "F. Chollet; Deep Learning with Python; Manning Publications; 2017"
+        }
+      ]
+    },
+    "total_entradas": 2
+  },
+  "INF3820": {
+    "nombre": "PROCESAMIENTO Y ENTENDIMIENTO DE LENGUAJE NATURAL",
+    "codigo": "INF3820",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Leskovec, J., et. al(2014). Mining of Massive Datasets. Stanford University.",
+          "authors": [
+            "Leskovec",
+            "J., et. al"
+          ],
+          "year": 2014
+        },
+        {
+          "raw_text": "Taher, M, R.S.(2022). Embeddings in Natural Language Processing. Morgan & Claypool Publishers.",
+          "authors": [
+            "Taher",
+            "M",
+            "R.S"
+          ],
+          "year": 2022
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Rothman, D.(2021). Transformers for Natural Language Processing. Packt.",
+          "authors": [
+            "Rothman",
+            "D"
+          ],
+          "year": 2021
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "INF3821": {
+    "nombre": "APLICACIONES",
+    "codigo": "INF3821",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "S. Russell, P. Norvig, Artificial Intelligence. A Modern Approach, Prentice Hall, 3rd edition, 2010.",
+          "authors": [
+            "S. Russell",
+            "P. Norvig",
+            "Artificial Intelligence. A Modern Approach",
+            "Prentice Hall, 3rd edition, 2010"
+          ],
+          "title": "S. Russell, P. Norvig, Artificial Intelligence. A Modern Approach, Prentice Hall, 3rd edition, 2010"
+        },
+        {
+          "raw_text": "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, MIT Press, 2016.",
+          "authors": [
+            "I. Goodfellow",
+            "Y. Bengio",
+            "A. Courville. Deep Learning",
+            "MIT Press, 2016"
+          ],
+          "title": "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, MIT Press, 2016"
+        },
+        {
+          "raw_text": "T. Hastie, R. Tibshirani, J. Friedman, The elements of Statistical Learning, Springer, 2nd edition, 2009.",
+          "authors": [
+            "T. Hastie",
+            "R. Tibshirani",
+            "J. Friedman",
+            "The elements of Statistical Learning",
+            "Springer, 2nd edition, 2009"
+          ],
+          "title": "T. Hastie, R. Tibshirani, J. Friedman, The elements of Statistical Learning, Springer, 2nd edition, 2009"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "T. White. Hadoop: The Definitive Guide, O?Reilly Media, 4th edition, 2015.",
+          "authors": [
+            "T. White. Hadoop: The Definitive Guide",
+            "O?Reilly Media, 4th edition, 2015"
+          ],
+          "title": "T. White. Hadoop: The Definitive Guide, O?Reilly Media, 4th edition, 2015"
+        },
+        {
+          "raw_text": "K. Murphy. Machine Learning: A Probabilistic Perspective, MIT Press, 2012.",
+          "authors": [
+            "K. Murphy. Machine Learning: A Probabilistic Perspective",
+            "MIT Press, 2012"
+          ],
+          "title": "K. Murphy. Machine Learning: A Probabilistic Perspective, MIT Press, 2012"
+        },
+        {
+          "raw_text": "J. VanderPlas. Python Data Science Handbook: Essential Tools for Working with Data, O?Reilly",
+          "authors": [
+            "J. VanderPlas. Python Data Science Handbook: Essential Tools for Working with Data",
+            "O?Reilly"
+          ],
+          "title": "J. VanderPlas. Python Data Science Handbook: Essential Tools for Working with Data, O?Reilly"
+        },
+        {
+          "raw_text": "Media, 2016.",
+          "authors": [
+            "Media, 2016"
+          ],
+          "title": "Media, 2016"
+        }
+      ]
+    },
+    "total_entradas": 7
+  },
+  "INF3822": {
+    "nombre": "PROYECTO APLICADO I",
+    "codigo": "INF3822",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "No hay bibliografia minima",
+          "authors": [
+            "No hay bibliografia minima"
+          ],
+          "title": "No hay bibliografia minima"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995.",
+          "authors": [
+            "Harvey",
+            "G. Writing with sources: A guide for Harvard Students. 1995"
+          ],
+          "title": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995"
+        },
+        {
+          "raw_text": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008",
+          "authors": [
+            "Saez",
+            "C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+          ],
+          "title": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "INF3823": {
+    "nombre": "PROYECTO APLICADO II",
+    "codigo": "INF3823",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "No hay bibliografia minima",
+          "authors": [
+            "No hay bibliografia minima"
+          ],
+          "title": "No hay bibliografia minima"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995.",
+          "authors": [
+            "Harvey",
+            "G. Writing with sources: A guide for Harvard Students. 1995"
+          ],
+          "title": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995"
+        },
+        {
+          "raw_text": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008.",
+          "authors": [
+            "Saez",
+            "C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+          ],
+          "title": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "INF3841": {
+    "nombre": "RECUPERACION DE INFORMACION",
+    "codigo": "INF3841",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "H. Eidenberger. \"Handbook of Multimedia Information Retrieval\". Atpress, 2012.",
+          "authors": [
+            "H. Eidenberger. \"Handbook of Multimedia Information Retrieval\". Atpress, 2012"
+          ],
+          "title": "H. Eidenberger. \"Handbook of Multimedia Information Retrieval\". Atpress, 2012"
+        },
+        {
+          "raw_text": "R. Baeza-Yates and B. Ribeiro-Neto. \"Modern Information Retrieval. Second Edition\". Addison- Wesley Professional, 2011.",
+          "authors": [
+            "R. Baeza-Yates and B. Ribeiro-Neto. \"Modern Information Retrieval. Second Edition\". Addison- Wesley Professional, 2011"
+          ],
+          "title": "R. Baeza-Yates and B. Ribeiro-Neto. \"Modern Information Retrieval. Second Edition\". Addison- Wesley Professional, 2011"
+        },
+        {
+          "raw_text": "H. Blanken, A. de Vries, H. Blok. \"Multimedia Retrieval\". Springer-Verlag Berlin Heidelberg, 2007.",
+          "authors": [
+            "H. Blanken",
+            "A. de Vries",
+            "H. Blok. \"Multimedia Retrieval\". Springer-Verlag Berlin Heidelberg, 2007"
+          ],
+          "title": "H. Blanken, A. de Vries, H. Blok. \"Multimedia Retrieval\". Springer-Verlag Berlin Heidelberg, 2007"
+        },
+        {
+          "raw_text": "C. Aggarwal. \"Data Mining: The Textbook\". Springer, 2015.",
+          "authors": [
+            "C. Aggarwal. \"Data Mining: The Textbook\". Springer, 2015"
+          ],
+          "title": "C. Aggarwal. \"Data Mining: The Textbook\". Springer, 2015"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Goodfellow, Y.Bengio, and A. Courville. \"Deep Learning\". MIT Press, 2016.",
+          "authors": [
+            "Goodfellow",
+            "Y.Bengio, and A. Courville. \"Deep Learning\". MIT Press, 2016"
+          ],
+          "title": "Goodfellow, Y.Bengio, and A. Courville. \"Deep Learning\". MIT Press, 2016"
+        },
+        {
+          "raw_text": "J. Leskovec, A. Rajaraman, J. Ullman. \"Mining of Massive Datasets, Second Edition\". Cambridge University Press, 2014.",
+          "authors": [
+            "J. Leskovec",
+            "A. Rajaraman",
+            "J. Ullman. \"Mining of Massive Datasets",
+            "Second Edition\". Cambridge University Press, 2014"
+          ],
+          "title": "J. Leskovec, A. Rajaraman, J. Ullman. \"Mining of Massive Datasets, Second Edition\". Cambridge University Press, 2014"
+        },
+        {
+          "raw_text": "--- PÁGINA {} --- P. Zezula, G. Amato, V. Dohnal, and M. Batko. \"Similarity Search: The Metric Space Approach\".",
+          "authors": [
+            "--- PÁGINA {} --- P. Zezula",
+            "G. Amato",
+            "V. Dohnal, and M. Batko. \"Similarity Search: The Metric Space Approach\""
+          ],
+          "title": "--- PÁGINA {} --- P. Zezula, G. Amato, V. Dohnal, and M. Batko. \"Similarity Search: The Metric Space Approach\""
+        },
+        {
+          "raw_text": "Springer, 2006.",
+          "authors": [
+            "Springer, 2006"
+          ],
+          "title": "Springer, 2006"
+        },
+        {
+          "raw_text": "M. Nixon, A. Aguado. \"Feature Extraction & Image Processing for Computer Vision, Third Edition\".",
+          "authors": [
+            "M. Nixon",
+            "A. Aguado. \"Feature Extraction & Image Processing for Computer Vision",
+            "Third Edition\""
+          ],
+          "title": "M. Nixon, A. Aguado. \"Feature Extraction & Image Processing for Computer Vision, Third Edition\""
+        },
+        {
+          "raw_text": "Elsevier, 2012.",
+          "authors": [
+            "Elsevier, 2012"
+          ],
+          "title": "Elsevier, 2012"
+        },
+        {
+          "raw_text": "H. Samet. \"Foundations of Multidimensional and Metric Data Structures\". Morgan Kaufmann, 2006.",
+          "authors": [
+            "H. Samet. \"Foundations of Multidimensional and Metric Data Structures\". Morgan Kaufmann, 2006"
+          ],
+          "title": "H. Samet. \"Foundations of Multidimensional and Metric Data Structures\". Morgan Kaufmann, 2006"
+        },
+        {
+          "raw_text": "M. Muja and D. Lowe. \"Scalable Nearest Neighbor Algorithms for High Dimensional Data\". IEEE Transactions on Pattern Analysis and Machine Intelligence, 2014.",
+          "authors": [
+            "M. Muja and D. Lowe. \"Scalable Nearest Neighbor Algorithms for High Dimensional Data\". IEEE Transactions on Pattern Analysis and Machine Intelligence, 2014"
+          ],
+          "title": "M. Muja and D. Lowe. \"Scalable Nearest Neighbor Algorithms for High Dimensional Data\". IEEE Transactions on Pattern Analysis and Machine Intelligence, 2014"
+        },
+        {
+          "raw_text": "H. Jegou, M. Douze, C. Schmid. \"Product Quantization for Nearest Neighbor Search\". Transactions on Pattern Analysis and Machine Intelligence. 2011.",
+          "authors": [
+            "H. Jegou",
+            "M. Douze",
+            "C. Schmid. \"Product Quantization for Nearest Neighbor Search\". Transactions on Pattern Analysis and Machine Intelligence. 2011"
+          ],
+          "title": "H. Jegou, M. Douze, C. Schmid. \"Product Quantization for Nearest Neighbor Search\". Transactions on Pattern Analysis and Machine Intelligence. 2011"
+        }
+      ]
+    },
+    "total_entradas": 13
+  },
+  "INF3842": {
+    "nombre": "VISUALIZACION DE INFORMACION Y ANALITICA VISUAL",
+    "codigo": "INF3842",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Munzner, Tamara. ?Visualization Analysis and Design?, CRC Press, 2014",
+          "authors": [
+            "Munzner",
+            "Tamara. ?Visualization Analysis and Design?",
+            "CRC Press, 2014"
+          ],
+          "title": "Munzner, Tamara. ?Visualization Analysis and Design?, CRC Press, 2014"
+        },
+        {
+          "raw_text": "Ware, Colin, ?Information visualization: perception for design?, Elsevier, 2012.",
+          "authors": [
+            "Ware",
+            "Colin, ?Information visualization: perception for design?",
+            "Elsevier, 2012"
+          ],
+          "title": "Ware, Colin, ?Information visualization: perception for design?, Elsevier, 2012"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Tufte, Edward, ?The Visual Display of Quantitative Information?, Graphics Press, 2001",
+          "authors": [
+            "Tufte",
+            "Edward, ?The Visual Display of Quantitative Information?",
+            "Graphics Press, 2001"
+          ],
+          "title": "Tufte, Edward, ?The Visual Display of Quantitative Information?, Graphics Press, 2001"
+        },
+        {
+          "raw_text": "Few, Stephen, ?Now You See It?, Analytics Press, 2009",
+          "authors": [
+            "Few",
+            "Stephen, ?Now You See It?",
+            "Analytics Press, 2009"
+          ],
+          "title": "Few, Stephen, ?Now You See It?, Analytics Press, 2009"
+        },
+        {
+          "raw_text": "Cairo, Alberto, ?The Functional Art?, New Riders, 2013",
+          "authors": [
+            "Cairo",
+            "Alberto, ?The Functional Art?",
+            "New Riders, 2013"
+          ],
+          "title": "Cairo, Alberto, ?The Functional Art?, New Riders, 2013"
+        },
+        {
+          "raw_text": "Yau, Nathan, ?Visualize This?, Wiley, 2011",
+          "authors": [
+            "Yau",
+            "Nathan, ?Visualize This?",
+            "Wiley, 2011"
+          ],
+          "title": "Yau, Nathan, ?Visualize This?, Wiley, 2011"
+        },
+        {
+          "raw_text": "Tamassia, Roberto, ?Handbook of Graph Drawing and Visualization?, CRC Press, 2013",
+          "authors": [
+            "Tamassia",
+            "Roberto, ?Handbook of Graph Drawing and Visualization?",
+            "CRC Press, 2013"
+          ],
+          "title": "Tamassia, Roberto, ?Handbook of Graph Drawing and Visualization?, CRC Press, 2013"
+        },
+        {
+          "raw_text": "Card, Stuart K., Jock D. Mackinlay, and Ben Shneiderman. Readings in information visualization: using vision to think. Morgan Kaufmann, 1999.",
+          "authors": [
+            "Card",
+            "Stuart K.",
+            "Jock D. Mackinlay, and Ben Shneiderman. Readings in information visualization: using vision to think. Morgan Kaufmann, 1999"
+          ],
+          "title": "Card, Stuart K., Jock D. Mackinlay, and Ben Shneiderman. Readings in information visualization: using vision to think. Morgan Kaufmann, 1999"
+        },
+        {
+          "raw_text": "--- PÁGINA {} ---",
+          "authors": [
+            "--- PÁGINA {} ---"
+          ],
+          "title": "--- PÁGINA {} ---"
+        }
+      ]
+    },
+    "total_entradas": 9
+  },
+  "INF3851": {
+    "nombre": "GOBERNANZA DE DATOS",
+    "codigo": "INF3851",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "DAMA-DMBOK: Data Management Body of Knowledge (2nd Edition), 2017, Data Management International.",
+          "authors": [
+            "DAMA-DMBOK: Data Management Body of Knowledge (2nd Edition), 2017",
+            "Data Management International"
+          ],
+          "title": "DAMA-DMBOK: Data Management Body of Knowledge (2nd Edition), 2017, Data Management International"
+        },
+        {
+          "raw_text": "Data Governance: How to Design, Deploy and Sustain an Effective Data Governance Program, 2012, John Ladley Non-Invasive Data Governance, 2014, Robert S. Seiner",
+          "authors": [
+            "Data Governance: How to Design",
+            "Deploy and Sustain an Effective Data Governance Program, 2012",
+            "John Ladley Non-Invasive Data Governance, 2014",
+            "Robert S. Seiner"
+          ],
+          "title": "Data Governance: How to Design, Deploy and Sustain an Effective Data Governance Program, 2012, John Ladley Non-Invasive Data Governance, 2014, Robert S. Seiner"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Getting in Front on Data, 2016, Thomas C. Redman Data Stewardship: An Actionable Guide to Effective Data Management and Data Governance, 2013, David Plotkin Information Governance: Concepts, Strategies, and Best Practices (Wiley CIO), 2014, Robert F.",
+          "authors": [
+            "Getting in Front on Data, 2016",
+            "Thomas C. Redman Data Stewardship: An Actionable Guide to Effective Data Management and Data Governance, 2013",
+            "David Plotkin Information Governance: Concepts",
+            "Strategies, and Best Practices (Wiley CIO), 2014",
+            "Robert F"
+          ],
+          "title": "Getting in Front on Data, 2016, Thomas C. Redman Data Stewardship: An Actionable Guide to Effective Data Management and Data Governance, 2013, David Plotkin Information Governance: Concepts, Strategies, and Best Practices (Wiley CIO), 2014, Robert F"
+        },
+        {
+          "raw_text": "Smallwood Big Data Governance: An Emerging Imperative, 2013, Sunil Soares",
+          "authors": [
+            "Smallwood Big Data Governance: An Emerging Imperative, 2013",
+            "Sunil Soares"
+          ],
+          "title": "Smallwood Big Data Governance: An Emerging Imperative, 2013, Sunil Soares"
+        }
+      ]
+    },
+    "total_entradas": 4
+  },
+  "INF3862": {
+    "nombre": "PLATAFORMAS DE BIG DATA PARA DATA SCIENCE",
+    "codigo": "INF3862",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Este curso no requiere bibliografia minima.",
+          "authors": [
+            "Este curso no requiere bibliografia minima"
+          ],
+          "title": "Este curso no requiere bibliografia minima"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "J. R. Owens, B. Femiano, and J. Lentz, Hadoop Real World Solutions Cookbook. Packt Publishing, 2013.",
+          "authors": [
+            "J. R. Owens",
+            "B. Femiano, and J. Lentz",
+            "Hadoop Real World Solutions Cookbook. Packt Publishing, 2013"
+          ],
+          "title": "J. R. Owens, B. Femiano, and J. Lentz, Hadoop Real World Solutions Cookbook. Packt Publishing, 2013"
+        },
+        {
+          "raw_text": "Documentacion web actualizada Apache Hadoop http://hadoop.apache.org/docs/current/ Apache Spark https://spark.apache.org/docs/latest/",
+          "authors": [
+            "Documentacion web actualizada Apache Hadoop http://hadoop.apache.org/docs/current/ Apache Spark https://spark.apache.org/docs/latest/"
+          ],
+          "title": "Documentacion web actualizada Apache Hadoop http://hadoop.apache.org/docs/current/ Apache Spark https://spark.apache.org/docs/latest/",
+          "url": "http://hadoop.apache.org/docs/current/"
+        }
+      ]
+    },
+    "total_entradas": 3
+  },
+  "INF3863": {
+    "nombre": "SISTEMAS RECOMENDADORES",
+    "codigo": "INF3863",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Ricci, F., Rokach, L., Shapira, B., Kantor, P. Recommender Systems Handbook. Springer, 2015.",
+          "authors": [
+            "Ricci",
+            "F.",
+            "Rokach",
+            "L.",
+            "Shapira"
+          ],
+          "title": "Ricci, F., Rokach, L., Shapira, B., Kantor, P. Recommender Systems Handbook. Springer, 2015"
+        },
+        {
+          "raw_text": "DOI: 10.1007/978-1-4899-7637-6",
+          "authors": [
+            "DOI: 10.1007/978-1-4899-7637-6"
+          ],
+          "title": "DOI: 10.1007/978-1-4899-7637-6"
+        },
+        {
+          "raw_text": "Agarwal, Deepak K., and Bee-Chung Chen. Statistical methods for recommender systems. Cambridge University Press, 2015.",
+          "authors": [
+            "Agarwal",
+            "Deepak K., and Bee-Chung Chen. Statistical methods for recommender systems. Cambridge University Press, 2015"
+          ],
+          "title": "Agarwal, Deepak K., and Bee-Chung Chen. Statistical methods for recommender systems. Cambridge University Press, 2015"
+        },
+        {
+          "raw_text": "--- PÁGINA {} ---",
+          "authors": [
+            "--- PÁGINA {} ---"
+          ],
+          "title": "--- PÁGINA {} ---"
+        },
+        {
+          "raw_text": "Jannach, Dietmar, Markus Zanker, Alexander Felfernig, and Gerhard Friedrich. Recommender systems: an introduction. Cambridge University Press, 2010. ISBN: 9780521493369",
+          "authors": [
+            "Jannach",
+            "Dietmar",
+            "Markus Zanker",
+            "Alexander Felfernig, and Gerhard Friedrich. Recommender systems: an introduction. Cambridge University Press, 2010. ISBN: 9780521493369"
+          ],
+          "title": "Jannach, Dietmar, Markus Zanker, Alexander Felfernig, and Gerhard Friedrich. Recommender systems: an introduction. Cambridge University Press, 2010. ISBN: 9780521493369"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Bennett, J., L. \"The netflix prize?. Proceedings of KDD cup and workshop. 2007.",
+          "authors": [
+            "Bennett",
+            "J.",
+            "L. \"The netflix prize?. Proceedings of KDD cup and workshop. 2007"
+          ],
+          "title": "Bennett, J., L. \"The netflix prize?. Proceedings of KDD cup and workshop. 2007"
+        },
+        {
+          "raw_text": "Jannach, D., Zanker, M., Felfernig, A. Recommender Systems: An Introduction. Cambridge University Press, 2010.",
+          "authors": [
+            "Jannach",
+            "D.",
+            "Zanker",
+            "M.",
+            "Felfernig"
+          ],
+          "title": "Jannach, D., Zanker, M., Felfernig, A. Recommender Systems: An Introduction. Cambridge University Press, 2010"
+        },
+        {
+          "raw_text": "MacNee, S. Konstan, J. Riedl, J. ?Being accurate is not enough: how accuracy metrics have hurt recommender systems?. Paper presented at the CHI '06 extended abstracts on Human factors in computing systems, New York, NY, USA.",
+          "authors": [
+            "MacNee",
+            "S. Konstan",
+            "J. Riedl",
+            "J. ?Being accurate is not enough: how accuracy metrics have hurt recommender systems?. Paper presented at the CHI '06 extended abstracts on Human factors in computing systems",
+            "New York"
+          ],
+          "title": "MacNee, S. Konstan, J. Riedl, J. ?Being accurate is not enough: how accuracy metrics have hurt recommender systems?. Paper presented at the CHI '06 extended abstracts on Human factors in computing systems, New York, NY, USA"
+        },
+        {
+          "raw_text": "Parra, D., Sahebi, S. Recommender Systems: Sources of Knowledge and Evaluation Metrics.",
+          "authors": [
+            "Parra",
+            "D.",
+            "Sahebi",
+            "S. Recommender Systems: Sources of Knowledge and Evaluation Metrics"
+          ],
+          "title": "Parra, D., Sahebi, S. Recommender Systems: Sources of Knowledge and Evaluation Metrics"
+        },
+        {
+          "raw_text": "Springer, 2012.",
+          "authors": [
+            "Springer, 2012"
+          ],
+          "title": "Springer, 2012"
+        }
+      ]
+    },
+    "total_entradas": 10
+  },
+  "INF4980": {
+    "nombre": "ACTIVIDAD DE GRADUACION",
+    "codigo": "INF4980",
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "No hay bibliografia minima",
+          "authors": [
+            "No hay bibliografia minima"
+          ],
+          "title": "No hay bibliografia minima"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995.",
+          "authors": [
+            "Harvey",
+            "G. Writing with sources: A guide for Harvard Students. 1995"
+          ],
+          "title": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995"
+        },
+        {
+          "raw_text": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008",
+          "authors": [
+            "Saez",
+            "C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+          ],
+          "title": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+        }
+      ]
+    },
+    "total_entradas": 3
+  }
+}

@@ -1,0 +1,4424 @@
+{
+  "EPG4001": {
+    "filename": "EPG4001.pdf",
+    "extracted_at": "2025-06-23T16:39:14.031411",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4001",
+      "nombre": "APRENDIZAJE SUPERVISADO",
+      "traduccion": "SUPERVISED LEARNING",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA, COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "APRENDIZAJE",
+        "SUPERVISADO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran los fundamentos para crear programas que aprenden como resolver una tarea sin haber sido programados previamente para ello. Para ello, el curso entrega una revision de los metodos de aprendizaje supervisado utilizados en problemas de clasificacion y regresion, como tambien los metodos para evaluar el rendimiento de ellos en el cumplimiento de la tarea desarrollada.",
+    "resultados_aprendizaje": [
+      "1.Analizar los conceptos fundamentales del aprendizaje supervisado.",
+      "2.Distinguir los problemas y desafios del aprendizaje supervisado al crear un programa computacional.",
+      "3.Aplicar metodos para prediccion en problemas de clasificacion y regresion.",
+      "4.Identificar ventajas y desventajas de los metodos de aprendizaje supervisado dependiendo de la tarea a realizar.",
+      "5.Aplicar metricas de evaluacion y rendimiento para evaluar el aprendizaje supervisado.",
+      "6.Seleccionar el algoritmo adecuado dependiendo de la tarea a realizar.",
+      "7.Resolver problemas reales, desde la perspectiva de aprendizaje supervisado, mediante la creacion de programas computacionales."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Conceptos fundamentales de aprendizaje supervisado."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Arboles de decision."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Regresion Logistica."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Vecinos cercanos."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Random Forest."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Naive Bayes."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Support Vector Machine (SVM)"
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "Regresion Lineal."
+      },
+      "9": {
+        "numero": "9",
+        "titulo": "Metricas evaluacion y desempe?o."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Kelleher, J., Namee, B.M., D'Arcy, A. ?Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies (1st Ed.).?, MIT Press, 2015.",
+          "authors": [
+            "Kelleher",
+            "J.",
+            "Namee",
+            "B.M.",
+            "D'Arcy"
+          ],
+          "title": "Kelleher, J., Namee, B.M., D'Arcy, A. ?Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies (1st Ed.).?, MIT Press, 2015"
+        },
+        {
+          "raw_text": "Murphy, K. ?Machine Learning: A Probabilistic Perspective (1st Ed.).?, MIT Press, 2012.",
+          "authors": [
+            "Murphy",
+            "K. ?Machine Learning: A Probabilistic Perspective (1st Ed.).?",
+            "MIT Press, 2012"
+          ],
+          "title": "Murphy, K. ?Machine Learning: A Probabilistic Perspective (1st Ed.).?, MIT Press, 2012"
+        },
+        {
+          "raw_text": "Flach, P. ?Machine Learning: The Art and Science of Algorithms that Make Sense of Data (1st Ed.).?, Cambridge University Press, 2012.",
+          "authors": [
+            "Flach",
+            "P. ?Machine Learning: The Art and Science of Algorithms that Make Sense of Data (1st Ed.).?",
+            "Cambridge University Press, 2012"
+          ],
+          "title": "Flach, P. ?Machine Learning: The Art and Science of Algorithms that Make Sense of Data (1st Ed.).?, Cambridge University Press, 2012"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Geron, A. ?Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (1st Ed.).?, O?Reilly, 2017.",
+          "authors": [
+            "Geron",
+            "A. ?Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts",
+            "Tools, and Techniques to Build Intelligent Systems (1st Ed.).?",
+            "O?Reilly, 2017"
+          ],
+          "title": "Geron, A. ?Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (1st Ed.).?, O?Reilly, 2017"
+        },
+        {
+          "raw_text": "Bishop, C. ?Pattern Recognition and Machine Learning?, Springer, 2011.",
+          "authors": [
+            "Bishop",
+            "C. ?Pattern Recognition and Machine Learning?",
+            "Springer, 2011"
+          ],
+          "title": "Bishop, C. ?Pattern Recognition and Machine Learning?, Springer, 2011"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4002": {
+    "filename": "EPG4002.pdf",
+    "extracted_at": "2025-06-23T16:39:14.108351",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4002",
+      "nombre": "APRENDIZAJE NO SUPERVISADO",
+      "traduccion": "UNSUPERVISED LEARNING",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "APRENDIZAJE",
+        "NO SUPERVISADO"
+      ]
+    },
+    "descripcion": "El descubrimiento de patrones en datos no estructurados es de gran ayuda cuando se requiere obtener informacion util desde un corpus de datos, donde en general no se dispone de categorias o anotaciones sobre la semantica de los datos que se quiere analizar. En este curso, los alumnos aprenderan las principales tecnicas de aprendizaje no supervisado con aplicaciones a clustering y a reduccion de dimensionalidad, con enfasis en los algoritmos mas comunes y aplicaciones practicas.",
+    "resultados_aprendizaje": [
+      "1.Explicar la diferencia entre la aplicacion de algoritmos de aprendizaje supervisado y no supervisado.",
+      "2.Distinguir problemas donde sean aplicables algoritmos de aprendizaje no supervisado para gestionar datos no estructurados.",
+      "3.Analizar el funcionamiento de los principales algoritmos de aprendizaje supervisado para su evaluacion en conjuntos de datos reales.",
+      "4.Proponer la aplicacion de un algoritmo de aprendizaje no supervisado segun las caracteristicas y tama?o de los datos.",
+      "5.Dise?ar procedimientos para aplicar un algoritmo de aprendizaje no supervisado en conjuntos de datos reales, y encontrar informacion util.",
+      "6.Analizar las variaciones de los algoritmos mas comunes para mejorar el resultado del uso de los algoritmos."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Reglas de Asociacion."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "K-Means Clustering."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Clustering Jerarquico."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "DB-Scan, BIRCH, Mean Shift."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Gaussian Mixtures y Expectation Maximization."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Principal Component Analysis (PCA), Singular Value Decomposition (SVD)"
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Modelacion de documentos: Bag of Words, Latent Dirichlet Allocation (LDA)"
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "C. Bishop, ?Pattern Recognition and Machine Learning?. Springer, 2007.",
+          "authors": [
+            "C. Bishop, ?Pattern Recognition and Machine Learning?. Springer, 2007"
+          ],
+          "title": "C. Bishop, ?Pattern Recognition and Machine Learning?. Springer, 2007"
+        },
+        {
+          "raw_text": "L. Kaufman, P. J. Rousseeuw. ?Finding Groups in Data: An Introduction to Cluster Analysis?. John Wiley & Sons, 2005.",
+          "authors": [
+            "L. Kaufman",
+            "P. J. Rousseeuw. ?Finding Groups in Data: An Introduction to Cluster Analysis?. John Wiley & Sons, 2005"
+          ],
+          "title": "L. Kaufman, P. J. Rousseeuw. ?Finding Groups in Data: An Introduction to Cluster Analysis?. John Wiley & Sons, 2005"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "M. E. Celebi, K. Aydin. ?Unsupervised Learning Algorithms?. Springer, 2016.",
+          "authors": [
+            "M. E. Celebi",
+            "K. Aydin. ?Unsupervised Learning Algorithms?. Springer, 2016"
+          ],
+          "title": "M. E. Celebi, K. Aydin. ?Unsupervised Learning Algorithms?. Springer, 2016"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4003": {
+    "filename": "EPG4003.pdf",
+    "extracted_at": "2025-06-23T16:39:14.185593",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4003",
+      "nombre": "METODOS PROBABILISTICOS PARA APRENDIZAJE DE MAQUINA",
+      "traduccion": "PROBABLISTIC METHODS FOR MACHINE LEARNING",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "TALLER"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION"
+    },
+    "descripcion": "El curso proporcionara al alumno las capacidades necesarias para poder trabajar con metodos estadisticos avanzados aplicados a los distintos problemas de aprendizaje de maquina. Estos metodos buscan aumentar la flexibilidad de los algoritmos generando modelos con mayor capacidad de adaptabilidad y aprendizaje.",
+    "resultados_aprendizaje": [
+      "1.Analizar la teoria detras de los modelos para desarrollar tecnicas que busquen solucionar problemas del area de aprendizaje de maquina.",
+      "2.Elaborar metodos estadisticos aplicados a los distintos problemas de aprendizaje de maquina.",
+      "3.Desarrollar tecnicas que busquen solucionar nuevos problemas del area de aprendizaje de maquina implementando e innovando sobre este tipo de metodos estadisticos."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Introduccion a los modelos graficos probabilisticos. Repaso de conceptos basicos de"
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Redes de Bayes."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Modelos Graficos no dirigidos."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Inferencia Exacta."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Aprendizaje de Parametros."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "-- PÁGINA {} ---",
+      "Lectura y discusion de textos.",
+      "Presentacion de los estudiantes.",
+      "Talleres.",
+      "Proyecto de aplicacion."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 40.0,
+        "Talleres": 40.0,
+        "Proyecto": 20.0,
+        "-Controles": 40.0,
+        "-Talleres": 40.0,
+        "-Proyecto": 20.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Koller, Daphne and Friedman, Nir. \"Probabilistic Graphical Models: Principles and Techniques\", The MIT Press, 2009.",
+          "authors": [
+            "Koller",
+            "Daphne and Friedman",
+            "Nir. \"Probabilistic Graphical Models: Principles and Techniques\"",
+            "The MIT Press, 2009"
+          ],
+          "title": "Koller, Daphne and Friedman, Nir. \"Probabilistic Graphical Models: Principles and Techniques\", The MIT Press, 2009"
+        },
+        {
+          "raw_text": "Bishop, Christopher. \"Pattern Recognition and Machine Learning\", Springer Information Science and Statistics Series, 2006.",
+          "authors": [
+            "Bishop",
+            "Christopher. \"Pattern Recognition and Machine Learning\"",
+            "Springer Information Science and Statistics Series, 2006"
+          ],
+          "title": "Bishop, Christopher. \"Pattern Recognition and Machine Learning\", Springer Information Science and Statistics Series, 2006"
+        },
+        {
+          "raw_text": "Jordan, Michael. \"An Introduction to Probabilistic Graphical Models\", Springer 2007.",
+          "authors": [
+            "Jordan",
+            "Michael. \"An Introduction to Probabilistic Graphical Models\"",
+            "Springer 2007"
+          ],
+          "title": "Jordan, Michael. \"An Introduction to Probabilistic Graphical Models\", Springer 2007"
+        },
+        {
+          "raw_text": "Hastie, Trevor; Tibshirani, Robert; and Friedman, Jerome. \"The Elements of Statistical Learning: Data Mining, Inference and Prediction\", Springer Texts in Statistics, Springer-Verlag, New York, 2001.",
+          "authors": [
+            "Hastie",
+            "Trevor; Tibshirani",
+            "Robert; and Friedman",
+            "Jerome. \"The Elements of Statistical Learning: Data Mining",
+            "Inference and Prediction\""
+          ],
+          "title": "Hastie, Trevor; Tibshirani, Robert; and Friedman, Jerome. \"The Elements of Statistical Learning: Data Mining, Inference and Prediction\", Springer Texts in Statistics, Springer-Verlag, New York, 2001"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Wasserman, Larry. \"All of Statistics: a concise course in Statistical Inference\", Springer Texts in Statistics, Springer-Verlag, New York, 2004.",
+          "authors": [
+            "Wasserman",
+            "Larry. \"All of Statistics: a concise course in Statistical Inference\"",
+            "Springer Texts in Statistics",
+            "Springer-Verlag",
+            "New York, 2004"
+          ],
+          "title": "Wasserman, Larry. \"All of Statistics: a concise course in Statistical Inference\", Springer Texts in Statistics, Springer-Verlag, New York, 2004"
+        },
+        {
+          "raw_text": "Wasserman, Larry. \"All of Nonparametric Statistics\", Springer Texts in Statistics, Springer-",
+          "authors": [
+            "Wasserman",
+            "Larry. \"All of Nonparametric Statistics\"",
+            "Springer Texts in Statistics",
+            "Springer-"
+          ],
+          "title": "Wasserman, Larry. \"All of Nonparametric Statistics\", Springer Texts in Statistics, Springer-"
+        },
+        {
+          "raw_text": "Verlag, New York, 2005.",
+          "authors": [
+            "Verlag",
+            "New York, 2005"
+          ],
+          "title": "Verlag, New York, 2005"
+        },
+        {
+          "raw_text": "Murphy, K. ?Machine Learning, A Probabilistic Perspective?, MIT Press, 2012.",
+          "authors": [
+            "Murphy",
+            "K. ?Machine Learning",
+            "A Probabilistic Perspective?",
+            "MIT Press, 2012"
+          ],
+          "title": "Murphy, K. ?Machine Learning, A Probabilistic Perspective?, MIT Press, 2012"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4004": {
+    "filename": "EPG4004.pdf",
+    "extracted_at": "2025-06-23T16:39:14.253609",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4004",
+      "nombre": "SERIES DE TIEMPO",
+      "traduccion": "TIME SERIES",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA, COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "MINERIA",
+        "SERIES",
+        "TIEMPO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes adquiriran herramientas para el analisis de series de tiempo, incluyendo la estimacion y construccion de modelos mediante componentes como tendencia y estacionalidad. Con el proposito de que los estudiantes puedan identificar el modelo adecuado para una serie de tiempo para realizar predicciones de datos.",
+    "resultados_aprendizaje": [
+      "1.Analizar de manera rigurosa los modelos de series de tiempo desde un punto de vista temporal o espectral para realizar predicciones de datos.",
+      "2.Distinguir la estructura matematica y estadistica de los modelos de series de tiempo mas adecuado para realizar las predicciones de datos.",
+      "3.Realizar simulaciones y aplicaciones de los modelos para realizar predicciones de datos en finanzas."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Introduccion a series de tiempo y predicciones de datos."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Modelos de series de tiempo estacionarias(ARMA)"
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Extensiones a modelos integrados(ARIMA)"
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Prediccion con modelos de regresion."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Aplicaciones en Finanzas."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio.",
+      "-- PÁGINA {} ---"
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Tsay, R. S. (2010) Analysis of Financial Time Series, Wiley, New York.",
+          "authors": [
+            "Tsay",
+            "R. S"
+          ],
+          "year": 2010
+        },
+        {
+          "raw_text": "Brockwell, P. and Davis, R. (1991) Time Series: Theory and Methods, Springer, New York.",
+          "authors": [
+            "Brockwell",
+            "P. and Davis",
+            "R"
+          ],
+          "year": 1991
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Brockwell, P. and Davis, R. (2002) Introduction to time series and forecasting, Springer, New York.",
+          "authors": [
+            "Brockwell",
+            "P. and Davis",
+            "R"
+          ],
+          "year": 2002
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4005": {
+    "filename": "EPG4005.pdf",
+    "extracted_at": "2025-06-23T16:39:14.326084",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4005",
+      "nombre": "METODOS BAYESIANOS",
+      "traduccion": "BAYESIAN METHODS",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "ESTADISTICA",
+      "palabras_clave": [
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA DE DATOS",
+        "APRENDIZAJE",
+        "SUPERVISADO",
+        "NO SUPERVISADO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran los fundamentos de la inferencia Bayesiana. Para ello, el curso entrega una comparacion con la Inferencia Clasica, las principales caracteristicas de la Inferencia Bayesiana, y las herramientas para el calculo y aproximacion de la distribucion a postertiori en modelos parametricos.",
+    "resultados_aprendizaje": [
+      "1.Analizar los conceptos fundamentales de la Inferencia Bayesiana.",
+      "2.Distinguir los problemas y desafios del modelamiento Bayesiano parametrico.",
+      "3.Aplicar metodos Bayesianos para prediccion sobre la base de modelos de regresion."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Concepto de modelo estadistico Bayesiano y tipos."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Introduccion a la Inferencia Bayesiana."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Aproximaciones numericas para la inferencia a posteriori."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "-- PÁGINA {} ---\n\n-Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "--- PÁGINA {} ---\n\n-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin (2013), Bayesian Data Analysis, third edition. London: CRC Press.",
+          "authors": [
+            "Andrew Gelman",
+            "John B. Carlin",
+            "Hal S. Stern",
+            "David B. Dunson",
+            "Aki Vehtari"
+          ],
+          "title": "Donald B. Rubin",
+          "year": 2013
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Box, George y Tiao, George (1992), Bayesian inference in statistical analysis, New York Wiley.",
+          "authors": [
+            "Box",
+            "George",
+            "Tiao",
+            "George"
+          ],
+          "title": "y Tiao, George",
+          "year": 1992
+        },
+        {
+          "raw_text": "Robert, Christian P. (2007), The Bayesian choice: from decision-theoretic foundations to computational implementation 2Ed., New York: Springer.",
+          "authors": [
+            "Robert",
+            "Christian P"
+          ],
+          "year": 2007
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4006": {
+    "filename": "EPG4006.pdf",
+    "extracted_at": "2025-06-23T16:39:14.384593",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4006",
+      "nombre": "MODELOS LINEALES GENERALIZADOS",
+      "traduccion": "GENERALIZED LINEAR MODELS",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "ESTADISTICA",
+      "palabras_clave": [
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA DE DATOS",
+        "APRENDIZAJE",
+        "SUPERVISADO Y NO SUPERVISADO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran los fundamentos para construir y aplicar modelos lineales generalizados. El curso entrega una revision de los componentes comunes de esta clase de modelos de regresion para datos continuos y categoricos, asi como las herramientas para la validacion de los modelos.",
+    "resultados_aprendizaje": [
+      "1.Distinguir los problemas y desafios del modelamiento de datos categoricos y continuos.",
+      "2.Aplicar modelos lineales generalizados para prediccion en problemas de clasificacion y regresion.",
+      "3.Identificar ventajas y desventajas de los modelos lineales generalizados.",
+      "4.Aplicar tecnicas de evaluacion y rendimiento de modelos lineales generalizados."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Introduccion a los modelos lineales generalizados."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Modelos para respuestas binomiales."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Modelos para respuestas multinomiales."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Modelos loglineales."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Modelos para respuestas positivas."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Modelos para respuestas acotadas."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "-- PÁGINA {} ---",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "McCullagh, P. Nelder, J.A. (1989). Generalized linear models. 2nd Ed. Chapman and Hall/CRC, New",
+          "authors": [
+            "McCullagh",
+            "P. Nelder",
+            "J.A"
+          ],
+          "year": 1989
+        },
+        {
+          "raw_text": "York, USA.",
+          "authors": [
+            "York",
+            "USA"
+          ],
+          "title": "York, USA"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Agresti, A.(2002) Categorical data analysis. John Wiley and Sons, New York, USA.",
+          "authors": [
+            "Agresti",
+            "A"
+          ],
+          "title": "gresti, A",
+          "year": 2002
+        },
+        {
+          "raw_text": "Christensen, R.(1997). Log-linear models and logistic regression (2nd Edition). Springer, New",
+          "authors": [
+            "Christensen",
+            "R"
+          ],
+          "year": 1997
+        },
+        {
+          "raw_text": "York, USA.",
+          "authors": [
+            "York",
+            "USA"
+          ],
+          "title": "York, USA"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4007": {
+    "filename": "EPG4007.pdf",
+    "extracted_at": "2025-06-23T16:39:14.442888",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4007",
+      "nombre": "ANALISIS DE TIEMPOS DE FALLA",
+      "traduccion": "FAILURE TIME ANALYSIS",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "ESTADISTICA",
+      "palabras_clave": [
+        "INTELIGENCIA ARTIFICIAL",
+        "CIENCIA DE DATOS",
+        "APRENDIZAJE SUPERVISADO Y NO SUPERVISADO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran los fundamentos para crear modelos que aprenden de factores asociados a tiempos de fallas de sistemas y productos. Para ello, el curso entrega una revision de los modelos estadisticos y proporciona los fundamentos para la estimacion y pruebas de hipotesis asociadas a sus parametros.",
+    "resultados_aprendizaje": [
+      "1.Analizar los conceptos fundamentales del analisis de confiabilidad.",
+      "2.Distinguir los problemas y desafios del modelamiento de datos de tiempo a la falla.",
+      "3.Identificar ventajas y desventajas de los diferentes modelos para datos de tiempo a la falla.",
+      "4.Aplicar metricas de evaluacion y rendimiento para evaluar el aprendizaje supervisado y no supervisado en base a datos de tiempo a la falla."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Conceptos fundamentales del analisis de tiempos de falla."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Censura y tipos de censura."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Modelos parametricos para censura no informativa."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Modelos semiparamettrcos para censura no informativa."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Modelos noparametricos para censura no informativa."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio.",
+      "-- PÁGINA {} ---"
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Klein, J.P., Moeschberger, M. L. 2005. Survival Analysis. Springer, New York, USA.",
+          "authors": [
+            "Klein",
+            "J.P.",
+            "Moeschberger",
+            "M. L. 2005. Survival Analysis. Springer",
+            "New York"
+          ],
+          "title": "Klein, J.P., Moeschberger, M. L. 2005. Survival Analysis. Springer, New York, USA"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Ibrahim, J., Chen, M-H., Sinha, D. Bayesian Survival Analysis. Springer, New York, USA",
+          "authors": [
+            "Ibrahim",
+            "J.",
+            "Chen",
+            "M-H.",
+            "Sinha"
+          ],
+          "title": "Ibrahim, J., Chen, M-H., Sinha, D. Bayesian Survival Analysis. Springer, New York, USA"
+        },
+        {
+          "raw_text": "Moore, D.F. 2016. Applied Surival Analysis Using R. Springer, New York, USA.",
+          "authors": [
+            "Moore",
+            "D.F. 2016. Applied Surival Analysis Using R. Springer",
+            "New York",
+            "USA"
+          ],
+          "title": "Moore, D.F. 2016. Applied Surival Analysis Using R. Springer, New York, USA"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4008": {
+    "filename": "EPG4008.pdf",
+    "extracted_at": "2025-06-23T16:39:14.492930",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4008",
+      "nombre": "ANALISIS ESTADISTICO CON DATOS FALTANTES",
+      "traduccion": "STATISTICAL ANALYSIS WITH MISSING DATA",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "ESTADISTICA",
+      "palabras_clave": [
+        "INTELIGENCIA ARTIFICIAL",
+        "CIENCIA DE DATOS",
+        "APRENDIZAJE SUPERVISADO Y NO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran los diferentes tipos de origenes de datos faltantes y el efecto sobre el aprendizaje. Para ello, el curso entrega una revision de los metodos para lidear con datos faltantes y sus consecuencias bajo mecanismos ignorables o no ignorables de generacion de datos faltantes.",
+    "resultados_aprendizaje": [
+      "1.Distinguir los problemas y desafios de la existencia de datos faltantes.",
+      "2.Aplicar metodos para el analisis de datos con datos faltantes.",
+      "3.Identificar ventajas y desventajas de los metodos de aprendizaje para mecanismos ignorables y no ignorables de generacion de datos faltantes."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Mecanismos de generacion de datos faltantes."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Introduccion a los metodos de analisis con datos incompletos."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Metodos para el analisis de mecanismos ignorables de generacion de datos faltantes."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Metodos para el analisis de mecanismos no-ignorables de generacion de datos faltantes."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "-- PÁGINA {} ---\n\n-Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "--- PÁGINA {} ---\n\n-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Little, R.J.A., Rubin, D.B.(2002). Statistical analysis with missing data. 2nd Ed. John Wiley and Sons, New York, USA.",
+          "authors": [
+            "Little",
+            "R.J.A.",
+            "Rubin",
+            "D.B"
+          ],
+          "year": 2002
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Allison, P.(2002) Missing data. SAGE publications, Inc., London, UK.",
+          "authors": [
+            "Allison",
+            "P"
+          ],
+          "year": 2002
+        },
+        {
+          "raw_text": "Daniels, M.J., Hogan, J.W.(2007). Missing data in longitudinal studies: Strategies for Bayesian modeling and sensitivity analysis. Chapman and Hall/CRC, New York, USA.",
+          "authors": [
+            "Daniels",
+            "M.J.",
+            "Hogan",
+            "J.W"
+          ],
+          "year": 2007
+        },
+        {
+          "raw_text": "Molenberghs, G., Kenward, M.G.(2007). Missing data in clinical studies. John Wiley and Sons, New",
+          "authors": [
+            "Molenberghs",
+            "G.",
+            "Kenward",
+            "M.G"
+          ],
+          "year": 2007
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4009": {
+    "filename": "EPG4009.pdf",
+    "extracted_at": "2025-06-23T16:39:14.553485",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4009",
+      "nombre": "ANALISIS MULTIVARIADO",
+      "traduccion": "MULTIVARIATE ANALYSIS",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "ESTADISTICA",
+      "palabras_clave": [
+        "INTELIGENCIA ARTIFICIAL",
+        "CIENCIA DE DATOS",
+        "APRENDIZAJE NO SUPERVISADO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran los fundamentos asociados al analisis conjunto de un vector de variables por unidad experimental. Para ello, el curso entrega una revision de los metodos de analisis multivariado, como tambien los metodos para evaluar el rendimiento de ellos en el cumplimiento de la tarea desarrollada.",
+    "resultados_aprendizaje": [
+      "1.Analizar los conceptos fundamentales del analisis multivariado.",
+      "2.Distinguir los problemas y desafios del analisis multivariado.",
+      "3.Aplicar metodos de reduccion de informacion.",
+      "4.Identificar ventajas y desventajas de los metodos de analisis multivariado.",
+      "5.Aplicar metricas de evaluacion y rendimiento para evaluar el aprendizaje no supervisado."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Componentes principales."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Analisis factorial."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Analisis de correlacion canonica."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Analisis discriminante."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Analisis de conglomerados."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Analisis de correspondencias."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Analisis de conjuntos."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Johnson R.A. y Wichern, D.W. , Applied Multivariate Analysis. Second Ed. Englewood Cliffs, N.J.",
+          "authors": [
+            "Johnson R.A.",
+            "Wichern",
+            "D.W.",
+            "Applied Multivariate Analysis. Second Ed. Englewood Cliffs",
+            "N.J"
+          ],
+          "title": "Johnson R.A. y Wichern, D.W. , Applied Multivariate Analysis. Second Ed. Englewood Cliffs, N.J"
+        },
+        {
+          "raw_text": "Prentice Hall, 1994.",
+          "authors": [
+            "Prentice Hall, 1994"
+          ],
+          "title": "Prentice Hall, 1994"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Flury, B., A first course in multivariate statistics. London: Springer, 1997.",
+          "authors": [
+            "Flury",
+            "B.",
+            "A first course in multivariate statistics. London: Springer, 1997"
+          ],
+          "title": "Flury, B., A first course in multivariate statistics. London: Springer, 1997"
+        },
+        {
+          "raw_text": "Kshirsagar A.M., Multivariate Analysis. New York: Marcel Dekker, 1974.",
+          "authors": [
+            "Kshirsagar A.M.",
+            "Multivariate Analysis. New York: Marcel Dekker, 1974"
+          ],
+          "title": "Kshirsagar A.M., Multivariate Analysis. New York: Marcel Dekker, 1974"
+        },
+        {
+          "raw_text": "Mardia, K.V., Multivariate Analysis. New York: Academic Press, 1980.",
+          "authors": [
+            "Mardia",
+            "K.V.",
+            "Multivariate Analysis. New York: Academic Press, 1980"
+          ],
+          "title": "Mardia, K.V., Multivariate Analysis. New York: Academic Press, 1980"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "EPG4011": {
+    "filename": "EPG4011.pdf",
+    "extracted_at": "2025-06-23T16:39:14.613850",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "EPG4011",
+      "nombre": "METODOS BAYESIANOS AVANZADOS",
+      "traduccion": "ADVANCED BAYESIAN METHODS",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "ESTADISTICA",
+      "palabras_clave": [
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA DE DATOS",
+        "APRENDIZAJE",
+        "SUPERVISADO Y NO SUPERVISADO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran modelos Bayesianos complejos, incluyendo modelos jerarquicos parametricos y no parametricos. Con este objeto, se presentaran las principales propiedades de los modelos y las tecnicas eficientes para la exploracion numerica de la distribucion a posteriori.",
+    "resultados_aprendizaje": [
+      "1.Aplicar modelos Bayesianos jerarquicos con errores normales.",
+      "2.Aplicar modelos Bayesianos jerarquicos con errores no Gaussianos.",
+      "3.Aplicar modelos Bayesianos no-parametricos."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Modelos jerarquicos Gaussianos."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Modelos jerarquicos no Gaussianos."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Modelos Bayesianon noparametricos."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "-- PÁGINA {} ---\n\n-Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "--- PÁGINA {} ---\n\n-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin (2013), Bayesian Data Analysis, third edition. London: CRC Press.",
+          "authors": [
+            "Andrew Gelman",
+            "John B. Carlin",
+            "Hal S. Stern",
+            "David B. Dunson",
+            "Aki Vehtari"
+          ],
+          "title": "Donald B. Rubin",
+          "year": 2013
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Muller, P., Quintana, F., Jara, A., Hanson, T. 2015. Bayesian Nonparametric Data Analysis.",
+          "authors": [
+            "Muller",
+            "P.",
+            "Quintana",
+            "F.",
+            "Jara"
+          ],
+          "title": "Muller, P., Quintana, F., Jara, A., Hanson, T. 2015. Bayesian Nonparametric Data Analysis"
+        },
+        {
+          "raw_text": "Springer Series in Statistics, Springer.",
+          "authors": [
+            "Springer Series in Statistics",
+            "Springer"
+          ],
+          "title": "Springer Series in Statistics, Springer"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "facultad": "MATEMATICAS",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "FIL2000": {
+    "filename": "FIL2000.pdf",
+    "extracted_at": "2025-06-23T16:39:14.662429",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "FIL2000",
+      "nombre": "ETICA APLICADA A INTELIGENCIA ARTIFICIAL",
+      "traduccion": "APPLIED ETHICS TO ARTIFICIAL INTELIGENCE",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "SOCIEDAD",
+        "ETICA",
+        "HUMANO",
+        "POLITICA"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran los diversos problemas y desafios eticos que presenta la inteligencia artificial (IA). Esto implica, entre otras cosas, comprender criticamente el alcance politico y social que la IA tiene. Esta tarea necesita del correcto manejo y conocimiento de los diversos tipos de razonamiento etico que deben considerarse al momento de discernir sobre las implicancias de la IA. Para estos fines el curso contempla el analisis de diversos argumentos filosoficos relacionados con la creacion de IA y su aplicacion en los diversos ambitos del quehacer humano. Esto ultimo implica el estudio de diversos tipos de casos a partir de los cuales los estudiantes iran elaborando criterios de discernimiento etico.",
+    "resultados_aprendizaje": [
+      "1.Distinguir los diversos tipos de razonamiento etico requeridos para comprender adecuadamente el alcance moral que existe o que puede existir en la creacion y aplicacion de la IA.",
+      "2.Analizar los vinculos posibles entre la IA y las dimensiones social y politica.",
+      "3.Aplicar los diversos tipos de razonamiento etico al analisis de casos particulares.",
+      "4.Identificar las complejidades que existen en la interaccion entre seres humanos y maquinas inteligentes.",
+      "5.Evaluar los distintos tipos de modelos antropologicos (comprensiones del ser humano) subyacentes en la creacion y aplicacion de la IA."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Conceptos fundamentales de etica."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Tecnologia y vida buena."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Ser humano y ser artificial."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Desafios eticos de la IA."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "IA y la distincion publico/privado."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "?Que hay o puede haber de politico en la IA?"
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Analisis de casos.",
+      "Grupos de discusion."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 60.0,
+        "Ensayo": 40.0,
+        "-Controles": 60.0,
+        "-Ensayo": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Bostrom, N. y Yudkowsky. ?The Ethics of Artificial Intelligence?, en The Cambridge Handbook of Artificial Intelligence, pp. 316-334. Cambridge Univ. Press., 2014.",
+          "authors": [
+            "Bostrom",
+            "N.",
+            "Yudkowsky. ?The Ethics of Artificial Intelligence?, en The Cambridge Handbook of Artificial Intelligence, pp. 316-334. Cambridge Univ. Press., 2014"
+          ],
+          "title": "Bostrom, N. y Yudkowsky. ?The Ethics of Artificial Intelligence?, en The Cambridge Handbook of Artificial Intelligence, pp. 316-334. Cambridge Univ. Press., 2014"
+        },
+        {
+          "raw_text": "Etzioni, A. y Etzioni O. ?Incorporating Ethics into Artificial Intelligence?, en The Journal of",
+          "authors": [
+            "Etzioni",
+            "A.",
+            "Etzioni O. ?Incorporating Ethics into Artificial Intelligence?, en The Journal of"
+          ],
+          "title": "Etzioni, A. y Etzioni O. ?Incorporating Ethics into Artificial Intelligence?, en The Journal of"
+        },
+        {
+          "raw_text": "Ethics, vol 21/4, pp. 403-418.",
+          "authors": [
+            "Ethics, vol 21/4, pp. 403-418"
+          ],
+          "title": "Ethics, vol 21/4, pp. 403-418"
+        },
+        {
+          "raw_text": "Mittelstadt, D. et al. ?The Ethic of Algorithms: Mapping the Debate?, en Big Data & Society, pp.",
+          "authors": [
+            "Mittelstadt",
+            "D. et al. ?The Ethic of Algorithms: Mapping the Debate?, en Big Data & Society, pp"
+          ],
+          "title": "Mittelstadt, D. et al. ?The Ethic of Algorithms: Mapping the Debate?, en Big Data & Society, pp"
+        },
+        {
+          "raw_text": "1-21, 2016.",
+          "authors": [
+            "1-21, 2016"
+          ],
+          "title": "1-21, 2016"
+        },
+        {
+          "raw_text": "Tegmark, M. ?Matter Turns Intelligent?, cap. 2 de Life 3.0. Being Human in the Age of Artificial Intelligence. Vintage Books, New York, 2017.",
+          "authors": [
+            "Tegmark",
+            "M. ?Matter Turns Intelligent?, cap. 2 de Life 3.0. Being Human in the Age of Artificial Intelligence. Vintage Books",
+            "New York, 2017"
+          ],
+          "title": "Tegmark, M. ?Matter Turns Intelligent?, cap. 2 de Life 3.0. Being Human in the Age of Artificial Intelligence. Vintage Books, New York, 2017"
+        },
+        {
+          "raw_text": "?Top 9 Ethical Issues in Artificial Intelligence?, World Economic Forum, 21 oct. 2016.",
+          "authors": [
+            "?Top 9 Ethical Issues in Artificial Intelligence?",
+            "World Economic Forum, 21 oct. 2016"
+          ],
+          "title": "?Top 9 Ethical Issues in Artificial Intelligence?, World Economic Forum, 21 oct. 2016"
+        },
+        {
+          "raw_text": "Van de Poel, I. y Kroes, P. ?Can Technology Embody Values??, en The Moral Status of Technical Artefacts. Kroes, P. y Verbeek, P. (eds.). Springer pp. 103-124, 2016.",
+          "authors": [
+            "Van de Poel",
+            "I.",
+            "Kroes",
+            "P. ?Can Technology Embody Values??, en The Moral Status of Technical Artefacts. Kroes",
+            "P."
+          ],
+          "title": "Van de Poel, I. y Kroes, P. ?Can Technology Embody Values??, en The Moral Status of Technical Artefacts. Kroes, P. y Verbeek, P. (eds.). Springer pp. 103-124, 2016"
+        },
+        {
+          "raw_text": "Wallach, W. y Colin, A. Moral Machines: Teaching Robots Right from Wrong, caps. 1-3. Oxford University Press, 2010.",
+          "authors": [
+            "Wallach",
+            "W.",
+            "Colin",
+            "A. Moral Machines: Teaching Robots Right from Wrong, caps. 1-3. Oxford University Press, 2010"
+          ],
+          "title": "Wallach, W. y Colin, A. Moral Machines: Teaching Robots Right from Wrong, caps. 1-3. Oxford University Press, 2010"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Bucher, T. If...Then: Algorithmic Power and Politics, caps. 1-3. Oxford University Press, 2018.",
+          "authors": [
+            "Bucher",
+            "T. If...Then: Algorithmic Power and Politics, caps. 1-3. Oxford University Press, 2018"
+          ],
+          "title": "Bucher, T. If...Then: Algorithmic Power and Politics, caps. 1-3. Oxford University Press, 2018"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "instituto": "FILOSOFIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "IMT3850": {
+    "filename": "IMT3850.pdf",
+    "extracted_at": "2025-06-23T16:39:14.772167",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "IMT3850",
+      "nombre": "FUNDAMENTOS MATEMATICOS PARA INTELIGENCIA ARTIFICIAL",
+      "traduccion": "MATHEMATICAL FOUNDATIONS FOR ARTIFICIAL INTELLIGENCE",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "FUNDAMENTOS",
+        "MATEMATICOS",
+        "DATA",
+        "SCIENCE"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes adquiriran las herramientas matematicas basicas para analizar los modelos y algoritmos detras del aprendizaje automatico e inteligencia artificial. En el curso, los estudiantes abordaran el algebra lineal, incluyendo ejemplos y aplicaciones en optimizacion y aprendizaje estadistico para posteriormente distinguir herramientas basicas de probabilidades, y aplicaciones a estadistica y ciencia de datos.",
+    "resultados_aprendizaje": [
+      "1.Distinguir conceptos basicos de algebra lineal y su aplicacion en inteligencia artificial.",
+      "2.Analizar los modelos y algoritmos que se encuentran en la base del aprendizaje de maquina.",
+      "3.Aplicar herramientas basicas de probabilidad, estadistica y ciencia de datos para resolver problemas de aprendizaje de maquina."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Espacios vectoriales: vectores, funciones lineales, normas, independencia lineal."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Matrices: operaciones con matrices, rango, diagonalizacion, descomposicion en valores"
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Ejemplos y aplicaciones: clustering, sistemas dinamicos lineales, minimos cuadrados, LASSO y"
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Probabilidades: eventos y probabilidades, variables aleatorias y ejemplos de distribuciones"
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Momentos y desvios: desigualdades de Markov, Chebyshev y Hoeffding."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Ejemplos y aplicaciones: Estimacion de parametros en altas dimensiones, minimizacion de riesgo"
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Metodos de gradiente para optimizacion estocastica: funciones convexas suaves, convergencia"
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "Dualidad Lagrangeana para minimizacion con restricciones, condiciones de KKT, y aplicacion al"
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Actividades practicas en clases."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 50.0,
+        "Tareas Aplicadas": 50.0,
+        "-Controles": 50.0,
+        "-Tareas Aplicadas": 50.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Boyd, S.,Vanderberghe, L.?Introduction to Applied Linear Algebra: Vectors, Matrices and Least Squares?,Cambridge University Press,2018",
+          "authors": [
+            "Boyd",
+            "S.",
+            "Vanderberghe",
+            "L.?Introduction to Applied Linear Algebra: Vectors",
+            "Matrices and Least Squares?"
+          ],
+          "title": "Boyd, S.,Vanderberghe, L.?Introduction to Applied Linear Algebra: Vectors, Matrices and Least Squares?,Cambridge University Press,2018"
+        },
+        {
+          "raw_text": "Mitzenmacher, M.,Upfal, E.?Probability and Computing. Randomization and Probabilistic Techniques in Algorithms and Data Analysis?,Cambridge University Press, 2017",
+          "authors": [
+            "Mitzenmacher",
+            "M.",
+            "Upfal",
+            "E.?Probability and Computing. Randomization and Probabilistic Techniques in Algorithms and Data Analysis?",
+            "Cambridge University Press, 2017"
+          ],
+          "title": "Mitzenmacher, M.,Upfal, E.?Probability and Computing. Randomization and Probabilistic Techniques in Algorithms and Data Analysis?,Cambridge University Press, 2017"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Boyd, S., Vanderberghe, L. ?Convex Optimization?, Cambridge University Press, 2004",
+          "authors": [
+            "Boyd",
+            "S.",
+            "Vanderberghe",
+            "L. ?Convex Optimization?",
+            "Cambridge University Press, 2004"
+          ],
+          "title": "Boyd, S., Vanderberghe, L. ?Convex Optimization?, Cambridge University Press, 2004"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "IMT3860": {
+    "filename": "IMT3860.pdf",
+    "extracted_at": "2025-06-23T16:39:14.857168",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "IMT3860",
+      "nombre": "INTRODUCCION A DATA SCIENCE",
+      "traduccion": "INTRODUCTION TO DATA SCIENCE",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "INTRODUCCION",
+        "DATA",
+        "SCIENCE"
+      ]
+    },
+    "descripcion": "Las organizaciones utilizan sus datos para apoyar la toma de decisiones, y para desarrollar productos y servicios intensivos en datos. El conjunto de competencias requeridas para apoyar estas funciones se ha agrupado bajo el termino Data Science. Este curso introduce a los alumnos a este campo de rapido crecimiento, describiendo sus principios basicos y las principales tecnicas y herramientas utilizadas. Los alumnos aprenderan sobre recoleccion e integracion de datos, analisis exploratorio de datos, analisis descriptivo y predictivo, y creacion de productos de informacion. Los temas seran tratados en amplitud, mas que en profundidad, haciendo enfasis en la integracion y sintesis de conceptos, y su aplicacion a la solucion de problemas.",
+    "resultados_aprendizaje": [
+      "1.Describir lo que es Data Science, y los conjuntos de habilidades necesarios para ser un cientifico de datos.",
+      "2.Explicar en terminos basicos lo que significa Inferencia Estadistica.",
+      "3.Explicar como almacenar datos en un Data Warehouse.",
+      "4.Describir las distintas etapas para el proceso de ETL (Extraccion, Transformacion y Carga de los datos)",
+      "5.Explicar la importancia del analisis exploratorio de datos en Data Science.",
+      "6.Aplicar el analisis exploratorio de datos y el proceso de Data Science a un estudio de caso.",
+      "7.Aplicar algoritmos basicos de aprendizaje de maquina para el analisis descriptivo.",
+      "8.Aplicar algoritmos basicos de aprendizaje de maquina para el analisis predictivo.",
+      "9.Analizar la importancia de una visualizacion efectiva de los datos.",
+      "10.Trabajar en equipos en proyectos de Data Science.",
+      "11.Describir problemas eticos y de privacidad que emergen en Data Science. --- PÁGINA {} ---"
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Introduccion a Data Science."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Inferencia Estadistica."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "2.Modelo Dimensional."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Proceso de ETL."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Proceso de Data Science."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Analisis Exploratorio."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Algoritmos basicos para analisis descriptivo."
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "Algoritmos basicos para analisis predictivo."
+      },
+      "9": {
+        "numero": "9",
+        "titulo": "Visualizacion de datos."
+      },
+      "10": {
+        "numero": "10",
+        "titulo": "Herramientas practicas (Python, Pandas, entre otros)"
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Cathy O?Neil and Rachel Schutt. ?Doing Data Science, Straight Talk from the Frontline?. O'Reilly",
+          "authors": [
+            "Cathy O?Neil and Rachel Schutt. ?Doing Data Science",
+            "Straight Talk from the Frontline?. O'Reilly"
+          ],
+          "title": "Cathy O?Neil and Rachel Schutt. ?Doing Data Science, Straight Talk from the Frontline?. O'Reilly"
+        },
+        {
+          "raw_text": "Media, 2013.",
+          "authors": [
+            "Media, 2013"
+          ],
+          "title": "Media, 2013"
+        },
+        {
+          "raw_text": "Foster Provost and Tom Fawcett. ?Data Science for Business: What you need to know about data mining and data-analytic thinking?. O'Reilly Media, 2013.",
+          "authors": [
+            "Foster Provost and Tom Fawcett. ?Data Science for Business: What you need to know about data mining and data-analytic thinking?. O'Reilly Media, 2013"
+          ],
+          "title": "Foster Provost and Tom Fawcett. ?Data Science for Business: What you need to know about data mining and data-analytic thinking?. O'Reilly Media, 2013"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "--- PÁGINA {} --- Wes McKinney. ?Python for data analysis: Data wrangling with Pandas, NumPy, and IPython?.",
+          "authors": [
+            "--- PÁGINA {} --- Wes McKinney. ?Python for data analysis: Data wrangling with Pandas",
+            "NumPy, and IPython?"
+          ],
+          "title": "--- PÁGINA {} --- Wes McKinney. ?Python for data analysis: Data wrangling with Pandas, NumPy, and IPython?"
+        },
+        {
+          "raw_text": "O'Reilly Media, 2017.",
+          "authors": [
+            "O'Reilly Media, 2017"
+          ],
+          "title": "O'Reilly Media, 2017"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "IMT3870": {
+    "filename": "IMT3870.pdf",
+    "extracted_at": "2025-06-23T16:39:14.935094",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "IMT3870",
+      "nombre": "COMPUTACION DE ALTO RENDIMIENTO",
+      "traduccion": "HIGH PERFORMANCE COMPUTING",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "TALLER"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA, COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "ALTO",
+        "RENDIMIENTO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes aprenderan tecnicas y conceptos basicos para desarrollar, analizar e implementar algoritmos paralelos escalables y como sus programas pueden hacer uso de las tecnologias modernas de computo de alto rendimiento. Se estudiaran problemas actuales y las tecnologias que permiten soportar este tipo de computo.",
+    "resultados_aprendizaje": [
+      "1.Describir las arquitecturas mas comunmente utilizadas en la construccion de plataformas de alto rendimiento y sus mecanismos asociados.",
+      "2.Utilizar modelos para describir y analizar el rendimiento de algoritmos que se ejecutan en plataformas de alto rendimiento.",
+      "3.Implementar programas en ambientes paralelos utilizando memoria compartida, paso de mensajes y arquitectura manycore para ver su desempe?o.",
+      "4.Aplicar tecnicas de computo de alto rendimiento en areas de data science, aprendizaje de maquina o computo cientifico."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "3.Sistemas de almacenamiento de alto rendimiento"
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "2.Experiencia practica: uso scheduler SLURM"
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "4.Experiencia practica: evaluacion de metricas"
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "3.Experiencia practica: analisis de rendimiento con OpenMP"
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "2.Experiencia practica: analisis de rendimiento con MPI"
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "2.Experiencia practica: analisis de rendimiento en GPU"
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "2.Experiencia practica: analisis de ejecucion en MIC"
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "2.Experiencia practica: analisis de rendimiento en aplicacion de Deep learning"
+      },
+      "9": {
+        "numero": "9",
+        "titulo": "2.Experiencia practica: bibliotecas de HPC en Python"
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Actividades practicas."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 20.0,
+        "Actividades practicas": 80.0,
+        "-Controles": 20.0,
+        "-Actividades practicas": 80.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Matloff, N. Programming on Parallel Machines; GPU, Multicore, Clusters and more. Disponible gratuitamente en: http://heather.cs.ucdavis.edu/parprocbook. Creative Commons License.",
+          "authors": [
+            "Matloff",
+            "N. Programming on Parallel Machines; GPU",
+            "Multicore",
+            "Clusters and more. Disponible gratuitamente en: http://heather.cs.ucdavis.edu/parprocbook. Creative Commons License"
+          ],
+          "title": "Matloff, N. Programming on Parallel Machines; GPU, Multicore, Clusters and more. Disponible gratuitamente en: http://heather.cs.ucdavis.edu/parprocbook. Creative Commons License",
+          "url": "http://heather.cs.ucdavis.edu/parprocbook."
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Grama, A., Gupta, A., Karypis, G., Kumar, V. Introduction to Parallel Computing. Pearson, 2003.",
+          "authors": [
+            "Grama",
+            "A.",
+            "Gupta",
+            "A.",
+            "Karypis"
+          ],
+          "title": "Grama, A., Gupta, A., Karypis, G., Kumar, V. Introduction to Parallel Computing. Pearson, 2003"
+        },
+        {
+          "raw_text": "http://www-users.cs.umn.edu/~karypis/parbook/ --- PÁGINA {} --- McCool, M., Robinson, A., Reinders, J., Kauffman, M. Structured Parallel Programming: Patterns for Efficiente Computation. Elsevier, 2012",
+          "authors": [
+            "http://www-users.cs.umn.edu/~karypis/parbook/ --- PÁGINA {} --- McCool",
+            "M.",
+            "Robinson",
+            "A.",
+            "Reinders"
+          ],
+          "title": "http://www-users.cs.umn.edu/~karypis/parbook/ --- PÁGINA {} --- McCool, M., Robinson, A., Reinders, J., Kauffman, M. Structured Parallel Programming: Patterns for Efficiente Computation. Elsevier, 2012",
+          "url": "http://www-users.cs.umn.edu/~karypis/parbook/"
+        },
+        {
+          "raw_text": "Matloff, N. Parallel Computing for Data Science: With Examples in R, C++ and CUDA. Chapman and",
+          "authors": [
+            "Matloff",
+            "N. Parallel Computing for Data Science: With Examples in R",
+            "C++ and CUDA. Chapman and"
+          ],
+          "title": "Matloff, N. Parallel Computing for Data Science: With Examples in R, C++ and CUDA. Chapman and"
+        },
+        {
+          "raw_text": "Hall, 2015.",
+          "authors": [
+            "Hall, 2015"
+          ],
+          "title": "Hall, 2015"
+        },
+        {
+          "raw_text": "Eijkhout, V. Introduction to High-Performance Scientific Computing. lulu.com, 2011.",
+          "authors": [
+            "Eijkhout",
+            "V. Introduction to High-Performance Scientific Computing. lulu.com, 2011"
+          ],
+          "title": "Eijkhout, V. Introduction to High-Performance Scientific Computing. lulu.com, 2011"
+        },
+        {
+          "raw_text": "https://bitbucket.org/VictorEijkhout/hpc-book-and-course",
+          "authors": [
+            "https://bitbucket.org/VictorEijkhout/hpc-book-and-course"
+          ],
+          "title": "https://bitbucket.org/VictorEijkhout/hpc-book-and-course",
+          "url": "https://bitbucket.org/VictorEijkhout/hpc-book-and-course"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3250": {
+    "filename": "INF3250.pdf",
+    "extracted_at": "2025-06-23T16:39:15.025185",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3250",
+      "nombre": "SEGURIDAD COMPUTACIONAL",
+      "traduccion": "COMPUTATIONAL SECURITY",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "SEGURIDAD",
+        "COMPUTACIONAL"
+      ]
+    },
+    "descripcion": "El curso es una introduccion a la seguridad computacional, tan importante pero, a la vez subvaluada hoy en dia. Los estudiantes aprenderan conceptos basicos y herramientas para distinguir vulnerabilidades, ataques y fallas de politicas en las que caen muchas veces las organizaciones, principalmente por ignorancia respecto de esta area.",
+    "resultados_aprendizaje": [
+      "1.Explicar conceptos basicos de Seguridad de la Informacion que deben ser abordados en una organizacion.",
+      "2.Distinguir vulnerabilidades y riesgos en el tratamiento de informacion, y controles de seguridad aplicables a estos, por un especialista de seguridad.",
+      "3.Identificar herramientas que permitan controlar riesgos de seguridad de la informacion en una organizacion.",
+      "4.Valorar las certificaciones, estandares y procedimientos de seguridad que debe implementar un especialista de seguridad.",
+      "5.Proponer soluciones ante situaciones y riesgos que atenten contra la confidencialidad, integridad y disponibilidad de la informacion empresarial."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Introduccion y preliminares."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Malware y vulnerabilidades."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Criptografia."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Seguridad de Redes."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Seguridad de software."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Gestion de seguridad empresarial."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Privacidad y proteccion de datos personales."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Discusion en clases."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 60.0,
+        "Examen": 40.0,
+        "-Controles": 60.0,
+        "-Examen": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Silowash, et al. \"Common sense guide to mitigating insider threats\", Cuarta Edicion, CMU-SEI, 2012.",
+          "authors": [
+            "Silowash, et al. \"Common sense guide to mitigating insider threats\"",
+            "Cuarta Edicion",
+            "CMU-SEI, 2012"
+          ],
+          "title": "Silowash, et al. \"Common sense guide to mitigating insider threats\", Cuarta Edicion, CMU-SEI, 2012"
+        },
+        {
+          "raw_text": "\"Cisco 2014 Annual Security Report\", CISCO, 2014.",
+          "authors": [
+            "\"Cisco 2014 Annual Security Report\"",
+            "CISCO, 2014"
+          ],
+          "title": "\"Cisco 2014 Annual Security Report\", CISCO, 2014"
+        },
+        {
+          "raw_text": "\"Global State of Information Security Survey 2015\", PwC, 2014.",
+          "authors": [
+            "\"Global State of Information Security Survey 2015\"",
+            "PwC, 2014"
+          ],
+          "title": "\"Global State of Information Security Survey 2015\", PwC, 2014"
+        },
+        {
+          "raw_text": "?2014 Data Breach Investigations Report?, Verizon, 2014.",
+          "authors": [
+            "?2014 Data Breach Investigations Report?",
+            "Verizon, 2014"
+          ],
+          "title": "?2014 Data Breach Investigations Report?, Verizon, 2014"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "?The Critical Security Controls for Effective Cyber Defense? version 5.0, Counsil on",
+          "authors": [
+            "?The Critical Security Controls for Effective Cyber Defense? version 5.0",
+            "Counsil on"
+          ],
+          "title": "?The Critical Security Controls for Effective Cyber Defense? version 5.0, Counsil on"
+        },
+        {
+          "raw_text": "Cybersecurity, 2014.",
+          "authors": [
+            "Cybersecurity, 2014"
+          ],
+          "title": "Cybersecurity, 2014"
+        },
+        {
+          "raw_text": "?The Anatomy of an Anonymous Attack?, Imperva, 2012.",
+          "authors": [
+            "?The Anatomy of an Anonymous Attack?",
+            "Imperva, 2012"
+          ],
+          "title": "?The Anatomy of an Anonymous Attack?, Imperva, 2012"
+        },
+        {
+          "raw_text": "Shostack, ?Threat Modeling: Designing for Security?, Wiley, 2014.",
+          "authors": [
+            "Shostack, ?Threat Modeling: Designing for Security?",
+            "Wiley, 2014"
+          ],
+          "title": "Shostack, ?Threat Modeling: Designing for Security?, Wiley, 2014"
+        },
+        {
+          "raw_text": "?OWASP Top 10?, OWASP, 2013.",
+          "authors": [
+            "?OWASP Top 10?",
+            "OWASP, 2013"
+          ],
+          "title": "?OWASP Top 10?, OWASP, 2013"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3262": {
+    "filename": "INF3262.pdf",
+    "extracted_at": "2025-06-23T16:39:15.113107",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3262",
+      "nombre": "GESTION DE PROCESOS DE NEGOCIO",
+      "traduccion": "BUSINESS PROCESS MANAGEMENT",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA"
+      ],
+      "calificacion": "ESTANDAR",
+      "palabras_clave": [
+        "PROCESOS DE NEGOCIO",
+        "DESCUBRIMIENTO DE PROCESOS",
+        "MODELACION DE PROCESOS",
+        "METRICAS"
+      ],
+      "nivel_formativo": "MAGISTER"
+    },
+    "descripcion": "En este curso el estudiante aprendera que son los procesos de negocio y por que es relevante su gestion en las organizaciones, y conocera una metodologia sistematica de analisis para mejorar a los procesos organizacionales. Se pone enfasis en que el estudiante aprenda a analizar procesos de negocios, tanto desde la perspectiva del valor que estos entregan como desde la optica tecnologica. En clases se explicaran las tecnicas y herramientas de analisis, y se desarrollaran actividades practicas en base a casos concretos. Las evaluaciones mediran la capacidad del estudiante de aplicar lo aprendido a casos practicos.",
+    "resultados_aprendizaje": [
+      "1.Valorar herramientas para la gestion de procesos de negocio.",
+      "2.Aplicar tecnicas y herramientas para describir y modelar procesos de negocio.",
+      "3.Aplicar una metodologia sistematica para analizar procesos de negocio.",
+      "4.Aplicar tecnicas y herramientas para definir metricas para evaluar el desempe?o de procesos de negocio.",
+      "5.Aplicar una metodologia sistematica para identificar oportunidades de mejora a procesos de negocio."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Procesos de Negocio."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Descubrimiento de procesos de negocio."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Madurez de los procesos de negocio."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Modelacion de procesos de negocio."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Metricas de procesos de negocio."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Mejora de procesos de negocio."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Mineria de procesos de negocio."
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "Habilidades del modelador."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Analisis de casos.",
+      "Actividades practicas de trabajo grupal."
+    ],
+    "evaluacion": {
+      "items": {
+        "Tareas de aplicacion": 60.0,
+        "Examen": 40.0,
+        "-Tareas de aplicacion": 60.0,
+        "-Examen": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Dumas M., La Rosa M., Mendling J., Reijers H.A., ?Fundamentals of Business Process Management?.",
+          "authors": [
+            "Dumas M.",
+            "La Rosa M.",
+            "Mendling J.",
+            "Reijers H.A., ?Fundamentals of Business Process Management?"
+          ],
+          "title": "Dumas M., La Rosa M., Mendling J., Reijers H.A., ?Fundamentals of Business Process Management?"
+        },
+        {
+          "raw_text": "2nd edition, Springer, 2018.",
+          "authors": [
+            "2nd edition",
+            "Springer, 2018"
+          ],
+          "title": "2nd edition, Springer, 2018"
+        },
+        {
+          "raw_text": "Hitpass, B., Freund J., Rucker B., ?BPMN: Manual de Referencia y Guia Practica?, 5ta edicion, BPM Center, 2017.",
+          "authors": [
+            "Hitpass",
+            "B.",
+            "Freund J.",
+            "Rucker B., ?BPMN: Manual de Referencia",
+            "Guia Practica?, 5ta edicion"
+          ],
+          "title": "Hitpass, B., Freund J., Rucker B., ?BPMN: Manual de Referencia y Guia Practica?, 5ta edicion, BPM Center, 2017"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Hitpass, B., ?Business Process Management (BPM) Fundamentos y Conceptos de Implementacion?, 4ta edicion, BPM Center, 2017.",
+          "authors": [
+            "Hitpass",
+            "B., ?Business Process Management (BPM) Fundamentos",
+            "Conceptos de Implementacion?, 4ta edicion",
+            "BPM Center, 2017"
+          ],
+          "title": "Hitpass, B., ?Business Process Management (BPM) Fundamentos y Conceptos de Implementacion?, 4ta edicion, BPM Center, 2017"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "NOVIEMBRE 2020",
+      "mes": "NOVIEMBRE",
+      "año": 2020
+    }
+  },
+  "INF3571": {
+    "filename": "INF3571.pdf",
+    "extracted_at": "2025-06-23T16:39:15.176451",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3571",
+      "nombre": "ASPECTOS LEGALES DE CIBERSEGURIDAD Y PROTECCION DE DATOS",
+      "traduccion": "LEGAL ASPECTS OF CYBERSECURITY AND DATA PROTECTION",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA"
+      ],
+      "calificacion": "ESTANDAR",
+      "palabras_clave": [
+        "PROTECCION DE DATOS",
+        "CIBERSEGURIDAD",
+        "ESTRATEGIA DIGITAL"
+      ],
+      "nivel_formativo": "MAGISTER"
+    },
+    "descripcion": "En esta asignatura los estudiantes adquiriran conocimiento teorico del marco regulatorio de la ciberseguridad y los principales aspectos legales de las nuevas tecnologias de informacion a nivel nacional, y de esta manera, familiarizarse con los temas juridicos mas recurrentes en el contexto de transformacion digital. Las clases seran teoricas, en las cuales se revisara la regulacion y se analizaran casos. Por otra parte, las evaluaciones consideran control de lecturas y exposiciones grupales sobre un proyecto definido en clases.",
+    "resultados_aprendizaje": [
+      "1.Evaluar regulaciones y estrategias nacionales en materias de tecnologias de informacion, ciberseguridad y proteccion de datos considerando la legislacion vigente como las reformas que se estan analizando a nivel nacional.",
+      "2.Analizar el rol de los datos y la proteccion de la seguridad de la informacion en el contexto de transformacion digital, tanto de las empresas como en el Estado.",
+      "3.Aplicar la mirada legal en el entorno de las tecnologias, para detectar problemas, necesidades y requerimientos en el entorno laboral."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "3.La regulacion de Internet en Chile."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "3.El teletrabajo en el mundo y en Chile, concepto, definicion, caracteristicas, efectos"
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "3.La Ley de Delitos Informaticos en Chile (Ley N? 19.223) y el proyecto de reforma."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "3.Proteccion del consumidor (Ley del consumidor y las operaciones de comercio electronico)."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "3.Gobierno de datos en la organizacion y uso de la Inteligencia artificial (IA)"
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "3.Licencias de software. La proteccion juridica del software."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "3.Politica Nacional de Inteligencia Artificial (PNIA)."
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "3.Cloud computing, aspectos contractuales criticos, roles y responsabilidades."
+      }
+    },
+    "metodologias": [
+      "Catedra.",
+      "Aprendizaje basado en problemas.",
+      "Estudio de casos."
+    ],
+    "evaluacion": {
+      "items": {
+        "Exposiciones grupales": 50.0,
+        "Control de lectura": 50.0,
+        "-Exposiciones grupales": 50.0,
+        "-Control de lectura": 50.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Compliance. Como gestionar los riesgos normativos en la empresa, Sainz. A., Thomson Reuters, 2016.",
+          "authors": [
+            "Compliance. Como gestionar los riesgos normativos en la empresa",
+            "Sainz. A.",
+            "Thomson Reuters, 2016"
+          ],
+          "title": "Compliance. Como gestionar los riesgos normativos en la empresa, Sainz. A., Thomson Reuters, 2016"
+        },
+        {
+          "raw_text": "--- PÁGINA {} --- Compliance. Cumplimiento, normativa y seguridad en la empresa, Ecija. A., Thomson Reuters, 2010.",
+          "authors": [
+            "--- PÁGINA {} --- Compliance. Cumplimiento, normativa",
+            "seguridad en la empresa",
+            "Ecija. A.",
+            "Thomson Reuters, 2010"
+          ],
+          "title": "--- PÁGINA {} --- Compliance. Cumplimiento, normativa y seguridad en la empresa, Ecija. A., Thomson Reuters, 2010"
+        },
+        {
+          "raw_text": "Criptoactivos retos y desafios normativos, Barrios, M., Wolter Kluwer, 2021.",
+          "authors": [
+            "Criptoactivos retos",
+            "desafios normativos",
+            "Barrios",
+            "M.",
+            "Wolter Kluwer, 2021"
+          ],
+          "title": "Criptoactivos retos y desafios normativos, Barrios, M., Wolter Kluwer, 2021"
+        },
+        {
+          "raw_text": "El Derecho del Trabajo en las nuevas tecnologias, Lizama L., Lizama D., Ediciones DER, 2020.",
+          "authors": [
+            "El Derecho del Trabajo en las nuevas tecnologias",
+            "Lizama L.",
+            "Lizama D.",
+            "Ediciones DER, 2020"
+          ],
+          "title": "El Derecho del Trabajo en las nuevas tecnologias, Lizama L., Lizama D., Ediciones DER, 2020"
+        },
+        {
+          "raw_text": "Ley 19.628 del a?o 1999 sobre Proteccion de la Vida Privada.",
+          "authors": [
+            "Ley 19.628 del a?o 1999 sobre Proteccion de la Vida Privada"
+          ],
+          "title": "Ley 19.628 del a?o 1999 sobre Proteccion de la Vida Privada"
+        },
+        {
+          "raw_text": "Ley 19.223 del a?o 1993 sobre delitos Informaticos.",
+          "authors": [
+            "Ley 19.223 del a?o 1993 sobre delitos Informaticos"
+          ],
+          "title": "Ley 19.223 del a?o 1993 sobre delitos Informaticos"
+        },
+        {
+          "raw_text": "Politica Nacional de Ciberseguridad del a?o 2017.",
+          "authors": [
+            "Politica Nacional de Ciberseguridad del a?o 2017"
+          ],
+          "title": "Politica Nacional de Ciberseguridad del a?o 2017"
+        },
+        {
+          "raw_text": "Politica Nacional de Inteligencia Artificial del a?o 2021.",
+          "authors": [
+            "Politica Nacional de Inteligencia Artificial del a?o 2021"
+          ],
+          "title": "Politica Nacional de Inteligencia Artificial del a?o 2021"
+        },
+        {
+          "raw_text": "Reglamento de Comercio Electronico del a?o 2021.",
+          "authors": [
+            "Reglamento de Comercio Electronico del a?o 2021"
+          ],
+          "title": "Reglamento de Comercio Electronico del a?o 2021"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Big Data, Cloud computing y otros retos juridicos planteados por las tecnologias emergentes, Martinez A., Thomson Reuters, 2019.",
+          "authors": [
+            "Big Data",
+            "Cloud computing",
+            "otros retos juridicos planteados por las tecnologias emergentes",
+            "Martinez A.",
+            "Thomson Reuters, 2019"
+          ],
+          "title": "Big Data, Cloud computing y otros retos juridicos planteados por las tecnologias emergentes, Martinez A., Thomson Reuters, 2019"
+        },
+        {
+          "raw_text": "Nuevos retos de la ciberseguridad en un contexto cambiante, Mallada C., Thomson Reuters, 2019.",
+          "authors": [
+            "Nuevos retos de la ciberseguridad en un contexto cambiante",
+            "Mallada C.",
+            "Thomson Reuters, 2019"
+          ],
+          "title": "Nuevos retos de la ciberseguridad en un contexto cambiante, Mallada C., Thomson Reuters, 2019"
+        },
+        {
+          "raw_text": "Fintech, Regtech y Legaltech, fundamentos y desafios regulatorios, Gurrea A., Remolina N., Tiran lo Blanch, 2020.",
+          "authors": [
+            "Fintech",
+            "Regtech",
+            "Legaltech, fundamentos",
+            "desafios regulatorios",
+            "Gurrea A."
+          ],
+          "title": "Fintech, Regtech y Legaltech, fundamentos y desafios regulatorios, Gurrea A., Remolina N., Tiran lo Blanch, 2020"
+        },
+        {
+          "raw_text": "Ciberseguridad, Memento, Francis Lefebvre, 2021.",
+          "authors": [
+            "Ciberseguridad",
+            "Memento",
+            "Francis Lefebvre, 2021"
+          ],
+          "title": "Ciberseguridad, Memento, Francis Lefebvre, 2021"
+        },
+        {
+          "raw_text": "Cloud Computing. Regimen Juridico para empresarios. Rosello F., Thomson Reuters, 2018.",
+          "authors": [
+            "Cloud Computing. Regimen Juridico para empresarios. Rosello F.",
+            "Thomson Reuters, 2018"
+          ],
+          "title": "Cloud Computing. Regimen Juridico para empresarios. Rosello F., Thomson Reuters, 2018"
+        },
+        {
+          "raw_text": "Seguridad y responsabilidad en Internet de las Cosas(IoT), Llaneza,P.,Wolter Kluwer, 2018.",
+          "authors": [
+            "Seguridad",
+            "responsabilidad en Internet de las Cosas(IoT)",
+            "Llaneza",
+            "P.",
+            "Wolter Kluwer, 2018"
+          ],
+          "title": "Seguridad y responsabilidad en Internet de las Cosas(IoT), Llaneza,P.,Wolter Kluwer, 2018"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "NOVIEMBRE 2021",
+      "mes": "NOVIEMBRE",
+      "año": 2021
+    }
+  },
+  "INF3801": {
+    "filename": "INF3801.pdf",
+    "extracted_at": "2025-06-23T16:39:15.311335",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3801",
+      "nombre": "MINERIA DE MEDIOS SOCIALES Y CIENCIA DE REDES",
+      "traduccion": "SOCIAL MEDIA MINING AND NETWORK SCIENCE",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "MEDIOS",
+        "SOCIALES",
+        "REDES",
+        "MINERIA"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran los conceptos basicos y algoritmos fundamentales apropiados para la investigacion de datos masivos de medios sociales, comparando teorias y metodologias desde distintas disciplinas como ciencia de la computacion, ciencia de redes, mineria de datos, aprendizaje de maquinas, analisis de redes sociales, sociologia, etnografia, estadistica y matematicas. Ademas los estudiantes adquiriran herramientas para representar, medir, modelar, y extraer patrones significativos para datos sociales de gran escala.",
+    "resultados_aprendizaje": [
+      "1.Analizar datos de medios sociales por medio de teorias sociales y computacionales.",
+      "2.Relacionar las teorias sociales y computacionales y el mundo de los medios sociales a traves del uso de herramientas computacionales."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "4.Nuevos desafios en la mineria de medios sociales"
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "4.Algoritmos de Grafos"
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "4.Similaridad"
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "4.Modelo Preferential Attachment"
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "4.Aprendizaje No Supervisado"
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "3.Evaluacion de Comunidades"
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "4.Modelos de Epidemias"
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "4.Distinguiendo Influencia y Homofilia"
+      },
+      "9": {
+        "numero": "9",
+        "titulo": "3.Analiticas de Comportamiento Colectivo"
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "--- PÁGINA {} ---",
+          "authors": [
+            "--- PÁGINA {} ---"
+          ],
+          "title": "--- PÁGINA {} ---"
+        },
+        {
+          "raw_text": "Zafarani, R., Abbasi, M. A., & Liu, H. (2014). Social media mining: an introduction. Cambridge University Press.",
+          "authors": [
+            "Zafarani",
+            "R.",
+            "Abbasi",
+            "M. A., & Liu",
+            "H"
+          ],
+          "year": 2014
+        },
+        {
+          "raw_text": "Barabasi, A. (2016) Network Science. Cambridge University Press.",
+          "authors": [
+            "Barabasi",
+            "A"
+          ],
+          "year": 2016
+        },
+        {
+          "raw_text": "Easley, D., & Kleinberg, J. (2010). Networks, crowds, and markets. Cambridge Univ Press, 6(1), 1-6.",
+          "authors": [
+            "Easley",
+            "D., & Kleinberg",
+            "J"
+          ],
+          "year": 2010
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Jackson, M. O. (2010). Social and economic networks. Princeton university press.",
+          "authors": [
+            "Jackson",
+            "M. O"
+          ],
+          "year": 2010
+        },
+        {
+          "raw_text": "Kraut, R. E., Resnick, P., Kiesler, S., Burke, M., Chen, Y., Kittur, N., ... & Riedl, J. (2012).",
+          "authors": [
+            "Kraut",
+            "R. E.",
+            "Resnick",
+            "P.",
+            "Kiesler"
+          ],
+          "title": "S., Burke, M., Chen, Y., Kittur, N., ... & Riedl, J",
+          "year": 2012
+        },
+        {
+          "raw_text": "Building successful online communities: Evidence-based social design. Mit Press.",
+          "authors": [
+            "Building successful online communities: Evidence-based social design. Mit Press"
+          ],
+          "title": "Building successful online communities: Evidence-based social design. Mit Press"
+        },
+        {
+          "raw_text": "Liu, H., Salerno, J., & Young, M. J. (Eds.). (2009). Social computing and behavioral modeling.",
+          "authors": [
+            "Liu",
+            "H.",
+            "Salerno",
+            "J., & Young",
+            "M. J. (Eds.)"
+          ],
+          "year": 2009
+        },
+        {
+          "raw_text": "Springer Science & Business Media.",
+          "authors": [
+            "Springer Science & Business Media"
+          ],
+          "title": "Springer Science & Business Media"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3803": {
+    "filename": "INF3803.pdf",
+    "extracted_at": "2025-06-23T16:39:15.399271",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3803",
+      "nombre": "MINERIA DE PROCESOS",
+      "traduccion": "PROCESS MINING",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "TALLER"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA, COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "MINERIA",
+        "PROCESOS"
+      ]
+    },
+    "descripcion": "El curso presenta un estado del arte en Mineria de Procesos (Process Mining), disciplina conocida como ?Data Science para Procesos?. En este curso los estudiantes analizaran los datos generados por los sistemas de informacion sobre los procesos de negocio que apoyan, para poder entender, monitorear, analizar y mejorar dichos procesos. Para ello, se presentaran las metodologias, algoritmos y software que permiten analizar procesos de negocio a partir de los datos. En este curso, los estudiantes tendran la oportunidad de realizar actividades practicas, que les permitan entender cuales son el potencial y los limites del estado del estado del arte actual.",
+    "resultados_aprendizaje": [
+      "1.Identificar los fundamentos teoricos detras de las tecnicas y algoritmos en el estado del arte de Mineria de Procesos.",
+      "2.Describir las distintas tecnicas y algoritmos de Mineria de Procesos identificando las condiciones donde funcionan correctamente y cuales son sus limitaciones.",
+      "3.Extraer datos de los sistemas de informacion organizacionales y prepararlos para utilizar las tecnicas y algoritmos de Mineria de Procesos.",
+      "4.Aplicar distintas tecnicas y algoritmos de Mineria de Procesos interpretando los resultados para proponer mejoras concretas a los procesos de negocio analizados.",
+      "5.Proponer mejoras en el proceso de negocio a partir de la informacion analizada.",
+      "6.Utilizar herramientas de apoyo y software de Mineria de Procesos."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Introduccion a la mineria de procesos."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Almacenamiento y Obtencion de Informacion en Logs Orientados a Procesos."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Descubrimiento de Procesos."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Chequeo de Conformidad en Procesos."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Analisis y Mejora de Procesos."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Actividades practicas.",
+      "Aprendizaje basado en proyectos."
+    ],
+    "evaluacion": {
+      "items": {
+        "Proyectos": 80.0,
+        "Control": 20.0,
+        "-Proyectos": 80.0,
+        "-Control": 20.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Wil M. P. van der Aalst: Process Mining - Data Science in Action, Second Edition. Springer 2016, ISBN 978-3-662-49850-7, pp. 1-452",
+          "authors": [
+            "Wil M. P. van der Aalst: Process Mining - Data Science in Action",
+            "Second Edition. Springer 2016",
+            "ISBN 978-3-662-49850-7, pp. 1-452"
+          ],
+          "title": "Wil M. P. van der Aalst: Process Mining - Data Science in Action, Second Edition. Springer 2016, ISBN 978-3-662-49850-7, pp. 1-452"
+        },
+        {
+          "raw_text": "Jorge Munoz-Gama: Conformance Checking and Diagnosis in Process Mining - Comparing Observed and Modeled Processes. Springer 2016, ISBN 978-3-319-49450-0, pp. 1-195",
+          "authors": [
+            "Jorge Munoz-Gama: Conformance Checking and Diagnosis in Process Mining - Comparing Observed and Modeled Processes. Springer 2016",
+            "ISBN 978-3-319-49450-0, pp. 1-195"
+          ],
+          "title": "Jorge Munoz-Gama: Conformance Checking and Diagnosis in Process Mining - Comparing Observed and Modeled Processes. Springer 2016, ISBN 978-3-319-49450-0, pp. 1-195"
+        },
+        {
+          "raw_text": "Marlon Dumas, Marcello La Rosa, Jan Mendling, Hajo A. Reijers: Fundamentals of Business Process Management. Springer 2013, ISBN 978-3-642-33142-8, pp. I-XXVII, 1-399",
+          "authors": [
+            "Marlon Dumas",
+            "Marcello La Rosa",
+            "Jan Mendling",
+            "Hajo A. Reijers: Fundamentals of Business Process Management. Springer 2013",
+            "ISBN 978-3-642-33142-8, pp. I-XXVII, 1-399"
+          ],
+          "title": "Marlon Dumas, Marcello La Rosa, Jan Mendling, Hajo A. Reijers: Fundamentals of Business Process Management. Springer 2013, ISBN 978-3-642-33142-8, pp. I-XXVII, 1-399"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Wil M. P. van der Aalst, Christian Stahl: Modeling Business Processes - A Petri Net-Oriented Approach. Cooperative Information Systems series, MIT Press 2011, ISBN 978-0-262-01538-7, pp. I- XII, 1-386",
+          "authors": [
+            "Wil M. P. van der Aalst",
+            "Christian Stahl: Modeling Business Processes - A Petri Net-Oriented Approach. Cooperative Information Systems series",
+            "MIT Press 2011",
+            "ISBN 978-0-262-01538-7, pp. I- XII, 1-386"
+          ],
+          "title": "Wil M. P. van der Aalst, Christian Stahl: Modeling Business Processes - A Petri Net-Oriented Approach. Cooperative Information Systems series, MIT Press 2011, ISBN 978-0-262-01538-7, pp. I- XII, 1-386"
+        },
+        {
+          "raw_text": "Ronny Mans, Wil M. P. van der Aalst, Rob J. B. Vanwersch: Process Mining in Healthcare - Evaluating and Exploiting Operational Healthcare Processes. Springer Briefs in Business Process",
+          "authors": [
+            "Ronny Mans",
+            "Wil M. P. van der Aalst",
+            "Rob J. B. Vanwersch: Process Mining in Healthcare - Evaluating and Exploiting Operational Healthcare Processes. Springer Briefs in Business Process"
+          ],
+          "title": "Ronny Mans, Wil M. P. van der Aalst, Rob J. B. Vanwersch: Process Mining in Healthcare - Evaluating and Exploiting Operational Healthcare Processes. Springer Briefs in Business Process"
+        },
+        {
+          "raw_text": "Management, Springer 2015, ISBN 978-3-319-16070-2, pp. 1-91",
+          "authors": [
+            "Management",
+            "Springer 2015",
+            "ISBN 978-3-319-16070-2, pp. 1-91"
+          ],
+          "title": "Management, Springer 2015, ISBN 978-3-319-16070-2, pp. 1-91"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3812": {
+    "filename": "INF3812.pdf",
+    "extracted_at": "2025-06-23T16:39:15.508377",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3812",
+      "nombre": "DEEP LEARNING",
+      "traduccion": "DEEP LEARNING",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA, COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "DEEP",
+        "LEARNING"
+      ]
+    },
+    "descripcion": "Este curso es una introduccion a las tecnicas de Deep Learning, donde los estudiantes analizaran los aspectos centrales de la teoria, los distintos modelos y las aplicaciones del aprendizaje de maquina. Ademas, el curso considera un gran volumen de trabajo practico, donde se implementaran y entrenaran diversos modelos de Deep Learning.",
+    "resultados_aprendizaje": [],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "3 Elementos basicos de aprendizaje de maquina."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Perceptron y redes feedforward."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Redes multicapa."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Redes convolucionales profundas."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Aplicaciones."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas y practicas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {},
+      "total_verificado": false,
+      "suma_porcentajes": 0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "I. Goodfellow, Y. Bengio, A. Courville; Deep Learning; MIT Press; 2016.",
+          "authors": [
+            "I. Goodfellow",
+            "Y. Bengio",
+            "A. Courville; Deep Learning; MIT Press; 2016"
+          ],
+          "title": "I. Goodfellow, Y. Bengio, A. Courville; Deep Learning; MIT Press; 2016"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Chollet, F; Deep Learning with Python; Manning Publications; 2017.",
+          "authors": [
+            "Chollet",
+            "F; Deep Learning with Python; Manning Publications; 2017"
+          ],
+          "title": "Chollet, F; Deep Learning with Python; Manning Publications; 2017"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3813": {
+    "filename": "INF3813.pdf",
+    "extracted_at": "2025-06-23T16:39:15.566101",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3813",
+      "nombre": "DEEP LEARNING AVANZADO",
+      "traduccion": "ADVANCED DEEP LEARNING",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "DEEP",
+        "LEARNING",
+        "AVANZADO"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran tecnicas avanzadas de Deep Learning, que permiten solucionar problemas previamente inalcanzables, y ademas construir modelos altamente complejos, que seran la base de los sistemas inteligentes del futuro. El curso considera un gran volumen de trabajo practico, donde se implementaran, entrenaran y evaluaran diversos modelos complejos de Deep Learning.",
+    "resultados_aprendizaje": [
+      "1.Analizar modelos complejos de Deep Learning distinguiendo sus caracteristicas y areas de aplicacion para el aprendizaje de maquina.",
+      "2.Usar frameworks especializados, como TensorFlow o PyTorch, para entrenar y evaluar modelos avanzados de redes neuronales profundas, utilizando grandes volumenes de datos.",
+      "3.Dise?ar sistemas con arquitecturas complejas, que combinen distintos tipos de modelos basicos y avanzados de Deep Learning."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Redes recurrentes."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Autoencoders."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Redes adversarias generativas."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Memory Networks."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Combinacion de modelos."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas y practicas.",
+      "-- PÁGINA {} ---",
+      "Talleres de Laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 50.0,
+        "Actividades practicas en laboratorio": 50.0,
+        "-Controles": 50.0,
+        "-Actividades practicas en laboratorio": 50.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "I. Goodfellow, Y. Bengio, A. Courville; Deep Learning; MIT Press; 2016.",
+          "authors": [
+            "I. Goodfellow",
+            "Y. Bengio",
+            "A. Courville; Deep Learning; MIT Press; 2016"
+          ],
+          "title": "I. Goodfellow, Y. Bengio, A. Courville; Deep Learning; MIT Press; 2016"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "F. Chollet; Deep Learning with Python; Manning Publications; 2017.",
+          "authors": [
+            "F. Chollet; Deep Learning with Python; Manning Publications; 2017"
+          ],
+          "title": "F. Chollet; Deep Learning with Python; Manning Publications; 2017"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3820": {
+    "filename": "INF3820.pdf",
+    "extracted_at": "2025-06-23T16:39:15.626315",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3820",
+      "nombre": "PROCESAMIENTO Y ENTENDIMIENTO DE LENGUAJE NATURAL",
+      "traduccion": "NATURAL LANGUAGE PROCESSING AND UNDERSTANDING",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA"
+      ],
+      "calificacion": "ESTANDAR",
+      "palabras_clave": [
+        "CIENCIA DE DATOS",
+        "LENGUAJE NATURAL",
+        "MODELOS GENERATIVOS",
+        "GRANDES MODELOS DE LENGUAJE"
+      ],
+      "nivel_formativo": "MAGISTER"
+    },
+    "descripcion": "En este curso los y las estudiantes podran conocer el estado del arte de las tecnicas y modelos de tratamiento, procesamiento, entendimiento de lenguaje natural, desde tecnicas de pre- procesamiento, vectorizacion de texto, hasta las caracteristicas de los grandes modelos generativos de lenguaje. Las principales metodologias de este curso son el estudio de casos y los talleres.",
+    "resultados_aprendizaje": [
+      "1.Reconocer los desafios del tratamiento de lenguaje natural, desde la diversidad de lenguaje, hasta la escritura empirica, con errores de diverso tipo.",
+      "2.Describir los diferentes objetivos en NLP, como clasificacion de texto, extraccion de entidades, comparacion de texto, generacion de texto en contextos de valor de negocio, como es el caso de estudios legales, seleccion de RRHH, evaluacion de conocimiento, entre otros posibles ambitos.",
+      "3.Reconocer los desafios de recolectar y gestionar grandes conjuntos de datos de referencia para entrenamiento, ademas de la gestion de etiquetado y de validacion de calidad.",
+      "4.Analizar los modelos y las herramientas mas usadas actualmente para la gestion, procesamiento, entendimiento y generacion de lenguaje, desde modelos de Machine Learning mas tradicionales, hasta Redes Neuronales Profundas."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "3.Enfrentando la diversidad linguistica."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "5.Word Embedding."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "2.Metricas y Rendimiento."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "2.Entrenamiento y ajustes."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "3.Desafios en Entendimiento de Lenguaje Natural."
+      }
+    },
+    "metodologias": [
+      "Clases teoricas.",
+      "Analisis interactivo de casos.",
+      "Talleres practicos de aplicacion."
+    ],
+    "evaluacion": {
+      "items": {
+        "Actividades practicas en grupo (promedio)": 50.0,
+        "Control de conocimientos individual": 20.0,
+        "Examen de conocimientos individual": 30.0,
+        "-Actividades practicas en grupo (promedio)": 50.0,
+        "-Control de conocimientos individual": 20.0,
+        "-Examen de conocimientos individual": 30.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Leskovec, J., et. al(2014). Mining of Massive Datasets. Stanford University.",
+          "authors": [
+            "Leskovec",
+            "J., et. al"
+          ],
+          "year": 2014
+        },
+        {
+          "raw_text": "Taher, M, R.S.(2022). Embeddings in Natural Language Processing. Morgan & Claypool Publishers.",
+          "authors": [
+            "Taher",
+            "M",
+            "R.S"
+          ],
+          "year": 2022
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Rothman, D.(2021). Transformers for Natural Language Processing. Packt.",
+          "authors": [
+            "Rothman",
+            "D"
+          ],
+          "year": 2021
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "MAYO 2024",
+      "mes": "MAYO",
+      "año": 2024
+    }
+  },
+  "INF3821": {
+    "filename": "INF3821.pdf",
+    "extracted_at": "2025-06-23T16:39:15.711762",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3821",
+      "nombre": "APLICACIONES",
+      "traduccion": "APPLICATIONS",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "TALLER"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "APLICACIONES"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes revisaran ejemplos exitosos de aplicacion de herramientas de Ciencias de Datos e Inteligencia Artificial mediante casos de estudio, donde un invitado presentara la problematica y como esta fue resuelta usando tecnicas y herramientas de Ciencia de Datos e Inteligencia Artificial. El curso considera ademas trabajo practico, donde se recrearan condiciones similares a las de los casos presentados.",
+    "resultados_aprendizaje": [
+      "1.Identificar casos exitosos de aplicacion de las herramientas de Ciencia de Datos e Inteligencia Artificial, tanto en el mundo academico, como en la industria.",
+      "2.Distinguir situaciones reales donde las herramientas de Ciencia de Datos e Inteligencia Artificial pueden ser aplicadas para resolver problemas."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Reconocimiento visual usando Deep Learning."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Mineria de procesos."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Data Science en educacion."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Plataformas para analisis masivo de datos en la industria."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Deteccion de fraudes en transacciones."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Recomendacion de documentos medicos."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Retail (Segmentacion de clientes)."
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "Data Science en el analisis de fenomenos naturales."
+      }
+    },
+    "metodologias": [
+      "Profesionales Invitados.",
+      "Estudio de casos.",
+      "Talleres practicos."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas": 70.0,
+        "-Controles": 30.0,
+        "-Actividades practicas": 70.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "S. Russell, P. Norvig, Artificial Intelligence. A Modern Approach, Prentice Hall, 3rd edition, 2010.",
+          "authors": [
+            "S. Russell",
+            "P. Norvig",
+            "Artificial Intelligence. A Modern Approach",
+            "Prentice Hall, 3rd edition, 2010"
+          ],
+          "title": "S. Russell, P. Norvig, Artificial Intelligence. A Modern Approach, Prentice Hall, 3rd edition, 2010"
+        },
+        {
+          "raw_text": "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, MIT Press, 2016.",
+          "authors": [
+            "I. Goodfellow",
+            "Y. Bengio",
+            "A. Courville. Deep Learning",
+            "MIT Press, 2016"
+          ],
+          "title": "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, MIT Press, 2016"
+        },
+        {
+          "raw_text": "T. Hastie, R. Tibshirani, J. Friedman, The elements of Statistical Learning, Springer, 2nd edition, 2009.",
+          "authors": [
+            "T. Hastie",
+            "R. Tibshirani",
+            "J. Friedman",
+            "The elements of Statistical Learning",
+            "Springer, 2nd edition, 2009"
+          ],
+          "title": "T. Hastie, R. Tibshirani, J. Friedman, The elements of Statistical Learning, Springer, 2nd edition, 2009"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "T. White. Hadoop: The Definitive Guide, O?Reilly Media, 4th edition, 2015.",
+          "authors": [
+            "T. White. Hadoop: The Definitive Guide",
+            "O?Reilly Media, 4th edition, 2015"
+          ],
+          "title": "T. White. Hadoop: The Definitive Guide, O?Reilly Media, 4th edition, 2015"
+        },
+        {
+          "raw_text": "K. Murphy. Machine Learning: A Probabilistic Perspective, MIT Press, 2012.",
+          "authors": [
+            "K. Murphy. Machine Learning: A Probabilistic Perspective",
+            "MIT Press, 2012"
+          ],
+          "title": "K. Murphy. Machine Learning: A Probabilistic Perspective, MIT Press, 2012"
+        },
+        {
+          "raw_text": "J. VanderPlas. Python Data Science Handbook: Essential Tools for Working with Data, O?Reilly",
+          "authors": [
+            "J. VanderPlas. Python Data Science Handbook: Essential Tools for Working with Data",
+            "O?Reilly"
+          ],
+          "title": "J. VanderPlas. Python Data Science Handbook: Essential Tools for Working with Data, O?Reilly"
+        },
+        {
+          "raw_text": "Media, 2016.",
+          "authors": [
+            "Media, 2016"
+          ],
+          "title": "Media, 2016"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3822": {
+    "filename": "INF3822.pdf",
+    "extracted_at": "2025-06-23T16:39:15.791021",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3822",
+      "nombre": "PROYECTO APLICADO I",
+      "traduccion": "APPLIED PROJECT I",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "TALLER"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "PROYECTO",
+        "APLICADO"
+      ]
+    },
+    "descripcion": "En el curso de Proyecto Aplicado I el alumno aplicara en forma integrada el conocimiento de herramientas computacionales utilizadas en el analisis de datos. Los alumnos deben integrar habilidades relacionadas con la identificacion y resolucion de problemas en el analisis de datos, a traves del dise?o, innovacion, uso de tecnologias de informacion y modelacion computacional. La evaluacion se basa en el dise?o de un proyecto grupal.",
+    "resultados_aprendizaje": [
+      "1.Identificar problemas de analisis de datos, en los que la ingenieria puede ofrecer una solucion.",
+      "2.Definir los requerimientos y restricciones para un problema en el area de analisis de datos.",
+      "3.Usar los requerimientos y restricciones para desarrollar una solucion de dise?o, evaluando un numero de dise?os alternativos.",
+      "4.Aplicar los conocimientos y habilidades en analisis de datos en la resolucion de un problema complejo de dise?o.",
+      "5.Identificar y describir el potencial impacto etico y social de la solucion propuesta.",
+      "6.Construir un prototipo, modelo o prueba de concepto de la solucion al problema en el area de analisis de datos."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Identificacion de la necesidad."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Definicion del problema a resolver."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Restricciones y especificaciones."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Estudio del estado del arte y de soluciones existentes."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Definicion y planificacion del proyecto."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Toma de decisiones."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Trabajo en equipo."
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "Aspectos eticos y sociales."
+      },
+      "9": {
+        "numero": "9",
+        "titulo": "Fabricacion de prototipos y pruebas de concepto."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas y practicas.",
+      "Aprendizaje basado en proyectos Presentaciones grupales de los estudiantes."
+    ],
+    "evaluacion": {
+      "items": {
+        "Informes escritos": 70.0,
+        "Presentaciones orales": 30.0,
+        "-Informes escritos": 70.0,
+        "-Presentaciones orales": 30.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "No hay bibliografia minima",
+          "authors": [
+            "No hay bibliografia minima"
+          ],
+          "title": "No hay bibliografia minima"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995.",
+          "authors": [
+            "Harvey",
+            "G. Writing with sources: A guide for Harvard Students. 1995"
+          ],
+          "title": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995"
+        },
+        {
+          "raw_text": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008",
+          "authors": [
+            "Saez",
+            "C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+          ],
+          "title": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3823": {
+    "filename": "INF3823.pdf",
+    "extracted_at": "2025-06-23T16:39:15.851934",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3823",
+      "nombre": "PROYECTO APLICADO II",
+      "traduccion": "APPLIED PROJECT II",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "TALLER"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "PROYECTO",
+        "APLICADO"
+      ]
+    },
+    "descripcion": "En el curso de Proyecto Aplicado II el alumno desarrollara un proyecto individual, donde integre experimentacion, recoleccion de datos, analisis de resultados y posibles redise?os y mejoras de la solucion. La evaluacion se basa en la implementacion de un prototipo previamente dise?ado.",
+    "resultados_aprendizaje": [
+      "1.Construir un prototipo de la solucion al problema en el area de analisis de datos.",
+      "2.Elaborar informes tecnicos presentando y analizando los aspectos mas relevantes del problema, soluciones alternativas, dise?o implementado e impacto del mismo.",
+      "3.Definir los requerimientos y restricciones para un problema en el area de analisis de datos.",
+      "4.Comunicar eficazmente los resultados del proyecto realizado, utilizando el lenguaje tecnico adecuado a la tematica analizada.",
+      "5.Usar los requerimientos y restricciones para desarrollar una solucion de software, evaluando un numero de dise?os alternativos.",
+      "6.Identificar y describir el potencial impacto social de la solucion propuesta."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Desarrollo del prototipo basado en metodologias agiles de desarrollo de productos de software."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Preparacion de informes tecnicos. Tecnicas y recomendaciones para confeccionar informes"
+      }
+    },
+    "metodologias": [
+      "Clases expositivas y practicas.",
+      "Aprendizaje basado en proyectos. Presentaciones de los estudiantes.",
+      "-- PÁGINA {} ---"
+    ],
+    "evaluacion": {
+      "items": {
+        "Informes escritos": 50.0,
+        "Presentaciones orales": 50.0,
+        "-Informes escritos": 50.0,
+        "-Presentaciones orales": 50.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "No hay bibliografia minima",
+          "authors": [
+            "No hay bibliografia minima"
+          ],
+          "title": "No hay bibliografia minima"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995.",
+          "authors": [
+            "Harvey",
+            "G. Writing with sources: A guide for Harvard Students. 1995"
+          ],
+          "title": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995"
+        },
+        {
+          "raw_text": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008.",
+          "authors": [
+            "Saez",
+            "C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+          ],
+          "title": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3831": {
+    "filename": "INF3831.pdf",
+    "extracted_at": "2025-06-23T16:39:15.936173",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3831",
+      "nombre": "BASES DE DATOS",
+      "traduccion": "DATA BASES",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA, COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "BASES"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran, en una primera parte, el modelo relacional para posteriormente pasar a bases de datos XML y bases de datos NoSQL, aplicando las bases de datos transaccionales para luego aplicar bases de datos de apoyo para la toma de decisiones (OLAP). Del mismo modo, se abordaran los fundamentos de los sistemas de bases de datos.",
+    "resultados_aprendizaje": [
+      "1.Elaborar modelos de datos para implementarlos sobre un motor relacional.",
+      "2.Analizar conceptos de dependencias funcionales y normalizacion para modelar bases de datos",
+      "3.Aplicar el lenguaje de consultas SQL a un nivel intermedio para realizar consultas sobre bases de datos.",
+      "4.Distinguir los conceptos y tecnologias de bases de datos XML para implementarlos adecuadamente.",
+      "5.Identificar las fortalezas y debilidades de las bases de datos NoSQL para implementarlas en el contexto adecuado.",
+      "6.Elaborar consultas sencillas en bases de datos de documentos y de grafos para hacer busquedas basicas de informacion.",
+      "7.Identificar la necesidad y los fundamentos asociados a los almacenes de datos para modelar almacenes de datos.",
+      "8.Explicar los conceptos basicos de mineria de datos para aplicar analisis basicos.",
+      "9.Describir problemas eticos y de privacidad en el manejo de datos."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Conceptos Fundamentales de BD."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Dise?o Conceptual."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Modelo Relacional."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Dise?o de BD Relacionales."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Introduccion al SQL."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Data Wharehousing, OLAP y Mineria de Datos."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Bases de datos XML."
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "Bases de Datos NoSQL."
+      },
+      "9": {
+        "numero": "9",
+        "titulo": "Un Motor con modelo de documento."
+      },
+      "10": {
+        "numero": "10",
+        "titulo": "Un Motor con modelo de grafo."
+      },
+      "11": {
+        "numero": "11",
+        "titulo": "Introduccion a RDF y SparQL."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 50.0,
+        "Actividades practicas en laboratorio": 50.0,
+        "-Controles": 50.0,
+        "-Actividades practicas en laboratorio": 50.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [],
+      "complementaria": []
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3841": {
+    "filename": "INF3841.pdf",
+    "extracted_at": "2025-06-23T16:39:16.012936",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3841",
+      "nombre": "RECUPERACION DE INFORMACION",
+      "traduccion": "INFORMATION RETRIEVAL",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "TALLER"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "RECUPERACION",
+        "INFORMACION"
+      ]
+    },
+    "descripcion": "La Recuperacion de Informacion Multimedia estudia el problema de buscar, indexar, navegar y extraer informacion desde archivos multimedia. En este curso los alumnos aprenderan sobre el analisis y representacion de contenido multimedia (especificamente audio, imagen, video y texto), algoritmos para busqueda eficiente y efectiva en grandes cantidades de datos, y aplicaciones innovadoras, por medio de ejercicios practicos.",
+    "resultados_aprendizaje": [
+      "1.Identificar la arquitectura de un sistema de recuperacion multimedia y sus diferentes componentes.",
+      "2.Implementar metodos de analisis y descripcion de contenido multimedia para extraer informacion desde archivos.",
+      "3.Aplicar algoritmos eficientes de busqueda de contenido multimedia en el analisis de datos para indexar y buscar en archivos.",
+      "4.Evaluar la efectividad y eficiencia de sistemas de recuperacion multimedia para identificar que sistema conviene utilizar.",
+      "5.Desarrollar aplicaciones innovadoras para sistemas de recuperacion multimedia."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "4.Descriptores espacio-temporales"
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "5.Evaluacion de Efectividad"
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "3.Deep Learning: Deep Features, Metric Learning"
+      }
+    },
+    "metodologias": [
+      "Clases expositiva.",
+      "Talleres practicos de programacion.",
+      "Discusion en clases.",
+      "Presentacion de los estudiantes.",
+      "Aprendizaje basado en Proyecto."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 25.0,
+        "Talleres practicos": 25.0,
+        "Presentaciones de lecturas": 25.0,
+        "Proyecto de sintesis": 25.0,
+        "-Controles": 25.0,
+        "-Talleres practicos": 25.0,
+        "-Presentaciones de lecturas": 25.0,
+        "-Proyecto de sintesis": 25.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "H. Eidenberger. \"Handbook of Multimedia Information Retrieval\". Atpress, 2012.",
+          "authors": [
+            "H. Eidenberger. \"Handbook of Multimedia Information Retrieval\". Atpress, 2012"
+          ],
+          "title": "H. Eidenberger. \"Handbook of Multimedia Information Retrieval\". Atpress, 2012"
+        },
+        {
+          "raw_text": "R. Baeza-Yates and B. Ribeiro-Neto. \"Modern Information Retrieval. Second Edition\". Addison- Wesley Professional, 2011.",
+          "authors": [
+            "R. Baeza-Yates and B. Ribeiro-Neto. \"Modern Information Retrieval. Second Edition\". Addison- Wesley Professional, 2011"
+          ],
+          "title": "R. Baeza-Yates and B. Ribeiro-Neto. \"Modern Information Retrieval. Second Edition\". Addison- Wesley Professional, 2011"
+        },
+        {
+          "raw_text": "H. Blanken, A. de Vries, H. Blok. \"Multimedia Retrieval\". Springer-Verlag Berlin Heidelberg, 2007.",
+          "authors": [
+            "H. Blanken",
+            "A. de Vries",
+            "H. Blok. \"Multimedia Retrieval\". Springer-Verlag Berlin Heidelberg, 2007"
+          ],
+          "title": "H. Blanken, A. de Vries, H. Blok. \"Multimedia Retrieval\". Springer-Verlag Berlin Heidelberg, 2007"
+        },
+        {
+          "raw_text": "C. Aggarwal. \"Data Mining: The Textbook\". Springer, 2015.",
+          "authors": [
+            "C. Aggarwal. \"Data Mining: The Textbook\". Springer, 2015"
+          ],
+          "title": "C. Aggarwal. \"Data Mining: The Textbook\". Springer, 2015"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Goodfellow, Y.Bengio, and A. Courville. \"Deep Learning\". MIT Press, 2016.",
+          "authors": [
+            "Goodfellow",
+            "Y.Bengio, and A. Courville. \"Deep Learning\". MIT Press, 2016"
+          ],
+          "title": "Goodfellow, Y.Bengio, and A. Courville. \"Deep Learning\". MIT Press, 2016"
+        },
+        {
+          "raw_text": "J. Leskovec, A. Rajaraman, J. Ullman. \"Mining of Massive Datasets, Second Edition\". Cambridge University Press, 2014.",
+          "authors": [
+            "J. Leskovec",
+            "A. Rajaraman",
+            "J. Ullman. \"Mining of Massive Datasets",
+            "Second Edition\". Cambridge University Press, 2014"
+          ],
+          "title": "J. Leskovec, A. Rajaraman, J. Ullman. \"Mining of Massive Datasets, Second Edition\". Cambridge University Press, 2014"
+        },
+        {
+          "raw_text": "--- PÁGINA {} --- P. Zezula, G. Amato, V. Dohnal, and M. Batko. \"Similarity Search: The Metric Space Approach\".",
+          "authors": [
+            "--- PÁGINA {} --- P. Zezula",
+            "G. Amato",
+            "V. Dohnal, and M. Batko. \"Similarity Search: The Metric Space Approach\""
+          ],
+          "title": "--- PÁGINA {} --- P. Zezula, G. Amato, V. Dohnal, and M. Batko. \"Similarity Search: The Metric Space Approach\""
+        },
+        {
+          "raw_text": "Springer, 2006.",
+          "authors": [
+            "Springer, 2006"
+          ],
+          "title": "Springer, 2006"
+        },
+        {
+          "raw_text": "M. Nixon, A. Aguado. \"Feature Extraction & Image Processing for Computer Vision, Third Edition\".",
+          "authors": [
+            "M. Nixon",
+            "A. Aguado. \"Feature Extraction & Image Processing for Computer Vision",
+            "Third Edition\""
+          ],
+          "title": "M. Nixon, A. Aguado. \"Feature Extraction & Image Processing for Computer Vision, Third Edition\""
+        },
+        {
+          "raw_text": "Elsevier, 2012.",
+          "authors": [
+            "Elsevier, 2012"
+          ],
+          "title": "Elsevier, 2012"
+        },
+        {
+          "raw_text": "H. Samet. \"Foundations of Multidimensional and Metric Data Structures\". Morgan Kaufmann, 2006.",
+          "authors": [
+            "H. Samet. \"Foundations of Multidimensional and Metric Data Structures\". Morgan Kaufmann, 2006"
+          ],
+          "title": "H. Samet. \"Foundations of Multidimensional and Metric Data Structures\". Morgan Kaufmann, 2006"
+        },
+        {
+          "raw_text": "M. Muja and D. Lowe. \"Scalable Nearest Neighbor Algorithms for High Dimensional Data\". IEEE Transactions on Pattern Analysis and Machine Intelligence, 2014.",
+          "authors": [
+            "M. Muja and D. Lowe. \"Scalable Nearest Neighbor Algorithms for High Dimensional Data\". IEEE Transactions on Pattern Analysis and Machine Intelligence, 2014"
+          ],
+          "title": "M. Muja and D. Lowe. \"Scalable Nearest Neighbor Algorithms for High Dimensional Data\". IEEE Transactions on Pattern Analysis and Machine Intelligence, 2014"
+        },
+        {
+          "raw_text": "H. Jegou, M. Douze, C. Schmid. \"Product Quantization for Nearest Neighbor Search\". Transactions on Pattern Analysis and Machine Intelligence. 2011.",
+          "authors": [
+            "H. Jegou",
+            "M. Douze",
+            "C. Schmid. \"Product Quantization for Nearest Neighbor Search\". Transactions on Pattern Analysis and Machine Intelligence. 2011"
+          ],
+          "title": "H. Jegou, M. Douze, C. Schmid. \"Product Quantization for Nearest Neighbor Search\". Transactions on Pattern Analysis and Machine Intelligence. 2011"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3842": {
+    "filename": "INF3842.pdf",
+    "extracted_at": "2025-06-23T16:39:16.105648",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3842",
+      "nombre": "VISUALIZACION DE INFORMACION Y ANALITICA VISUAL",
+      "traduccion": "INFORMATION VISUALIZATION AND VISUAL ANALYTICS",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION"
+    },
+    "descripcion": "En este curso los estudiantes estudiaran tecnicas y algoritmos para crear visualizaciones efectivas basadas en principios de dise?o grafico, artes visuales, y psicologia cognitiva. El curso estara orientado a alumnos con experiencia previa en programacion, con foco en aquellos que deseen utilizar visualizaciones en su trabajo, asi como estudiantes interesados en construir mejores sistemas y herramientas de visualizacion.",
+    "resultados_aprendizaje": [
+      "1.Dise?ar y justificar el dise?o de la representacion visual de un conjunto de datos determinado.",
+      "2.Evaluar el dise?o de la visualizacion de datos basandose en la naturaleza de los datos subyacentes, el publico objetivo y el proposito general.",
+      "3.Utilizar herramientas de visualizacion de bajo y alto nivel existentes para crear visualizaciones efectivas de la informacion.",
+      "4.Comunicar de manera efectiva en forma verbal y escrita el proceso de visualizacion de los datos y los resultados."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "3.Percepcion y Procesamiento Humano de la Informacion"
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "3.Grafos y Redes"
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "4.Evaluacion de Visualizacion de Informacion"
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "5.Visual Analytics: Analisis a traves de visualizacion"
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Actividades practicas de laboratorio."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Munzner, Tamara. ?Visualization Analysis and Design?, CRC Press, 2014",
+          "authors": [
+            "Munzner",
+            "Tamara. ?Visualization Analysis and Design?",
+            "CRC Press, 2014"
+          ],
+          "title": "Munzner, Tamara. ?Visualization Analysis and Design?, CRC Press, 2014"
+        },
+        {
+          "raw_text": "Ware, Colin, ?Information visualization: perception for design?, Elsevier, 2012.",
+          "authors": [
+            "Ware",
+            "Colin, ?Information visualization: perception for design?",
+            "Elsevier, 2012"
+          ],
+          "title": "Ware, Colin, ?Information visualization: perception for design?, Elsevier, 2012"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Tufte, Edward, ?The Visual Display of Quantitative Information?, Graphics Press, 2001",
+          "authors": [
+            "Tufte",
+            "Edward, ?The Visual Display of Quantitative Information?",
+            "Graphics Press, 2001"
+          ],
+          "title": "Tufte, Edward, ?The Visual Display of Quantitative Information?, Graphics Press, 2001"
+        },
+        {
+          "raw_text": "Few, Stephen, ?Now You See It?, Analytics Press, 2009",
+          "authors": [
+            "Few",
+            "Stephen, ?Now You See It?",
+            "Analytics Press, 2009"
+          ],
+          "title": "Few, Stephen, ?Now You See It?, Analytics Press, 2009"
+        },
+        {
+          "raw_text": "Cairo, Alberto, ?The Functional Art?, New Riders, 2013",
+          "authors": [
+            "Cairo",
+            "Alberto, ?The Functional Art?",
+            "New Riders, 2013"
+          ],
+          "title": "Cairo, Alberto, ?The Functional Art?, New Riders, 2013"
+        },
+        {
+          "raw_text": "Yau, Nathan, ?Visualize This?, Wiley, 2011",
+          "authors": [
+            "Yau",
+            "Nathan, ?Visualize This?",
+            "Wiley, 2011"
+          ],
+          "title": "Yau, Nathan, ?Visualize This?, Wiley, 2011"
+        },
+        {
+          "raw_text": "Tamassia, Roberto, ?Handbook of Graph Drawing and Visualization?, CRC Press, 2013",
+          "authors": [
+            "Tamassia",
+            "Roberto, ?Handbook of Graph Drawing and Visualization?",
+            "CRC Press, 2013"
+          ],
+          "title": "Tamassia, Roberto, ?Handbook of Graph Drawing and Visualization?, CRC Press, 2013"
+        },
+        {
+          "raw_text": "Card, Stuart K., Jock D. Mackinlay, and Ben Shneiderman. Readings in information visualization: using vision to think. Morgan Kaufmann, 1999.",
+          "authors": [
+            "Card",
+            "Stuart K.",
+            "Jock D. Mackinlay, and Ben Shneiderman. Readings in information visualization: using vision to think. Morgan Kaufmann, 1999"
+          ],
+          "title": "Card, Stuart K., Jock D. Mackinlay, and Ben Shneiderman. Readings in information visualization: using vision to think. Morgan Kaufmann, 1999"
+        },
+        {
+          "raw_text": "--- PÁGINA {} ---",
+          "authors": [
+            "--- PÁGINA {} ---"
+          ],
+          "title": "--- PÁGINA {} ---"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3851": {
+    "filename": "INF3851.pdf",
+    "extracted_at": "2025-06-23T16:39:16.183447",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3851",
+      "nombre": "GOBERNANZA DE DATOS",
+      "traduccion": "DATA GOVERNANCE",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA, COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "GOBERNANZA"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran las politicas, estandares, procesos, personas y tecnologias asociadas al gobierno de los datos. Este enfoque corresponde a una disciplina emergente orientada a tratar los datos como un activo estrategico de la organizacion, considerando no solo aspectos tecnologicos, sino que tambien aspectos culturales y politicos.",
+    "resultados_aprendizaje": [
+      "1.Analizar la importancia de gobernar los datos considerando los aspectos culturas y politicos.",
+      "2.Explicar el gobierno de los datos y sus componentes dentro del contexto de una organizacion.",
+      "3.Identificar los distintos modelos de gobierno de datos que pueden ser implementados en una organizacion.",
+      "4.Analizar la relacion del gobierno de los datos con otras disciplinas y/o areas de una organizacion.",
+      "5.Evaluar casos reales de gobierno de los datos identificando los exitos y fracasos en la implementacion.",
+      "6.Aplicar principios eticos en el manejo de datos de una organizacion."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Introduccion al gobierno de datos."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Componentes y disciplinas del gobierno de datos."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Gobierno y calidad de datos."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Programa de gobierno de datos."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Gobierno de datos y arquitecturas tradicionales/modernas."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Relacion con otras disciplinas."
+      },
+      "7": {
+        "numero": "7",
+        "titulo": "Etica en el manejo de datos."
+      },
+      "8": {
+        "numero": "8",
+        "titulo": "Casos de analisis."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Profesionales invitados.",
+      "Analisis de casos.",
+      "Discusion en clases."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 60.0,
+        "Proyecto": 40.0,
+        "-Controles": 60.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "DAMA-DMBOK: Data Management Body of Knowledge (2nd Edition), 2017, Data Management International.",
+          "authors": [
+            "DAMA-DMBOK: Data Management Body of Knowledge (2nd Edition), 2017",
+            "Data Management International"
+          ],
+          "title": "DAMA-DMBOK: Data Management Body of Knowledge (2nd Edition), 2017, Data Management International"
+        },
+        {
+          "raw_text": "Data Governance: How to Design, Deploy and Sustain an Effective Data Governance Program, 2012, John Ladley Non-Invasive Data Governance, 2014, Robert S. Seiner",
+          "authors": [
+            "Data Governance: How to Design",
+            "Deploy and Sustain an Effective Data Governance Program, 2012",
+            "John Ladley Non-Invasive Data Governance, 2014",
+            "Robert S. Seiner"
+          ],
+          "title": "Data Governance: How to Design, Deploy and Sustain an Effective Data Governance Program, 2012, John Ladley Non-Invasive Data Governance, 2014, Robert S. Seiner"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Getting in Front on Data, 2016, Thomas C. Redman Data Stewardship: An Actionable Guide to Effective Data Management and Data Governance, 2013, David Plotkin Information Governance: Concepts, Strategies, and Best Practices (Wiley CIO), 2014, Robert F.",
+          "authors": [
+            "Getting in Front on Data, 2016",
+            "Thomas C. Redman Data Stewardship: An Actionable Guide to Effective Data Management and Data Governance, 2013",
+            "David Plotkin Information Governance: Concepts",
+            "Strategies, and Best Practices (Wiley CIO), 2014",
+            "Robert F"
+          ],
+          "title": "Getting in Front on Data, 2016, Thomas C. Redman Data Stewardship: An Actionable Guide to Effective Data Management and Data Governance, 2013, David Plotkin Information Governance: Concepts, Strategies, and Best Practices (Wiley CIO), 2014, Robert F"
+        },
+        {
+          "raw_text": "Smallwood Big Data Governance: An Emerging Imperative, 2013, Sunil Soares",
+          "authors": [
+            "Smallwood Big Data Governance: An Emerging Imperative, 2013",
+            "Sunil Soares"
+          ],
+          "title": "Smallwood Big Data Governance: An Emerging Imperative, 2013, Sunil Soares"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3862": {
+    "filename": "INF3862.pdf",
+    "extracted_at": "2025-06-23T16:39:16.251104",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3862",
+      "nombre": "PLATAFORMAS DE BIG DATA PARA DATA SCIENCE",
+      "traduccion": "BIG DATA PLATFORMS FOR DATA SCIENCE",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "PLATAFORMAS",
+        "BIG",
+        "DATA",
+        "SCIENCE"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes analizaran el framework Hadoop como base explicativa y practica de un ecosistema de Big Data. Ademas, veran otras plataformas comunes para el procesamiento de grandes volumenes de datos. Este curso proveera de tecnicas para almacenar, extraer y procesar informacion, extrayendo valor desde fuentes de datos existentes y descubriendo nuevas fuentes.",
+    "resultados_aprendizaje": [
+      "1.Distinguir distintos elementos de datos relacionados con Big Data en su propio entorno o en problemas del dia a dia.",
+      "2.Analizar la necesidad de contar con un plan de infraestructura de Big Data y un dise?o adecuado de Sistemas de Informacion en el contexto de una organizacion.",
+      "3.Diferenciar entre un sistema de manejo de datos tradicional y un sistema de manejo de Big Data.",
+      "4.Dise?ar un sistema de informacion para el manejo de un gran volumen de datos, con una vision integradora de las multiples herramientas existentes.",
+      "5.Aplicar las bases del dise?o de arquitectura y modelos de programacion existentes para grandes volumenes de datos.",
+      "6.Proponer soluciones a problemas que generan grandes volumenes de informacion usando herramientas pensadas en Big Data.",
+      "7.Describir problemas eticos y de privacidad en el manejo de datos."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Introduccion al paradigma de Big Data y plataformas comunes."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Hadoop (MapReduce, HDFS, Yarn, Tez)."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Hadoop Ecosystem (Sqoop, Hive, Hbase, Pig, Flume, Oozie)."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "Apache Spark."
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "Plataformas de software y servicios."
+      },
+      "6": {
+        "numero": "6",
+        "titulo": "Solvers de Optimizacion."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas",
+      "Talleres practicos de laboratorio",
+      "V.EVALUACION DEL APRENDIZAJE",
+      "Controles: 30%",
+      "Actividades practicas en laboratorio: 30%",
+      "Proyecto: 40%",
+      "VI.BIBLIOGRAFIA",
+      "Minima",
+      "Este curso no requiere bibliografia minima.",
+      "Complementaria",
+      "J. R. Owens, B. Femiano, and J. Lentz, Hadoop Real World Solutions Cookbook. Packt Publishing,",
+      "2013.",
+      "Documentacion web actualizada",
+      "Apache Hadoop http://hadoop.apache.org/docs/current/",
+      "Apache Spark https://spark.apache.org/docs/latest/",
+      "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "ESCUELA DE INGENIERIA / ENERO 2020"
+    ],
+    "evaluacion": {
+      "items": {},
+      "total_verificado": false,
+      "suma_porcentajes": 0.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Este curso no requiere bibliografia minima.",
+          "authors": [
+            "Este curso no requiere bibliografia minima"
+          ],
+          "title": "Este curso no requiere bibliografia minima"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "J. R. Owens, B. Femiano, and J. Lentz, Hadoop Real World Solutions Cookbook. Packt Publishing, 2013.",
+          "authors": [
+            "J. R. Owens",
+            "B. Femiano, and J. Lentz",
+            "Hadoop Real World Solutions Cookbook. Packt Publishing, 2013"
+          ],
+          "title": "J. R. Owens, B. Femiano, and J. Lentz, Hadoop Real World Solutions Cookbook. Packt Publishing, 2013"
+        },
+        {
+          "raw_text": "Documentacion web actualizada Apache Hadoop http://hadoop.apache.org/docs/current/ Apache Spark https://spark.apache.org/docs/latest/",
+          "authors": [
+            "Documentacion web actualizada Apache Hadoop http://hadoop.apache.org/docs/current/ Apache Spark https://spark.apache.org/docs/latest/"
+          ],
+          "title": "Documentacion web actualizada Apache Hadoop http://hadoop.apache.org/docs/current/ Apache Spark https://spark.apache.org/docs/latest/",
+          "url": "http://hadoop.apache.org/docs/current/"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF3863": {
+    "filename": "INF3863.pdf",
+    "extracted_at": "2025-06-23T16:39:16.340079",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF3863",
+      "nombre": "SISTEMAS RECOMENDADORES",
+      "traduccion": "RECOMMENDER SYSTEMS",
+      "creditos": 5,
+      "modulos": 2,
+      "caracter": "OPTATIVO",
+      "tipo": [
+        "CATEDRA",
+        "LABORATORIO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA,COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "SISTEMAS",
+        "RECOMENDADORES"
+      ]
+    },
+    "descripcion": "Los sistemas recomendadores tienen como objetivo ayudar a un usuario o a grupos de usuarios a filtrar y descubrir informacion relevante, de manera personalizada, desde grandes volumenes de datos. En este curso, los alumnos estudiaran los principales algoritmos usados para generar recomendaciones, las fuentes de datos usadas por dichos algoritmos, diversas formas de evaluar la calidad de un sistema recomendador, ademas de areas de investigacion presente y desafios a futuro de estos sistemas.",
+    "resultados_aprendizaje": [
+      "1.Distinguir los principales algoritmos y fuentes de datos usados para generar recomendaciones.",
+      "2.Analizar algoritmos de recomendacion existentes identificando sus fortalezas y debilidades para generar recomendaciones.",
+      "3.Dise?ar e implementar los distintos componentes de un sistema recomendador.",
+      "4.Identificar las distintas formas de evaluacion de un sistema recomendador para escoger los factibles de implementar.",
+      "5.Evaluar un sistema recomendador usando diversas metricas y la factibilidad de su implementacion.",
+      "6.Describir problemas eticos y de privacidad en el manejo de datos."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "5.Redes sociales."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "6.Metodos basados en reduccion de dimensionalidad (SVD)."
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "4.Modelos de evaluacion centrada en el usuario."
+      },
+      "4": {
+        "numero": "4",
+        "titulo": "3.Aprendizaje Reforzado (Bandits)"
+      },
+      "5": {
+        "numero": "5",
+        "titulo": "5.Recomendaciones a grupos."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas.",
+      "Talleres practicos de Laboratorio.",
+      "Aprendizaje basado en proyectos."
+    ],
+    "evaluacion": {
+      "items": {
+        "Controles": 30.0,
+        "Actividades practicas en laboratorio": 30.0,
+        "Proyecto": 40.0,
+        "-Controles": 30.0,
+        "-Actividades practicas en laboratorio": 30.0,
+        "-Proyecto": 40.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "Ricci, F., Rokach, L., Shapira, B., Kantor, P. Recommender Systems Handbook. Springer, 2015.",
+          "authors": [
+            "Ricci",
+            "F.",
+            "Rokach",
+            "L.",
+            "Shapira"
+          ],
+          "title": "Ricci, F., Rokach, L., Shapira, B., Kantor, P. Recommender Systems Handbook. Springer, 2015"
+        },
+        {
+          "raw_text": "DOI: 10.1007/978-1-4899-7637-6",
+          "authors": [
+            "DOI: 10.1007/978-1-4899-7637-6"
+          ],
+          "title": "DOI: 10.1007/978-1-4899-7637-6"
+        },
+        {
+          "raw_text": "Agarwal, Deepak K., and Bee-Chung Chen. Statistical methods for recommender systems. Cambridge University Press, 2015.",
+          "authors": [
+            "Agarwal",
+            "Deepak K., and Bee-Chung Chen. Statistical methods for recommender systems. Cambridge University Press, 2015"
+          ],
+          "title": "Agarwal, Deepak K., and Bee-Chung Chen. Statistical methods for recommender systems. Cambridge University Press, 2015"
+        },
+        {
+          "raw_text": "--- PÁGINA {} ---",
+          "authors": [
+            "--- PÁGINA {} ---"
+          ],
+          "title": "--- PÁGINA {} ---"
+        },
+        {
+          "raw_text": "Jannach, Dietmar, Markus Zanker, Alexander Felfernig, and Gerhard Friedrich. Recommender systems: an introduction. Cambridge University Press, 2010. ISBN: 9780521493369",
+          "authors": [
+            "Jannach",
+            "Dietmar",
+            "Markus Zanker",
+            "Alexander Felfernig, and Gerhard Friedrich. Recommender systems: an introduction. Cambridge University Press, 2010. ISBN: 9780521493369"
+          ],
+          "title": "Jannach, Dietmar, Markus Zanker, Alexander Felfernig, and Gerhard Friedrich. Recommender systems: an introduction. Cambridge University Press, 2010. ISBN: 9780521493369"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Bennett, J., L. \"The netflix prize?. Proceedings of KDD cup and workshop. 2007.",
+          "authors": [
+            "Bennett",
+            "J.",
+            "L. \"The netflix prize?. Proceedings of KDD cup and workshop. 2007"
+          ],
+          "title": "Bennett, J., L. \"The netflix prize?. Proceedings of KDD cup and workshop. 2007"
+        },
+        {
+          "raw_text": "Jannach, D., Zanker, M., Felfernig, A. Recommender Systems: An Introduction. Cambridge University Press, 2010.",
+          "authors": [
+            "Jannach",
+            "D.",
+            "Zanker",
+            "M.",
+            "Felfernig"
+          ],
+          "title": "Jannach, D., Zanker, M., Felfernig, A. Recommender Systems: An Introduction. Cambridge University Press, 2010"
+        },
+        {
+          "raw_text": "MacNee, S. Konstan, J. Riedl, J. ?Being accurate is not enough: how accuracy metrics have hurt recommender systems?. Paper presented at the CHI '06 extended abstracts on Human factors in computing systems, New York, NY, USA.",
+          "authors": [
+            "MacNee",
+            "S. Konstan",
+            "J. Riedl",
+            "J. ?Being accurate is not enough: how accuracy metrics have hurt recommender systems?. Paper presented at the CHI '06 extended abstracts on Human factors in computing systems",
+            "New York"
+          ],
+          "title": "MacNee, S. Konstan, J. Riedl, J. ?Being accurate is not enough: how accuracy metrics have hurt recommender systems?. Paper presented at the CHI '06 extended abstracts on Human factors in computing systems, New York, NY, USA"
+        },
+        {
+          "raw_text": "Parra, D., Sahebi, S. Recommender Systems: Sources of Knowledge and Evaluation Metrics.",
+          "authors": [
+            "Parra",
+            "D.",
+            "Sahebi",
+            "S. Recommender Systems: Sources of Knowledge and Evaluation Metrics"
+          ],
+          "title": "Parra, D., Sahebi, S. Recommender Systems: Sources of Knowledge and Evaluation Metrics"
+        },
+        {
+          "raw_text": "Springer, 2012.",
+          "authors": [
+            "Springer, 2012"
+          ],
+          "title": "Springer, 2012"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  },
+  "INF4980": {
+    "filename": "INF4980.pdf",
+    "extracted_at": "2025-06-23T16:39:16.448808",
+    "extraction_success": true,
+    "extraction_errors": [],
+    "metadata": {
+      "codigo": "INF4980",
+      "nombre": "ACTIVIDAD DE GRADUACION",
+      "traduccion": "GRADUATION ACTIVITY",
+      "creditos": 20,
+      "modulos": 2,
+      "caracter": "MINIMO",
+      "tipo": [
+        "TESIS O PROYECTO"
+      ],
+      "calificacion": "ESTANDAR",
+      "disciplina": "INGENIERIA, COMPUTACION",
+      "palabras_clave": [
+        "COMPUTACION",
+        "INTELIGENCIA",
+        "ARTIFICIAL",
+        "CIENCIA",
+        "DATOS",
+        "ACTIVIDAD",
+        "GRADUACION"
+      ]
+    },
+    "descripcion": "En este curso los estudiantes demostraran los conocimientos, habilidades y actitudes adquiridos en el programa a traves de un proyecto que consiste en aplicar tecnologias y herramientas en Ciencias de Datos e Inteligencia Artificial para un problema especifico en una institucion. El proyecto es de caracter individual y bajo supervision, ademas al termino del curso los estudiantes deberan presentar un informe escrito y una defensa oral y publica del proyecto.",
+    "resultados_aprendizaje": [
+      "1.Formular la actividad de graduacion identificando un problema especifico en una institucion.",
+      "2.Aplicar las distintas tecnologias y herramientas en Ciencia de Datos e Inteligencia Artificial para resolver un problema especifico en una institucion.",
+      "3.Aplicar principios eticos en la resolucion de problemas o desafios de una organizacion."
+    ],
+    "contenidos": {
+      "1": {
+        "numero": "1",
+        "titulo": "Recomendaciones para confeccionar Documento de Actividad de Graduacion."
+      },
+      "2": {
+        "numero": "2",
+        "titulo": "Tecnicas y recomendaciones para confeccionar informe de trabajo. Estructura, lenguaje,"
+      },
+      "3": {
+        "numero": "3",
+        "titulo": "Tecnicas y recomendaciones para confeccionar y realizar presentaciones."
+      }
+    },
+    "metodologias": [
+      "Clases expositivas y practicas.",
+      "Presentaciones individuales."
+    ],
+    "evaluacion": {
+      "items": {
+        "-- PÁGINA {} ---\n\n-Propuesta de Trabajo (Presentacion)": 10.0,
+        "Documento Estructura del Informe": 15.0,
+        "Informe Final": 25.0,
+        "Presentaciones": 50.0,
+        "--- PÁGINA {} ---\n\n-Propuesta de Trabajo (Presentacion)": 10.0,
+        "-Documento Estructura del Informe": 15.0,
+        "-Informe Final": 25.0,
+        "-Presentaciones": 50.0
+      },
+      "total_verificado": false,
+      "suma_porcentajes": 200.0
+    },
+    "bibliografia": {
+      "minima": [
+        {
+          "raw_text": "No hay bibliografia minima",
+          "authors": [
+            "No hay bibliografia minima"
+          ],
+          "title": "No hay bibliografia minima"
+        }
+      ],
+      "complementaria": [
+        {
+          "raw_text": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995.",
+          "authors": [
+            "Harvey",
+            "G. Writing with sources: A guide for Harvard Students. 1995"
+          ],
+          "title": "Harvey, G. Writing with sources: A guide for Harvard Students. 1995"
+        },
+        {
+          "raw_text": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008",
+          "authors": [
+            "Saez",
+            "C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+          ],
+          "title": "Saez, C. Manual para elaborar documentos en Ingenieria UC: Evitando el Plagio. 2008"
+        }
+      ]
+    },
+    "informacion_institucional": {
+      "universidad": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "escuela": "INGENIERIA",
+      "fecha": "ENERO 2020",
+      "mes": "ENERO",
+      "año": 2020
+    }
+  }
+}

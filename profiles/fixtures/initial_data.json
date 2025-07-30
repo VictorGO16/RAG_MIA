@@ -1,0 +1,9 @@
+[
+  {
+    "model": "profiles.company",
+    "pk": 1,
+    "fields": {
+      "name": "500_GLOBAL"
+    }
+  }
+]

@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<!--
+    Free for personal and commercial use under the CCA 3.0 license
+-->
+<html>
+    <head>
+        <title>Whale Project CL</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+        <!-- Custom CSS, mover a archivo css eventualmente -->
+        <style>
+            header#header {
+                padding-bottom: 0 !important;
+            }
+
+            .headerTitle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .headerTitle > * {
+                margin: 0;
+            }
+
+            #main section {
+                max-width: 80%;
+                margin: 0 auto;
+            }
+
+            .logos {
+                padding: 2em 1em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .info {
+                padding: 1em;
+                padding-bottom: 0;
+                text-align: center;
+            }
+
+            .chat {
+                padding: 1em;
+                text-align: center;
+            }
+
+            .chat-container {
+                display: grid;
+                row-gap: 1em;
+                grid-template-columns: 1fr;
+                grid-template-rows: 500px 3em;
+            }
+
+            .chat-container > * {
+                border-radius: 1em;
+                border: 1px solid #000;
+                overflow: hidden;
+                background-color: aliceblue;
+            }
+
+            .chat-box {
+                padding: 1em;
+                overflow-y: scroll;
+            }
+
+            .question-box {
+                display: flex;
+                align-items: center;
+            }
+
+            .btn-ask {
+                border: none !important;
+                background-color: transparent !important;
+                box-shadow: none !important;
+            }
+
+            .input > p, .output > p {
+                margin-bottom: 1em;
+            }
+
+            /********/
+            .lds-facebook {
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+            }
+            .lds-facebook div {
+            display: inline-block;
+            position: absolute;
+            left: 8px;
+            width: 16px;
+            background: #3c3c3c;
+            animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+            }
+            .lds-facebook div:nth-child(1) {
+            left: 8px;
+            animation-delay: -0.24s;
+            }
+            .lds-facebook div:nth-child(2) {
+            left: 32px;
+            animation-delay: -0.12s;
+            }
+            .lds-facebook div:nth-child(3) {
+            left: 56px;
+            animation-delay: 0;
+            }
+            @keyframes lds-facebook {
+            0% {
+                top: 8px;
+                height: 64px;
+            }
+            50%, 100% {
+                top: 24px;
+                height: 32px;
+            }
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header" class="alt">
+                <div class="headerTitle">
+                    <span class="logo"><img src="images/logo.svg" alt="" /></span>
+                    <h1>Whale Project</h1>
+                </div>
+                <p>Brindamos soluciones innovadoras en educación para un mundo en constante cambio</p>
+            </header>
+
+
+            <!-- Main -->
+            <div id="main">
+                <section class="logos">
+                    <img src="images/logo-capital-semilla-emprende.png" alt="Capital Semilla Emprende Sercotec">
+                </section>
+
+                <section class="info">
+                    <h1>Capital Semilla Emprende de Sercotec</h1>
+                    <p>Es un fondo concursable que promueve la creación de nuevos negocios con oportunidad de participación en el mercado, a través de su formalización y de la formulación de un Plan de Trabajo para implementar un negocio que se encuentre dentro de la focalización regional a ejecutar por cada Dirección Regiona</p>
+                </section>
+
+                <section class="chat">
+                    <h2>¿Tienes alguna duda acerca del proceso de postulación del año 2023?</h2>
+                    <h2>¡Ingresa a nuestro chat y nuestro asistente te ayudará a resolverlas!</h2>
+                    <h3>👇</h3>
+                </section>
+
+                <section class="main">
+                    <div class="chat-container">
+                        <div class="chat-box"></div>
+                        <div class="question-box">
+                            <input id="input-question" type="text" class="question" placeholder="Escribe tu pregunta">
+                            <button type="button" id="submit-question" class="btn-ask">Ingresar</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                
+
+            <!-- Footer -->
+            <footer id="footer">
+                <section>
+                    <h2>Contacto</h2>
+                    <p>Si desea obtener más información sobre nuestros servicios o tiene alguna pregunta, no dude en ponerse en contacto con nosotros.</p>
+                    <ul class="actions">
+                        <li><a href="saber_mas.html" class="button">Saber más</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Información de contacto</h2>
+                    <dl class="alt">
+                        <dt>Dirección</dt>
+                        <dd>1234 Calle Principal &bull; Ciudad, CP 00000 &bull; País</dd>
+                        <dt>Teléfono</dt>
+                        <dd>(000) 000-0000 x 0000</dd>
+                        <dt>Email</dt>
+                        <dd><a href="#">info@nuestraempresa.com</a></dd>
+                    </dl>
+                    <ul class="icons">
+                        <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+                        <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+                        <li><a href="#" class="icon brands fa-linkedin-in alt"><span class="label">LinkedIn</span></a></li>
+                    </ul>
+                </section>
+            </footer>
+        </div>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/plataforma.js"></script>
+
+         <!-- Custom Script, mover a arhcivo js eventualmente -->
+         <script>
+            const spinner = `
+                <div class="lds-facebook"><div></div><div></div><div></div></div>
+            `;
+            const questions = [];
+            const answers = [];
+
+            // Function to submit question
+            function submitQuestion() {
+                const value = $("#input-question").val();
+
+                if (value) {
+                    if (questions.length > 20) {
+                        alert("No puedes hacer más de 21 preguntas, vuelva a cargar el sitio");
+                        return;
+                    }
+
+                    questions.push(value);
+                    $(".chat-box").append(`
+                        <div class="input">
+                            <p><strong>Tú:</strong> ${value}</p>
+                        </div>
+                    `);
+                    
+                    $("#input-question").val("");
+                    $(".chat-box").append(spinner);
+                    queryChatGpt(value);
+                }
+            }
+
+            // Function to query chat gpt using jquery ajax
+            function queryChatGpt(query) {
+                const parsedLocation = new URL(window.location.href);
+                $.ajax({
+                    url: `http://${parsedLocation.host}/capital-semilla-chat`,
+                    type: "POST",
+                    data: {
+                        query: query,
+                        historic_questions: questions,
+                        historic_answers: answers
+                    },
+                    success: function(data) {
+                        answers.push(data);
+                        $(".chat-box .lds-facebook").remove();
+                        $(".chat-box").append(`
+                            <div class="output">
+                                <p><strong>Asistente:</strong> ${data}</p>
+                            </div>
+                        `);
+                    }
+                });
+            }
+
+            $(function() {
+                $("#input-question").on("keypress", function(e) {
+                    const value = $(this).val();
+                    if (e.which == 13) {
+                        submitQuestion();
+                    }
+                });
+
+                $("#submit-question").on("click", function() {
+                    submitQuestion();
+                });
+            });
+        </script>
+    </body>
+</html>  

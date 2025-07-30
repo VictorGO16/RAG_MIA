@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  {% load static %}
+  {% load i18n %}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luminous Oceans - Iluminando los océanos de información&amp; Soluciones Digitales de Aprendizaje Personalizado ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Luminous Oceans">  
+        
+    <!-- fav icon -->
+    <link rel="icon" href="{% static 'assets/images/fav-icon/Logo-LO-01.svg' %}">
+        
+    <!-- bootstarp -->    
+    <link rel="stylesheet" href="{% static 'css/vendors/bootstrap.min.css' %}">
+        
+    <!-- animate.css file --> 
+    <link rel="stylesheet" href="{% static 'css/vendors/animate.css' %}">
+        
+    <!-- Swiper -->
+    <link rel="stylesheet" href="{% static 'css/vendors/swiper-bundle.min.css' %}">
+        
+    <!-- flaticon -->
+    <link rel="stylesheet" href="{% static 'css/vendors/flaticon/flaticon.css' %}">
+        
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="{% static 'css/vendors/all.min.css' %}">
+        
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="{% static 'css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css' %}">
+        
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="{% static 'css/vendors/jquery.fancybox.min.css' %}">
+        
+    <!-- fonts site preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+    <!-- fonts site preconnect -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+    <!-- Font Family -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap">
+        
+    <!-- main-LTR -->
+    <link rel="stylesheet" href="{% static 'css/main-LTR.css' %}">
+    <title> LuminousOceans   |   {% translate  "Inicio" %} </title>
+  </head>
+  <body class=" dark-theme  landing-page-demo">
+    <!--Start Page Header-->
+    <header class=" header-basic" id="page-header">
+      <div class="header-search-box">
+        <div class="close-search"></div>
+        <form class="nav-search search-form" role="search" method="get" action="#">
+          <div class="search-wrapper"> 
+            <label class="search-lbl">Search for:</label>
+            <input class="search-input" type="search" placeholder="Search..." name="searchInput" autofocus="autofocus"/>
+            <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <!--Start navbar-->
+        <nav class="menu-navbar" id="main-nav">
+          <div class="header-logo"><a class="logo-link" href="#">
+			  <img class="logo-img light-logo" loading="lazy" src="{% static 'templates/assets/images/hero/Logo-Dark.png' %}" alt="logo"/>
+			  <img class="logo-img  dark-logo" loading="lazy" src="{% static 'templates/assets/images/hero/Logo-Dark.png' %}" alt="logo"/></a></div>
+          <div class="links menu-wrapper ">
+            <ul class="list-js links-list">
+              <li class="nav-item menu-item has-sub-menu"><a class="nav-link menu-link   active" href="#page-hero"> Inicio <i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="nav-item menu-item sub-menu-item"><a class="nav-link menu-link sub-menu-link  " href="index.html">Inicio</a></li>
+                  <li class="nav-item menu-item sub-menu-item"><a class="nav-link menu-link sub-menu-link  " href="home-2.html">Sitio Antiguo</a></li>
+<!--
+                  <li class="nav-item menu-item sub-menu-item"><a class="nav-link menu-link sub-menu-link  " href="capital_semilla_chat.html">Chat Capital Semilla </a></li>
+-->
+                </ul>
+              </li>
+              <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#services">{% translate  "Servicios"&nbsp; %} </a></li>
+              <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#about">LuminousOceans </a></li>
+              
+<!--          <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#portfolio">Artículos&nbsp; </a></li>
+			  <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#pricing">plataformas&nbsp; </a></li>
+              <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#testimonials">Testimonios&nbsp; </a></li>
+-->
+              <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#faq">{% translate  "FAQ" %} </a></li>
+ <!--             <li class="nav-item menu-item"><a class="nav-link menu-link  " href="#contact-us">contáctanos&nbsp; </a></li>
+-->
+            </ul>
+          </div>
+          <div class="controls-box">
+            <!--Menu Toggler button-->
+            <div class="control  menu-toggler"><span></span><span></span><span></span></div>
+            <!--search Icon button-->
+            <!--<div class="control header-search-btn"><i class="bi bi-search icon"></i></div>-->
+            <!--Dark/Light mode button-->
+            <div class="mode-switcher ">
+              <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+              <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+            </div>
+            <!--mini shoping cart-->
+          </div>
+        </nav>
+      </div>
+      <!--End navbar-->
+    </header>
+    <!--End Page Header-->
+    <!-- Start  Page hero-->
+    <section class="page-hero  d-flex align-items-center" id="page-hero">
+      <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/pattern-bg-1.jpg" data-bg-opacity=".2"></div>
+      <div class="particles-js  dots" id="particles-js"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6 ">
+            <!--Start of .hero-text-area-->
+            <div class="hero-text-area   ">
+              <div class="row">
+                <div class="col-12   ">
+                  <div class="hero-social-icons mb-3 ">
+                    <div class="sc-wrapper dir-row sc-flat">
+<!--
+                      <ul class="sc-list">
+                        <li class="sc-item " title="Facebook"><a class="sc-link" href="https://www.facebook.com/LuminousOceans" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                        <li class="sc-item " title="youtube"><a class="sc-link" href="https://www.youtube.com/LuminousOceans" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                        <li class="sc-item " title="instagram"><a class="sc-link" href="https://www.instagram.com/Luminous.Oceans" title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
+                        <li class="sc-item " title="twitter"><a class="sc-link" href="https://www.twitter.com/LuminousOceans" title="social media icon"><i class="fab fa-twitter sc-icon"></i></a></li>
+                      </ul>
+-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="pre-title ">{% translate "Descubre.Aprende.Crece" %}</div>
+                  <h1 class="hero-title  ">
+					  <span class="featured-text">LuminousOceans&nbsp;
+						  <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 0 350 150" preserveAspectRatio="none">
+							  <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
+						  </svg>
+					  </span>
+					  
+					  <span class="design-element rounded-shape stripes"></span>
+					  {% blocktrans %}
+					  Potenciando el Aprendizaje y Crecimiento Institucional 
+					  {% endblocktrans %}
+            &nbsp;&nbsp; &nbsp; 
+					</h1>
+                </div>
+                <div class="col-10       ">
+                  <p class="hero-subtitle ">
+                    {% blocktrans %}
+                  Transformando la manera en que las instituciones descubren, aprenden y crecen en la era digital. LuminousOceans facilita el acceso a la información relevante, optimiza la gestión del conocimiento y promueve el crecimiento sostenible.
+                  {% endblocktrans %}
+                  &nbsp;&nbsp; 
+                  </p>
+                </div>
+                <div class="col-12   ">
+                  <div class="cta-links-area "><a class=" btn-outline cta-link cta-link-primary " href="#services">{% translate  "Empieza ya" %}&nbsp;</a>
+                    <div class="play-btn-row-dir "><a class="video-link" href="https://www.youtube.com/watch?v=3qIvJ9uW6bs&ab_channel=LuminousOceans" role="button" title="play" data-fancybox="data-fancybox">
+                        <div class="play-video-btn">
+                          <div class="play-btn"> <i class="fas fa-play icon"></i></div>
+                        </div></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--start of image-area -->
+          <div class="col-12   mx-md-auto col-lg-6 text-center " data-tilt>  
+            <div class="hero-image-area mb-5 mb-lg-0">
+              <div class="hero-img-wraper  "><img class="img-fluid " src="{% static 'assets/images/hero/Logo-Dark.png' %}" alt="" draggable="false"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of .hero-text-area-->
+    <!-- End  Page hero-->
+    <!-- Start  services Section-->
+    <section class="services services-boxed mega-section  " id="services">
+      <div class="container">
+        <div class="sec-heading  ">
+          <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">{% translate  "Servicios" %}</span>
+          <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">{% translate  "Nuestros Servicios" %}</h2>
+            <p class="subtitle   wow fadeInUp " data-wow-delay=".6s">
+              {% blocktrans %}
+              En LuminousOceans, nuestra misión es revolucionar cómo las instituciones interactúan y manejan la información compleja. Ofrecemos soluciones personalizadas, centradas en el usuario y con un enfoque sistemático, siempre promoviendo la equidad y la eficiencia.
+              {% endblocktrans %}
+            </p>
+			</div>
+
+			<div class=" cta-area   wow fadeInUp" data-wow-delay=".8s">
+<!--
+					<a class="cta-btn btn-solid    ">Conoce nuestros servicios&nbsp;&nbsp; 
+						<i class="bi bi-arrow-right icon ">
+			</i>
+			</a>
+-->		 
+		  </div>
+        </div>
+        <div class="row gx-4 gy-4 services-row ">  
+          <div class="col-12 col-md-6  col-lg-4 mx-auto ">
+            <!--Start First service box-->
+            <div class="box service-box  wow fadeInUp reveal-start" data-wow-offset="0" data-wow-delay=".1s">
+              <div class="service-icon"><i class="flaticon-web-development font-icon"></i></div><span class="service-num hollow-text">1    </span>
+              <div class="service-content">
+                <h3 class="service-title"> {% translate  "Creación de Experiencias Únicas a través de Plataformas Personalizadas" %} </h3>
+                <p class="service-text">
+                  {% blocktrans %}
+                  Cada institución es un universo en sí misma, con necesidades y características únicas. Nuestro enfoque es reconocer y resaltar esta singularidad, forjando plataformas a medida que no solo entreguen información, sino que la destilen y presenten de manera relevante y específica para cada usuario.
+                  {% endblocktrans %}
+                </p>
+              </div>
+				<!--<a class="read-more" href="#0">leer más<i class="bi bi-arrow-right icon "> </i></a> -->
+            </div>
+            <!-- End First service box   -->
+          </div>
+          <div class="col-12 col-md-6  col-lg-4 mx-auto ">
+            <!--Start Second service box-->
+            <div class="box service-box  wow fadeInUp reveal-start" data-wow-offset="0" data-wow-delay=".2s">
+              <div class="service-icon"><i class="flaticon-nanotechnology font-icon"></i></div><span class="service-num hollow-text">2    </span>
+              <div class="service-content">
+                <h3 class="service-title"> {% translate  "Descubrimiento y Comprensión a través del Diagnóstico Institucional" %}&nbsp;</h3>
+                <p class="service-text">
+                  {% blocktrans %}
+                  Más allá de ser tecnólogos y cientistas sociales, actuamos como colaboradores estratégicos. Nos sumergimos junto a cada institución en el núcleo de sus ecosistemas, buscando entender sus desafíos, su potencial y su visión. Este diagnóstico nos permite diseñar soluciones que se alinean perfectamente con los objetivos de cada organización, minimizando los obstáculos y maximizando las fortalezas disponibles para cada miembro de ella.
+                  {% endblocktrans %}
+                </p>
+              </div>
+				<!--<a class="read-more" href="#0">leer más<i class="bi bi-arrow-right icon "> </i></a> -->
+            </div>
+            <!-- End Second service box-->
+          </div>
+          <div class="col-12 col-md-6  col-lg-4 mx-auto  ">
+            <!--Start Third service box-->
+            <div class="box service-box  wow fadeInUp reveal-start" data-wow-offset="0" data-wow-delay=".3s">
+              <div class="service-icon"><i class="flaticon-web-domain font-icon"></i></div><span class="service-num hollow-text">3    </span>
+              <div class="service-content">
+                <h3 class="service-title">{% translate  "Acceso Inteligente a Información desde la Sistematización de Documentos" %} &nbsp; </h3>
+                <p class="service-text">
+                  {% blocktrans %}
+                  Entendemos que la accesibilidad de la información es tan valiosa como el conocimiento en sí. Recogemos y generamos una variedad de insumos, desde entrevistas hasta documentos internos y protocolos institucionales. Estos son simplificados y presentados en un formato claro y accesible, permitiendo a los stakeholders tomar decisiones informadas.
+                  {% endblocktrans %}
+                </p>
+              </div>
+				<!--<a class="read-more" href="#0">leer más<i class="bi bi-arrow-right icon "> </i></a> -->
+            </div>
+            <!-- End Third service box-->
+          </div>
+          <div class="col-12 col-md-6  col-lg-4 mx-auto  ">
+            <!--Start fourth service box-->
+            <div class="box service-box  wow fadeInUp reveal-start" data-wow-offset="0" data-wow-delay=".4s">
+              <div class="service-icon"><i class="flaticon-profile font-icon"></i></div><span class="service-num hollow-text">4    </span>
+              <div class="service-content">
+                <h3 class="service-title">{% translate  "Fluidez y Simplificación con la Integración de Bases de Usuarios" %} &nbsp;</h3>
+                <p class="service-text">
+                  {% blocktrans %}
+                  Proporcionamos sistemas de usuarios diferenciados, permitiendo un acceso intuitivo y fluido a la plataforma. Si la institución ya cuenta con una base de usuarios, integramos esta base sin problemas, facilitando la transición y eliminando barreras.
+                  {% endblocktrans %}
+                </p>
+              </div>
+				<!--<a class="read-more" href="#0">leer más<i class="bi bi-arrow-right icon "> </i></a> -->
+            </div>
+            <!-- End fourth service box   -->
+          </div>
+          <div class="col-12 col-md-6  col-lg-4 mx-auto  ">
+            <!--Start 5th service box-->
+            <div class="box service-box  wow fadeInUp reveal-start" data-wow-offset="0" data-wow-delay=".5s">
+              <div class="service-icon"><i class="flaticon-search font-icon"></i></div><span class="service-num hollow-text">5    </span>
+              <div class="service-content">
+                <h3 class="service-title">{% translate  "Descubrimiento Eficiente con la Búsqueda Asistida por IA" %} &nbsp;</h3>
+                <p class="service-text">
+                  {% blocktrans %}
+                  Nuestro servicio va más allá de la recopilación y organización de información; lo potenciamos con tecnología de búsqueda asistida por IA. Esto permite a las instituciones acceder a su información de forma rápida, precisa y eficiente.
+                  {% endblocktrans %}
+                </p>
+              </div>
+				<!--<a class="read-more" href="#0">leer más<i class="bi bi-arrow-right icon "> </i></a> -->
+            </div>
+            <!-- End 5th service box-->
+          </div>
+          <div class="col-12 col-md-6  col-lg-4 mx-auto  ">
+            <!--Start 6th service box-->
+            <div class="box service-box  wow fadeInUp  reveal-start" data-wow-offset="0" data-wow-delay=".6s">
+              <div class="service-icon"><i class="flaticon-strategy font-icon"></i></div><span class="service-num hollow-text">6    </span>
+              <div class="service-content">
+                <h3 class="service-title">{% translate  "Profundización y Personalización a través del Análisis de Datos" %} </h3>
+                <p class="service-text">
+                  {% blocktrans %}
+                  Nuestro sistema utiliza técnicas avanzadas de análisis de datos para personalizar la plataforma para cada usuario. Además, ofrecemos a las instituciones la oportunidad de utilizar los datos generados para realizar análisis que pueden ser de su interés, para comprender mejor los desafíos y potencialidades que enfrentan, y así brindar soluciones eficaces e innovadoras.
+                  {% endblocktrans %}
+                </p>
+              </div>
+				<!--<a class="read-more" href="#0">leer más<i class="bi bi-arrow-right icon "> </i></a> -->
+            </div>
+            <!-- End 6th service box-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  services Section-->
+    <!-- Start  about Section-->
+    <section class="about mega-section" id="about">
+      <div class="container">
+        <!-- Start first about div-->
+        <div class="content-block  ">
+          <div class="row">
+            <div class="col-12 col-lg-7 d-flex align-items-center order-1 order-lg-0 about-col pad-end  wow fadeInUp " data-wow-delay="0.6s">
+              <div class="text-area ">
+                <div class="sec-heading  light-title ">
+                  <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">Luminous Oceans</span>
+                    <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">
+                      <span class="hollow-text">
+                        {% translate  "Descubriendo" %}
+                      </span> 
+						          <span class="featured-text">
+                        {% translate  "Profundidades" %} 
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                          <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7">
+                          </path>
+                        </svg>
+                      </span>
+                    </h2>
+                  </div>
+                </div>
+                <p class=" about-text">
+                  {% blocktrans %}
+                  Como una ballena bioluminiscente, ilumina las oscuras profundidades del vasto océano de información, revelando tesoros ocultos y desbloqueando un mundo de posibilidades sin precedentes.
+                  {% endblocktrans %}
+                  <br>
+                </p>
+                <div class="info-items-list ">
+                  <div class="row ">
+                    <div class="col-9 col-xl-6">
+                      <div class="info-item"><i class="flaticon-medal  info-icon"></i>
+                        <div class="info-content">
+                          <h5 class="info-title">{% translate  "Pioneros de la Profundidad" %} </h5>
+                          <p class="info-text">
+                            {% blocktrans %}
+                            Nos sumergimos en las profundidades del nuevo mundo digital, liderando el camino con asistentes de inteligencia artificial impulsados por avanzados modelos de lenguaje natural. Como exploradores audaces, iluminamos las zonas oscuras y desconocidas del océano de la tecnología.
+                            {% endblocktrans %}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-9 col-xl-6">
+                      <div class="info-item"><i class="flaticon-game-console info-icon"></i>
+                        <div class="info-content">
+                          <h5 class="info-title">{% translate  "Navegación Intuitiva" %} </h5>
+                          <p class="info-text">
+                            {% blocktrans %}
+                            Como un mar tranquilo bajo la luna llena, nuestra plataforma brinda una experiencia de usuario suave y fácil de navegar. Hemos trazado un curso claro a través del vasto mar de la información, haciendo que la exploración sea sencilla para todos los navegantes, independientemente de su experiencia.
+                            {% endblocktrans %}
+                            &nbsp; &nbsp;
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-9 col-xl-6">
+                      <div class="info-item"><i class="flaticon-map info-icon"></i>
+                        <div class="info-content">
+                          <h5 class="info-title">{% translate  "Exploradores Globales" %} </h5>
+                          <p class="info-text">
+                            {% blocktrans %}
+                            Nuestra travesía comenzó en las costas de Chile, pero las corrientes digitales nos han llevado a aguas internacionales, con un puerto establecido en Berlín, Alemania. Nuestra misión es explorar todos los rincones del mundo, proporcionando soluciones de simplificación a las organizaciones que necesitan desentrañar sus propias profundidades.
+                            {% endblocktrans %}
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-9 col-xl-6">
+                      <div class="info-item"><i class="flaticon-technical-support-1  info-icon"></i>
+                        <div class="info-content">
+                          <h5 class="info-title">{% translate  "Equipado para la Expedición" %} </h5>
+                          <p class="info-text">
+                            {% blocktrans %}
+                            Nuestro equipo es un grupo diverso de aventureros experimentados, cada uno aportando su propio conjunto de habilidades únicas y experiencia en campos como el desarrollo de software, política educativa internacional, enseñanza universitaria y ciencia de datos. Juntos, somos una tripulación inigualable, preparada para hacer lo complejo simple.
+                            {% endblocktrans %}
+                            &nbsp;&nbsp;
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+			<div class="cta-area">
+<!--
+                <a class=" btn-solid reveal-start" href="#contact-us">Contáctanos</a>
+
+<!--
+                  <div class="signature ">
+                    <div class="signature-img"></div>
+                    <div class="signature-name">Founder </div>
+                  </div>
+-->
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 d-flex align-items-center order-0 order-lg-1 about-col  wow fadeInUp" data-wow-delay="0.2s">
+              <div class="img-area  " data-tilt>
+                <div class="image   "><img class="about-img img-fluid " loading="lazy" src={% static 'assets/images/about/3.png' %} alt="Our vision"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End first about div-->
+        <!-- Start first about div-->
+        <div class="content-block  ">
+          <div class="row">
+            <div class="col-12 col-lg-6 d-flex align-items-center about-col  wow fadeInUp" data-wow-delay="0.2s">
+              <div class="img-area  ">
+                <div class="image  " data-tilt><img class="about-img img-fluid " loading="lazy" src={% static "assets/images/about/1.png" %} alt="about"></div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center about-col pad-start  wow fadeInUp " data-wow-delay="0.6s">
+              <div class="text-area ">
+                <div class="sec-heading  light-title ">
+                  <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">{% translate  "transformando el futuro" %}</span>
+                    <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">
+                    <span class="featured-text">{% translate  "Innovación y equidad" %} 
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 175" preserveAspectRatio="none">
+                        <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
+                      </svg>
+                    </span> 
+                    <br>
+                    {% translate  "Los Pilares de Nuestra Revolución en el Aprendizaje" %}
+                  </h2>
+                  </div>
+                </div>
+                <p class=" about-text">
+                  {% blocktrans}
+                  Revolucionamos el aprendizaje y potenciamos la equidad a través de soluciones tecnológicas avanzadas.
+                  {% endblocktrans %}
+                </p>
+                <div class="info-items-list">
+                  <div class="row ">
+                    <div class="col-12 ">
+                      <div class="info-item"><span class="info-number ">01.</span>
+                        <div class="info-content">
+                          <h5 class="info-title">
+                            {% translate  "Disrupción Tecnológica en el Aprendizaje" %} 
+                          </h5>
+                          <p class="info-text">
+                            {% blocktrans}
+                            Nuestra plataforma basada en IA redefine el acceso y la simplificación de la información, proporcionando un enfoque revolucionario para abordar las brechas en el aprendizaje y la complejidad informativa.
+                            {% endblocktrans %}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 ">
+                      <div class="info-item"><span class="info-number ">02.</span>
+                        <div class="info-content">
+                          <h5 class="info-title">
+                          {% translate  "Impacto Social y Económico" %}
+                          </h5>
+                          <p class="info-text">
+                            {% blocktrans %}
+                            Apuntamos a generar un cambio significativo en la sociedad, promoviendo la equidad en el aprendizaje y permitiendo un acceso más amplio a la información. Nuestro enfoque puede resultar en un gran impacto económico, a medida que más personas tienen acceso a oportunidades de aprendizaje y desarrollo profesional.
+                            {% endblocktrans %}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 ">
+                      <div class="info-item"><span class="info-number ">03.</span>
+                        <div class="info-content">
+                          <h5 class="info-title">
+                            {% translate  "Potencial de Crecimiento y Escalabilidad" %} 
+                          </h5>
+                          <p class="info-text">
+                            {% blocktrans %}
+                            Nuestro modelo de negocio tiene el potencial de expandirse a varios mercados y sectores. Aunque comenzamos enfocándonos en el sector educativo, nuestras soluciones de aprendizaje son adaptables y pueden atender a una variedad de industrias y mercados, proporcionando una amplia gama de oportunidades de crecimiento y escalabilidad.
+                            {% endblocktrans %}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cta-area ">
+<!--				
+					<a class=" btn-solid " href="#contact-us">Contactémonos</a>
+-->
+				  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End first about div-->
+      </div>
+    </section>
+    <!-- End  about Section-->
+    <!-- Start  stats Section-->
+    <section class="stats js-stats-counter mega-section">
+      <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/pattern-bg-3.jpg" data-bg-opacity=".2"></div>
+      <div class="container">
+        <div class="stats-inner">
+          <div class="row ">
+            <!--Info One-->
+            <div class="col-12 col-md-6 col-lg-3 stat-box ">
+              <div class="stat-box-inner  " data-tilt="data-tilt"><i class="flaticon-book-1 stat-icon"></i>
+                <p class="stat-num "><span class="counter" data-from="0" data-to="11" data-speed="3000" data-refresh-interval="50">11</span><span class="sign">+</span></p>
+                <span class="stat-desc">{% translate  "Años De Experiencia En El Campo De La Enseñanza" %}</span>
+              </div>
+            </div>
+            <!--Info Two-->
+            <div class="col-12 col-md-6 col-lg-3 stat-box ">
+              <div class="stat-box-inner  " data-tilt="data-tilt"><i class="flaticon-user-1 stat-icon"></i>
+                <p class="stat-num "><span class="counter" data-from="0" data-to="9" data-speed="3000" data-refresh-interval="50">9</span><span class="sign">+</span></p>
+                <span class="stat-desc">{% translate  "Años Trabajando Juntos En Educación Y Tecnología" %}</span>
+              </div>
+            </div>
+            <!--Info Three-->
+            <div class="col-12 col-md-6 col-lg-3 stat-box ">
+              <div class="stat-box-inner  " data-tilt="data-tilt"><i class="flaticon-calendar-2 stat-icon"></i>
+                <p class="stat-num "><span class="counter" data-from="0" data-to="6" data-speed="3000" data-refresh-interval="50">6&nbsp;</span><span class="sign">+</span></p>
+                <span class="stat-desc">&nbsp;{% translate  "Seis Semanas Desde El Nacimiento De Esta Idea. Avanzamos Con Decisión" %}</span>
+              </div>
+            </div>
+            <!--Info Four-->
+            <div class="col-12 col-md-6 col-lg-3 stat-box ">
+              <div class="stat-box-inner  " data-tilt="data-tilt"><i class="flaticon-project-management stat-icon"></i>
+                <p class="stat-num "><span class="counter" data-from="0" data-to="1" data-speed="3000" data-refresh-interval="50">&nbsp; 1&nbsp;</span><span class="sign">&nbsp;</span></p>
+                <span class="stat-desc">{% translate  "Un Modelo De Negocio Sólido Y Adaptativo, Preparado Para Crecer" %} &nbsp;&nbsp;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  stats Section-->
+    <!-- Start  portfolio-slider Section-->
+    <section class="portfolio portfolio-blocks mega-section   " id="portfolio">
+      <div class="container">
+        <div class="sec-heading  ">
+          <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">roadmap</span>
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"> {% translate "ruta" %} </h2>
+          </div>
+		<!--
+          <div class=" cta-area   wow fadeInUp" data-wow-delay=".8s"><a class="cta-btn btn-solid    " href="portfolio-grid.html">ver más <i class="bi bi-arrow-right icon "></i></a>
+			</div>
+-->
+        </div>
+        <div class="portfolio-wrapper  ">
+          <!--a menu of links to show the photos users needs   -->
+          <ul class="portfolio-btn-list wow fadeInUp" data-wow-delay=".2s">
+            <li class="portfolio-btn active " data-filter="*">{% translate  "Completo" %}</li>
+            <li class="portfolio-btn        " data-filter=".mobile">{% translate  "Desarrollo de Producto" %}</li>
+            <li class="portfolio-btn        " data-filter=".web">{% translate  "Crecimiento del Equipo" %}</li>
+            <li class="portfolio-btn        " data-filter=".data">{% translate  "Mercado y Alianzas" %}</li>
+            <li class="portfolio-btn        " data-filter=".hosting">{% translate  "Modelo de Negocio y Finanzas" %}</li>
+          </ul>
+          <div class="portfolio-group wow fadeIn" data-wow-delay=".4s">
+            <div class="row ">
+              <div class="col-12  col-md-6  col-lg-4  portfolio-item mobile ">
+                <div class="item   ">
+					<a class="portfolio-img-link" href="{% static 'assets/images/portfolio/1.jpg' %}" data-fancybox=".show-in-fancybox">
+						<img class="portfolio-img   img-fluid " loading="lazy" src="{% static 'assets/images/portfolio/1.jpg' %}" alt="portfolio item photo"/></a>
+                  <div class="item-info ">
+                    <h3 class="item-title">{% translate  "Producto personalizado" %}</h3><i class="bi bi-eye icon "></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12  col-md-6  col-lg-4  portfolio-item web  ">
+                <div class="item   "><a class="portfolio-img-link" href={% static 'assets/images/portfolio/2.jpg' %} data-fancybox=".show-in-fancybox">
+					<img class="portfolio-img   img-fluid " loading="lazy" src={% static 'assets/images/portfolio/2.jpg'} alt="portfolio item photo"/></a>
+                  <div class="item-info ">
+                    <h3 class="item-title">{% translate  "Crecimiento institucional" %}</h3><i class="bi bi-eye icon "></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12  col-md-6  col-lg-4  portfolio-item data ">
+                <div class="item   "><a class="portfolio-img-link" href={% static "assets/images/portfolio/3.jpg" %} data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy" src="{% static 'assets/images/portfolio/3.jpg' %}" alt="portfolio item photo"/></a>
+                  <div class="item-info ">
+                    <h3 class="item-title">{% translate  "Análisis de datos" %} </h3><i class="bi bi-eye icon "></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12  col-md-6  col-lg-4  portfolio-item mobile web">
+                <div class="item   "><a class="portfolio-img-link" href={% static "assets/images/portfolio/4.jpg" %}data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy" src="{% static 'assets/images/portfolio/4.jpg' %}" alt="portfolio item photo"/></a>
+                  <div class="item-info ">
+                    <h3 class="item-title">{% translate  "Diagnóstico institucional" %}</h3><i class="bi bi-eye icon "></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12  col-md-6  col-lg-4  portfolio-item hosting ">
+                <div class="item   "><a class="portfolio-img-link" href={% static "assets/images/portfolio/5.jpg" %} data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy" src="{% static 'assets/images/portfolio/5.jpg' %}" alt="portfolio item photo"/></a>
+                  <div class="item-info ">
+                    <h3 class="item-title">{% translate  "Búsqueda inteligente" %}</h3><i class="bi bi-eye icon "></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12  col-md-6  col-lg-4  portfolio-item mobile">
+                <div class="item   "><a class="portfolio-img-link" href={% static 'assets/images/portfolio/6.jpg' %} data-fancybox=".show-in-fancybox"><img class="portfolio-img   img-fluid " loading="lazy" src="{% static 'assets/images/portfolio/6.jpg' %}" alt="portfolio item photo"/></a>
+                  <div class="item-info ">
+                    <h3 class="item-title">{% translate  "Equipo de expertos" %}</h3><i class="bi bi-eye icon "></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  portfolio-slider Section-->
+    <!-- Start  our-clients Section-->
+	<!--
+    <section class="our-clients  mega-section   wow fadeInUp" id="our-clients" data-wow-delay="0.2s">
+      <div class="container">
+        <div class="sec-heading   centered ">
+          <div class="content-area">
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">trusted by over 500 clients around the world</h2>
+          </div>
+        </div>
+        <div class=" clients-logos d-flex align-items-center justify-content-around flex-wrap">
+          <!--Swiper-->
+	  <!--
+          <div class="swiper-container">
+            <div class="swiper-wrapper clients-logo-wrapper wow fadeIn " data-wow-delay=".02s">
+              <!-- every client logo is located inside div  with clss name "swiper-slide ".
+              if you want to add more logos please keep the strcture of the swiper-slide as showen below
+              
+              
+              -->
+	  <!--
+              <div class="swiper-slide">
+                <div class="client-logo  "><a href="#0"><img class="img-fluid logo " loading="lazy" src="assets/images/clients-logos/1-white.png" alt=" "></a></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy" src="assets/images/clients-logos/2-white.png" alt=" "></a></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy" src="assets/images/clients-logos/3-white.png" alt=" "></a></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy" src="assets/images/clients-logos/4-white.png" alt=" "></a></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy" src="assets/images/clients-logos/5-white.png" alt=" "></a></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy" src="assets/images/clients-logos/6-white.png" alt=" "></a></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client-logo "><a href="#0"><img class="img-fluid logo " loading="lazy" src="assets/images/clients-logos/7-white.png" alt=" "></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	  -->
+    <!-- End  our-clients Section-->
+    <!-- Start  pricing Section-->
+<!--
+    <section class="pricing mega-section  " id="pricing">
+      <div class="container">
+        <div class="sec-heading  ">
+          <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">plataformas&nbsp;</span>
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"><span style="color: var(--clr-dark-blue); font-family: var(--ltr-main-font-f);">Plataformas de prueba</span><span style="color: var(--clr-dark-blue); font-family: var(--ltr-main-font-f); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight);">&nbsp;</span><br>
+            </h2>
+<p class="subtitle   wow fadeInUp " data-wow-delay=".6s">Durante esta fase de desarrollo, hemos preparado estas plataformas para conocer algunos de nuestros servicios &nbsp;</p>
+          </div>
+          <div class=" cta-area   wow fadeInUp" data-wow-delay=".8s"><a class="cta-btn btn-solid    " href="#0">see all plans<i class="bi bi-arrow-right icon "></i></a></div>
+        </div>
+        <div class="row">
+          <!--First Plan-->
+<!--
+          <div class="col-12  col-md-6 col-xl-3  mx-auto price-plan ">
+            <div class="plan    wow fadeInUp  " data-wow-delay=".1s ">
+              <div class="plan-head"><i class="flaticon-nft-1 plan-icon"></i>
+                <h4 class="plane-name">free plan</h4>
+                <div class="plan-price">
+                  <h3 class="price">00<sup class="currency-symbol">$</sup></h3><span class="per">per project</span>
+                </div>
+              </div>
+              <div class="plan-details">
+                <ul class="plan-list">
+                  <li class="plan-feat "> <span class="feat-text"> 150 Lorem, ipsum dolor. </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> 20 Lorem ipsum dolor sit . </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> Lorem ipsum dolor sit. </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> free Lorem ipsum dolor . </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> added Lorem ipsum dolor. </span></li>
+                </ul>
+              </div>
+              <div class="plan-cta"><a class="cta-btn btn-outline " href="#0">select plan  </a></div>
+            </div>
+          </div>
+          <!--Second-plan-->
+<!--
+          <div class="col-12  col-md-6 col-xl-3  mx-auto price-plan ">
+            <div class="plan    wow fadeInUp  " data-wow-delay=".3s ">
+              <div class="plan-head"><i class="flaticon-virtual-reality plan-icon"></i>
+                <h4 class="plane-name">standerd plan</h4>
+                <div class="plan-price">
+                  <h3 class="price">85<sup class="currency-symbol">$</sup></h3><span class="per">per project</span>
+                </div>
+              </div>
+              <div class="plan-details">
+                <ul class="plan-list">
+                  <li class="plan-feat "> <span class="feat-text"> 150 Lorem, ipsum dolor. </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> 20 Lorem ipsum dolor sit . </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> Lorem ipsum dolor sit. </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> free Lorem ipsum dolor . </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> added Lorem ipsum dolor. </span></li>
+                </ul>
+              </div>
+              <div class="plan-cta"><a class="cta-btn btn-outline " href="#0">select plan  </a></div>
+            </div>
+          </div>
+          <!--Third-plan-->
+<!--
+          <div class="col-12  col-md-6 col-xl-3  mx-auto price-plan ">
+            <div class="plan   featured  wow fadeInUp  " data-wow-delay=".5s ">
+              <div class="plan-head"><i class="flaticon-box plan-icon"></i>
+                <h4 class="plane-name">pro plan</h4>
+                <div class="plan-price">
+                  <h3 class="price">150<sup class="currency-symbol">$</sup></h3><span class="per">per project</span>
+                </div>
+              </div>
+              <div class="plan-details">
+                <ul class="plan-list">
+                  <li class="plan-feat "> <span class="feat-text"> 150 Lorem, ipsum dolor. </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> 20 Lorem ipsum dolor sit . </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> Lorem ipsum dolor sit. </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> free Lorem ipsum dolor . </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> added Lorem ipsum dolor. </span></li>
+                </ul>
+              </div>
+              <div class="plan-cta"><a class="cta-btn btn-outline " href="#0">select plan  </a></div>
+            </div>
+          </div>
+          <!--fourth-plan-->
+<!--
+          <div class="col-12  col-md-6 col-xl-3  mx-auto price-plan ">
+            <div class="plan    wow fadeInUp  " data-wow-delay=".6s ">
+              <div class="plan-head"><i class="flaticon-basic-shapes plan-icon"></i>
+                <h4 class="plane-name">ultimate plan</h4>
+                <div class="plan-price">
+                  <h3 class="price">210<sup class="currency-symbol">$</sup></h3><span class="per">per project</span>
+                </div>
+              </div>
+              <div class="plan-details">
+                <ul class="plan-list">
+                  <li class="plan-feat "> <span class="feat-text"> 150 Lorem, ipsum dolor. </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> 20 Lorem ipsum dolor sit . </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> Lorem ipsum dolor sit. </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> free Lorem ipsum dolor . </span></li>
+                  <li class="plan-feat "> <span class="feat-text"> added Lorem ipsum dolor. </span></li>
+                </ul>
+              </div>
+              <div class="plan-cta"><a class="cta-btn btn-outline " href="#0">select plan  </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  pricing Section-->
+    <!-- Start  testimonials Section-->
+<!--
+    <section class="testimonials testimonials-1-col   has-dark-bg  mega-section " id="testimonials">
+      <div class="overlay-photo-image-bg parallax " data-bg-img="assets/images/sections-bg-images/1.jpg" data-bg-opacity=".25"> </div>
+      <div class="container">
+        <div class="sec-heading  centered ">
+          <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">testimonios</span>
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">Testimonios <span class='hollow-text'>de nuestros colaboradores</span></h2>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-md-10  mx-auto">
+            <div class="swiper-container  wow fadeInUp  " data-wow-delay="0.2s">
+              <div class="swiper-wrapper">
+                <!--First Slide-->
+<!--
+                <div class="swiper-slide">
+                  <div class="testmonial-card d-flex align-items-center justify-content-center">
+                    <div class="testimonial-content">
+                      <div class="customer-img "><img class="img-fluid " loading="lazy" src="assets/images/testimonials/1.png" alt="First Slide "></div>
+                      <div class="customer-testimonial">
+                        <div class="content">
+                          <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.</p>
+                        </div>
+                      </div>
+                      <div class="customer-info ">
+                        <div class="customer-details">
+                          <p class="customer-name">Yusuf amin</p>
+                          <p class="customer-role">founder</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Second Slide-->
+<!--
+                <div class="swiper-slide">
+                  <div class="testmonial-card d-flex align-items-center justify-content-center">
+                    <div class="testimonial-content">
+                      <div class="customer-img "><img class="img-fluid " loading="lazy" src="assets/images/testimonials/2.png" alt="First Slide "></div>
+                      <div class="customer-testimonial">
+                        <div class="content">
+                          <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.</p>
+                        </div>
+                      </div>
+                      <div class="customer-info ">
+                        <div class="customer-details">
+                          <p class="customer-name">fouad osman</p>
+                          <p class="customer-role">officer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--third Slide-->
+<!--
+                <div class="swiper-slide">
+                  <div class="testmonial-card d-flex align-items-center justify-content-center">
+                    <div class="testimonial-content">
+                      <div class="customer-img "><img class="img-fluid " loading="lazy" src="assets/images/testimonials/3.png" alt="First Slide "></div>
+                      <div class="customer-testimonial">
+                        <div class="content">
+                          <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.            </p>
+                        </div>
+                      </div>
+                      <div class="customer-info ">
+                        <div class="customer-details">
+                          <p class="customer-name">fairouz mhmd</p>
+                          <p class="customer-role">manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--navigation buttons-->
+<!--
+              <div class="swiper-button-prev">
+                <div class="left-arrow"><i class="bi bi-chevron-left icon "></i>
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <div class="right-arrow"><i class="bi bi-chevron-right icon "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  testimonials Section-->
+    <!-- Start  faq Section-->
+    <section class="faq mega-section   " id="faq">
+      <div class="shape-top-left"></div>
+      <div class="shape-bottom-right"></div>
+      <div class="pattern-top-end-dir"></div>
+      <div class="pattern-bottom-start-dir"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-5 align-self-center">
+            <div class="faq-img start-dir-img-frame wow fadeIn  " data-wow-delay="0.2s"><img class="img-fluid " loading="lazy" src="{% static 'assets/images/faq/faq-illustration.png' %}" alt=""></div>
+          </div>
+          <div class="col-12 col-lg-7 ">
+            <div class="sec-heading  ">
+              <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">FAQs</span>
+                <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"><span class="hollow-text"> {% translate  "Preguntas" %} </span> {% translate  "Frecuentes" %} </h2>
+              </div>
+            </div>
+            <!--Start Accordion List For FAQ-->
+            <div class="faq-accordion " id="accordion">
+              <div class="card mb-2">
+                <div class="card-header " id="heading-1">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                      {% translate  "¿Cómo funciona su producto?" %}
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-1" aria-labelledby="collapse-1" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">
+                      {% blocktrans %} 
+                      LuminousOceans opera como un faro en un océano de información, iluminando y simplificando las complejidades para permitir un aprendizaje eficiente y efectivo. Nuestro sistema usa inteligencia artificial para analizar y comprender la abundancia de información disponible en una organización - desde documentos internos, minutas de reuniones, hasta protocolos técnicos - y luego la transforma en un recurso de aprendizaje accesible y fácil de entender. 
+                      {% endblocktrans %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-2">
+                <div class="card-header " id="heading-2">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+                      {% translate  "¿Cuál es su modelo de negocio?" %}
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-2" aria-labelledby="collapse-2" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">
+                      {% blocktrans %}
+                      Nuestro modelo de negocio se basa en colaboraciones directas y profundas con instituciones. Ofrecemos un servicio especializado y altamente personalizado que se adapta a las necesidades específicas de cada institución. A medida que crecemos y nuestra plataforma se desarrolla, planeamos ofrecer soluciones más generales que puedan personalizarse al mínimo necesario para conservar la eficacia de nuestra propuesta. 
+                      {% endblocktrans %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-2">
+                <div class="card-header " id="heading-3">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
+                      {% translate  "¿Quiénes conforman LuminousOceans?" %}
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-3" aria-labelledby="collapse-3" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">
+                      {% blocktrans}
+                      Nuestro equipo está compuesto por profesionales apasionados con años de experiencia en la industria del aprendizaje y la tecnología, habiendo trabajado en proyectos educativos con más de una docena de paises de América Latina y El Caribe. Con una sólida experiencia de más de 12 años en capacitación y enseñanza, y una relación de trabajo de 9 años, nuestros fundadores han construido una base sólida para LuminousOceans. 
+                      {% endblocktrans %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-2">
+                <div class="card-header " id="heading-4">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">
+                      {% translate  "¿Cómo se diferencia LuminousOceans de otras plataformas de aprendizaje?" %}
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-4" aria-labelledby="collapse-4" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">
+                      {% blocktrans}
+                      Al igual que un faro ilumina la ruta a seguir en un vasto océano, LuminousOceans se destaca al proporcionar una solución personalizada para cada institución. Nos diferenciamos al proporcionar una comprensión simplificada de información compleja, adaptada a las necesidades únicas de cada organización. 
+                      {% endblocktrans %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+			  <div class="card mb-2">
+                <div class="card-header " id="heading-5">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="true" aria-controls="collapse-5">
+                      {% translate  "¿Qué mercados planea LuminousOceans abordar?" %}
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-5" aria-labelledby="collapse-5" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">
+                      {% blocktrans}
+                      Inicialmente, nos estamos centrando en las instituciones de educación superior, pero nuestra visión es expandirnos a una amplia gama de sectores que gestionan una gran cantidad de información y necesitan una forma efectiva de transformarla en aprendizaje significativo. Esto podría incluir corporaciones, organizaciones gubernamentales, ONGs y más. 
+                      {% endblocktrans %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+			  <div class="card mb-2">
+                <div class="card-header " id="heading-7">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="true" aria-controls="collapse-7">
+                      {% translate  "¿Cómo se financia LuminousOceans?" %}
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-7" aria-labelledby="collapse-7" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">
+                      {% blocktrans}
+                      En esta etapa inicial, estamos buscando inversión para escalar y mejorar nuestro producto. A largo plazo, nuestra financiación provendrá de los ingresos generados por nuestras colaboraciones con instituciones. 
+                      {% endblocktrans %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+			  <div class="card mb-2">
+                <div class="card-header " id="heading-8">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="true" aria-controls="collapse-8">
+                      {% translate  "¿Cuál es la visión a largo plazo de LuminousOceans?" %} 
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-8" aria-labelledby="collapse-8" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">
+                      {% blocktrans}
+                      En LuminousOceans, visualizamos un futuro donde el aprendizaje sea accesible, eficiente y adaptado a las necesidades individuales de cada organización. Nuestra meta es convertirnos en la guía líder para iluminar la ruta del aprendizaje en un océano de información, ayudando a las organizaciones a maximizar su potencial a través de un aprendizaje eficaz y eficiente. 
+                      {% endblocktrans %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+			  <div class="card mb-2">
+                <div class="card-header " id="heading-9">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-9" aria-expanded="true" aria-controls="collapse-9">
+                      {% translate  "¿Cómo puedo invertir o asociarme con LuminousOceans?" %}
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-9" aria-labelledby="collapse-9" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">
+                      {% blocktrans}
+                      Valoramos la inversión y las asociaciones que pueden ayudar a LuminousOceans a crecer y prosperar. Si está interesado en invertir en nuestra visión o explorar oportunidades de colaboración, le invitamos a ponerse en contacto con nosotros. Estamos abiertos a discutir cómo su aporte puede iluminar aún más el camino para LuminousOceans. 
+                      {% endblocktrans %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+			 </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  faq Section-->
+    <!-- Start  blog Section-->
+ <!--	
+    <section class="blog blog-home mega-section  " id="blog">
+      <div class="container ">
+        <div class="sec-heading  ">
+          <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">blog</span>
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">últimos&nbsp; <span class="hollow-text">artículos</span></h2>
+          </div>
+          <div class=" cta-area  cta-area  wow fadeInUp" data-wow-delay=".8s"><a class="cta-btn btn-solid   cta-btn btn-solid  " href="blog-home-3-col.html">ver todos los artículos<i class="bi bi-arrow-right icon "></i></a></div>
+        </div>
+        <div class="row ">
+          <div class="col-12 "> 
+            <div class="posts-grid ">
+              <div class="row">
+                <div class="col-12 col-lg-4 ">
+                  <div class="post-box">     <a class="post-link" href="#0" title="How litespeed technology works to speed up your site "> 
+                      <div class="post-img-wrapper  "><img class=" parallax-img   post-img" loading="lazy" src="assets/images/blog/post-images/1.jpg" alt=""/><span class="post-date"><span class="day">05 </span>may 2023     </span></div></a>
+                    <div class="post-summary">
+                      <div class="post-info"><a class="info post-cat" href="#"> <i class="bi bi-bookmark icon"></i>Misión</a><a class="info post-author" href="#"> <i class=" bi bi-person icon"></i>Víctor Gallano Olmos</a></div>
+                      <div class="post-text"><a class="post-link" href="#0"> 
+                          <h2 class="post-title"> Inteligencia Artificial y Comunidad: Una oportunidad única </h2></a>
+                        <p class="post-excerpt"> Sumergidos en la complejidad de la realidad, buscamos simplificarla. Hoy, la Inteligencia Artificial emerge como un puente entre ciencias sociales y aprendizaje, canalizando décadas de conocimiento para transformar nuestra percepción. Bienvenido al punto de encuentro entre IA y comunidad, donde... </p><a class="read-more" href="#0" title="Inteligencia Artificial y Comunidad: Una oportunidad única ">Leer más<i class="bi bi-arrow-right icon "></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 ">         
+                  <div class="post-box">     <a class="post-link" href="#0" title="give your website a new look and feel with themes"> 
+                      <div class="post-img-wrapper  "><img class=" parallax-img   post-img" loading="lazy" src="assets/images/blog/post-images/2.jpg" alt=""/><span class="post-date"><span class="day">15 </span>sep 2022     </span></div></a>
+                    <div class="post-summary">
+                      <div class="post-info"><a class="info post-cat" href="#"> <i class="bi bi-bookmark icon"></i>web dev</a><a class="info post-author" href="#"> <i class=" bi bi-person icon"></i> ----------- _____ </a></div>
+                      <div class="post-text"><a class="post-link" href="#0"> 
+                          <h2 class="post-title"> give your website a new look and feel with themes</h2></a>
+                        <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit.Iure nulla dolorem, voluptates molestiae</p><a class="read-more" href="#0" title="give your website a new look and feel with themes">leer más<i class="bi bi-arrow-right icon "></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 ">         
+                  <div class="post-box">     <a class="post-link" href="#0" title="the role of domain names in SEO world explained "> 
+                      <div class="post-img-wrapper  "><img class=" parallax-img   post-img" loading="lazy" src="assets/images/blog/post-images/3.jpg" alt=""/><span class="post-date"><span class="day">27 </span>aug 2022     </span></div></a>
+                    <div class="post-summary">
+                      <div class="post-info"><a class="info post-cat" href="#"> <i class="bi bi-bookmark icon"></i>SEO</a><a class="info post-author" href="#"> <i class=" bi bi-person icon"></i>Jorge Lastra</a></div>
+                      <div class="post-text"><a class="post-link" href="#0"> 
+                          <h2 class="post-title"> the role of domain names in SEO world explained </h2></a>
+                        <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit.Iure nulla dolorem, voluptates molestiae</p><a class="read-more" href="#0" title="the role of domain names in SEO world explained ">leer más<i class="bi bi-arrow-right icon "></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+    <!-- End  blog Section-->
+    <!-- Start  blog Section-->
+<!--
+    <section class="contact-us  mega-section  pb-0" id="contact-us">
+      <div class="container">
+        <section class="contact-us-form-section  mega-section  ">
+          <div class="row">
+            <div class="col-12 ">
+              <div class="contact-form-panel">
+                <div class="sec-heading centered    ">
+                  <div class="content-area">
+                    <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">¿tienes preguntas? dejanos responderlas</h2>
+                  </div>
+                </div>
+                <div class="contact-form-inputs wow fadeInUp" data-wow-delay=".6s">
+                  <div class="custom-form-area input-boxed"> 
+
+                    <!--Form To have user messages-->
+<!--
+                    <form class="main-form" id="contact-us-form" action="/send-mail" method="post"><span class="done-msg"></span>
+                      <div class="row ">
+                        <div class="col-12 col-lg-6">
+                          <div class="   input-wrapper">
+                            <input class="text-input" id="user-name" name="UserName" type="text"/>
+                            <label class="input-label" for="user-name"> Nombre&nbsp; <span class="req">*</span></label><span class="b-border"></span><span class="error-msg">Por favor ingrese un nombre&nbsp; &nbsp;</span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                          <div class="   input-wrapper">
+                            <input class="text-input" id="user-email" name="UserEmail" type="email"/>
+                            <label class="input-label" for="user-email"> E-mail&nbsp; <span class="req">*</span></label><span class="b-border"></span><span class="error-msg">Por favor ingrese un correo electrónico válido</span>
+                          </div>
+                        </div>
+                        <div class="col-12 ">
+                          <div class="   input-wrapper">
+                            <input class="text-input" id="msg-subject" name="subject" type="text"/>
+                            <label class="input-label" for="msg-subject"> Asunto <span class="req">*</span></label><span class="b-border"></span><span class="error-msg">Por favor señale un asunto para el mensaje&nbsp;</span>
+                          </div>
+                        </div>
+                        <div class="col-12 ">
+                          <div class="   input-wrapper">
+                            <textarea class=" text-input" id="msg-text" name="message"></textarea>
+                            <label class="input-label" for="msg-text"> mensaje <span class="req">*</span></label><span class="b-border"></span><i></i><span class="error-msg">Por favor comparta su mensaje con nosotros</span>
+                          </div>
+                        </div>
+                        <div class="col-12 submit-wrapper">
+                          <button class=" btn-solid" id="submit-btn" type="submit" name="UserSubmit">Envíanos un mensaje &nbsp;</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="locations-section  mega-section ">
+          <div class="sec-heading centered  ">
+            <div class="content-area">
+              <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">Nuestras oficinas</h2>
+            </div>
+          </div>
+          <div class=" contact-info-panel ">
+            <div class="info-section ">
+              <div class="row">
+                <div class="col-12 col-lg-4">     
+                  <div class="info-panel  wow fadeInUp" data-wow-delay=".4s ">
+                    <h4 class="location-title">Chile</h4>
+                    <div class="line-on-side "> </div>
+                    <p class="location-address">Santiago de Chile, Región metropolitana. Arturo Prat #1579.  </p>
+                    <div class="location-card  "><i class="flaticon-email icon"></i>
+                      <div class="card-content">
+                        <h6 class="content-title">email:</h6><a class="email link" href="mailto:info@luminousoceans.com">info@luminousoceans.com</a>
+                      </div>
+                    </div>
+                    <div class="location-card  "><i class="flaticon-phone-call icon"></i>
+                      <div class="card-content">
+                        <h6 class="content-title">phone:</h6><a class="tel link" href="tel:0123456789">+29876543210</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">           
+                  <div class="info-panel  wow fadeInUp" data-wow-delay=".6s">
+                    <h4 class="location-title">Cañete</h4>
+                    <div class="line-on-side "> </div>
+                    <p class="location-address">United kingdom, 12 smith town, 2nd av. London 2159.</p>
+                    <div class="location-card  "><i class="flaticon-email icon"></i>
+                      <div class="card-content">
+                        <h6 class="content-title">email:</h6><a class="email link" href="mailto:info@luminousoceans.com">info@luminousoceans.com</a>
+                      </div>
+                    </div>
+                    <div class="location-card  "><i class="flaticon-phone-call icon"></i>
+                      <div class="card-content">
+                        <h6 class="content-title">phone:</h6><a class="tel link" href="tel:0123456789">+969876543210</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="info-panel  wow fadeInUp" data-wow-delay=".8s">
+                    <h4 class="location-title">Alemania</h4>
+                    <div class="line-on-side "> </div>
+                    <p class="location-address">Berlín, 307 chinzo appy road, portsika way. tokio 3516.</p>
+                    <div class="location-card  "><i class="flaticon-email icon"></i>
+                      <div class="card-content">
+                        <h6 class="content-title">email:</h6><a class="email link" href="mailto:info@luminousoceans.com">info@luminousoceans.com</a>
+                      </div>
+                    </div>
+                    <div class="location-card  "><i class="flaticon-phone-call icon"></i>
+                      <div class="card-content">
+                        <h6 class="content-title">phone:</h6><a class="tel link" href="tel:0123456789">+459876543210</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+<!--
+      <div class="container-fluid">
+        <section class="map-section ">
+          <div class="map-box  wow fadeInUp" data-wow-delay=".6s">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe class="map-iframe" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sSantiago%2C%20CL!5e0!3m2!1sen!2seg!4v1613762954590!5m2!1sen!2seg"></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- End  blog Section-->
+    <!-- Start  page-footer Section-->
+    <footer class="page-footer dark-color-footer" id="page-footer">
+      <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/footer-bg-1.jpg" data-bg-opacity=".25"></div>
+      <div class="container">
+        <div class="row footer-cols">
+          <div class="col-8 col-md-6 col-lg-3  footer-col "><img class="img-fluid" loading="lazy" src="{% static 'assets/images/hero/Logo-Dark.png' %}" alt="logo"/>
+<!--
+		<div class="footer-col-content-wrapper">        
+              <p class="footer-text-about-us ">
+              ¿Te gustaría recibir novedades sobre nuestras promociones, servicios, 
+			  y publicaciones acerca de los últimos avances y noticias 
+			  en el campo? &nbsp; </p>
+            </div>
+            <div class="form-area ">
+              <div class="mailchimp-form ">
+                <form class="one-field-form" method="post" action="#0">
+                  <div class="field-group ">
+                    <label class="email-label" for="email-input"> Suscribete a nuestro Newsletter </label>
+                    <input class="email-input " type="email" value="" name="EMAIL" id="email-input" placeholder="Dirección de correo" autocomplete="off"/>
+                    <div class="cta-area">
+                      <input class="btn-solid subscribe-btn" type="submit" value="Subscribirse" name="subscribe"/>
+                    </div>
+                  </div><span class="email-notice">*No compartiremos tu información personal</span>
+                </form>
+              </div>
+            </div>
+-->
+          </div>
+
+          <div class="col-6 col-lg-2  footer-col ">
+			<h2 class=" footer-col-title    ">
+        {% translate  "links útiles" %}
+      </h2>
+			<div class="footer-col-content-wrapper">
+				<ul class="footer-menu ">
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://techcrunch.com/">TechCrunch</a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://medium.com/tag/artificial-intelligence"> Medium </a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.edsurge.com/">EdSurge</a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://venturebeat.com/">VentureBeat</a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.cbinsights.com/">CB Insights</a>
+					</li>					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://en.wikipedia.org/wiki/Artificial_intelligence">Wikipedia AI</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-6 col-lg-3 footer-col ">
+			<h2 class=" footer-col-title    ">
+       {% translate  "Recursos" %}
+      </h2>
+			<div class="footer-col-content-wrapper">
+				<ul class="footer-menu">
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://stackoverflow.com/questions/tagged/python">Python Support</a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://azure.microsoft.com/en-us/solutions/ai/">Azure AI</a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.tensorflow.org/">Tensorflow (AI & ML Framework)</a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://towardsdatascience.com/">Towards Data Science</a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://scikit-learn.org/stable/">Scikit-Learn (ML Library)</a>
+					</li>
+					<li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://openai.com/">OpenAI</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-10     col-lg-3 footer-col ">
+			<h2 class=" footer-col-title    ">
+        {% translate  "información de contacto" %}
+      </h2>
+            <div class="footer-col-content-wrapper">       
+              <div class="contact-info-card"><i class="bi bi-envelope icon"></i>
+				  <a class="text-success  info" href="mailto:info@luminousoceans.com">info@luminousoceans.com</a>
+				</div>
+				
+              <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i>
+				  <span class="text-capitalize  info">
+            {% translate  "Santiago, Chile." %} <br>
+						{% translate  "Berlín, Alemania." %}
+          </span>
+				</div>
+
+              <div class="contact-info-card"><i class="bi bi-phone icon"></i>
+
+				  <a class="info" href="tel:+56 9 6365 4814">+56 9 6365 4814</a>
+			  
+				</div>
+
+              <div class="contact-info-card">
+                <div class="social-icons">
+                  <div class="sc-wrapper dir-row sc-size-32">
+<!-- 
+                    <ul class="sc-list">
+                      <li class="sc-item " title="Facebook"><a class="sc-link" href="https://www.facebook.com/LuminousOceans" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                      <li class="sc-item " title="youtube"><a class="sc-link" href="https://www.youtube.com/LuminousOceans" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                      <li class="sc-item " title="instagram"><a class="sc-link" href="https://www.instagram.com/Luminous.Oceans" title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
+                      <li class="sc-item " title="twitter"><a class="sc-link" href="https://www.twitter.com/LuminousOceans" title="social media icon"><i class="fab fa-twitter sc-icon"></i></a></li>
+                    </ul>
+-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights ">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-start">
+              <p class="creadits">
+                 
+                
+                &copy; 2023
+                {% translate  "Creado por:" %}
+                
+                <a class="link" href="#0">LuminousOceans</a>
+              </p>
+            </div>
+<!--
+			<div class="col-12 col-md-6 d-flex justify-content-end">
+              <div class="terms-links"><a href="#0">Términos de uso </a>
+                | <a href="#0">Política de privacidad</a>
+              </div>
+            </div>
+-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  page-footer Section-->
+    <!-- Start loading-screen Component-->
+    <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div>
+    <!-- End loading-screen Component-->
+    <!-- Start back-to-top Component-->
+    <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i>
+    </div>
+    <!-- End back-to-top Component-->   
+        
+        <!--     JQuery     -->
+        <script src="{% static 'js/vendors/jquery-3.6.1.min.js' %}"></script>
+        
+        <!--     appear     -->
+        <script src="{% static 'js/vendors/appear.min.js' %}"></script>
+
+        <!--     bootstrap     -->
+        <script src="{% static 'js/vendors/bootstrap.bundle.min.js' %}"></script>
+
+        <!--     countTo     -->
+        <script src="{% static 'js/vendors/jquery.countTo.js' %}"></script>
+
+        <!--     wow     -->
+        <script src="{% static 'js/vendors/wow.min.js' %}"></script>
+
+        <!--     swiper     -->
+        <script src="{% static 'js/vendors/swiper-bundle.min.js' %}"></script>
+
+        <!--     particles     -->
+        <script src="{% static 'js/vendors/particles.min.js' %}"></script>
+
+        <!--     Vanilla-tilt     -->
+        <script src="{% static 'js/vendors/vanilla-tilt.min.js' %}"></script>
+
+        <!--     isotope     -->
+        <script src="{% static 'js/vendors/isotope-min.js' %}"></script>
+
+        <!--     fancybox     -->
+        <script src="{% static 'js/vendors/jquery.fancybox.min.js' %}"></script>
+
+        <!--     main     -->
+        <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>
